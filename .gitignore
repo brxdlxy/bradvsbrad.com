@@ -7,6 +7,7 @@ npm-debug.*
 .sass-cache
 node_modules
 dist 
+*.code-workspace
 
 # Specifics
 
@@ -15,3 +16,4 @@ src/scss/_tokens.scss
 
 # Hide compiled CSS
 src/_includes/assets/*
+package-lock.json
