@@ -4,7 +4,7 @@
 {# Intro content #}
 {% set introHeading = title %}
 {% set introSummary %}
-  {{ content | safe }}
+{{ content | safe }}
 {% endset %}
 
 {# Post list content #}
@@ -12,7 +12,7 @@
 {% set postListItems = collections.postFeed %}
 
 {# Archive link #}
-{% if postListItems.length < collections.posts.length %} 
+{% if postListItems.length < collections.posts.length %}
   {% set paginationNextText = archiveButtonText %}
   {% set paginationNextUrl = '/archive' %}
 {% endif %}
@@ -22,5 +22,6 @@
     {% include "partials/components/intro.njk" %}
     {% include "partials/components/post-list.njk" %}
     {% include "partials/components/pagination.njk" %}
+    {% include "partials/components/form.njk" %}
   </main>
 {% endblock %}
