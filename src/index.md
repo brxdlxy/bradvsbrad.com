@@ -1,13 +1,11 @@
 ---
 layout: home
-title: A simple starter kit for Eleventy
+title: Hi, I'm Bradley
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
 ---
 
-Hylia is a lightweight [Eleventy](https://11ty.io) starter kit with [Netlify CMS](https://www.netlifycms.org/) pre-configured, so that you can one-click install a progressive, accessible blog in minutes. It also gives you a well organised starting point to extend yourself.
+I build web sites and make photographs in Atlanta.
 
-Get started now by [deploying Hylia to Netlify.](https://app.netlify.com/start/deploy?repository=https://github.com/andybelldesign/hylia&stack=cms)
-
-testing workflow
+I'm available for hire! Take a look at [my resume](http://hirebrad.com) and send me an email if you'd like to get in touch.
