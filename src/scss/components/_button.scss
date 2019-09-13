@@ -29,3 +29,25 @@
 .button:active {
   transform: scale(0.99);
 }
+
+form {
+  display: grid;
+  padding: 0.8rem 0;
+}
+
+form label {
+  display: none;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1em;
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+}

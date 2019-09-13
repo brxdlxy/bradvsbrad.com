@@ -2,18 +2,6 @@
   &__site-name {
     font-weight: 700;
     text-decoration: none;
-    // color: var(--color-text);
-    background-color: var(--color-action-bg);
-    color: var(--color-action-text);
-
-    display: inline-block;
-    border: none;
-    padding: get-size(300) get-size('base');
-    text-decoration: none;
-    cursor: pointer;
-    // line-height: 1;
-    // margin: 0;
-    // -webkit-appearance: none;
-    // -moz-appearance: none;
+    color: var(--color-slate);
   }
 }
