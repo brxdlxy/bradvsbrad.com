@@ -1,9 +1,10 @@
 ---
 layout: home
-title: Hello, my name is Brad
+title: Hello, my name is Brad.
 postsHeading: Latest posts
 archiveButtonText: See all posts
-socialImage: 'images/bdh-avatar-300.jpg'
+socialImage: ''
+photo: 'images/bdh-avatar-300.jpg'
 ---
 
 I build websites and other web stuff in Atlanta, GA.

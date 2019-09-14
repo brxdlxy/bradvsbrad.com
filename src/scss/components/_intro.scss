@@ -68,4 +68,15 @@
       max-width: 20ex;
     }
   }
+
+  &__photo {
+    display: block;
+    float: right;
+    margin: 0 0 0.2rem 0.2rem;
+    color: var(--color-theme-feature-text);
+
+    &--compact {
+      display: none;
+    }
+  }
 }
