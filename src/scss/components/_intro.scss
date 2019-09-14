@@ -1,5 +1,5 @@
 .intro {
-  border-top: 0.2rem, solid, var(--color-theme-primary);
+  border-top: 0.2rem solid var(--color-theme-primary);
   background: linear-gradient(
       22.5deg,
       rgba(67, 67, 67, 0.02) 0%,
@@ -45,7 +45,7 @@
       rgba(150, 150, 150, 0.02) 76%,
       rgba(150, 150, 150, 0.02) 100%
     ),
-    linear-gradient(90deg, var(--color-theme-light), var(--color-theme-highlight));
+    linear-gradient(90deg, var(--color-light), var(--color-theme-highlight));
 
   &__summary {
     --flow-space: #{get-size(500)};
