@@ -6,18 +6,18 @@
       "external": false
     },
     {
-      "text": "projects",
+      "text": "Projects",
       "url": "https://github.com/andybelldesign/hylia",
       "external": true
     },
     {
       "text": "Contact",
-      "url": "https://github.com/andybelldesign/hylia",
+      "url": "/contact",
       "external": true
     },
     {
       "text": "Photos",
-      "url": "https://twitter.com/andybelldesign",
+      "url": "http://huchteman.com",
       "external": true
     }
   ]
