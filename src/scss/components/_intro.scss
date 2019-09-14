@@ -48,8 +48,8 @@
     linear-gradient(90deg, var(--color-light), var(--color-light));
 
   &__summary {
-    --flow-space: #{get-size(500)};
-    font-size: get-size(500);
+    --flow-space: #{get-size(600)};
+    font-size: get-size(600);
 
     a {
       color: currentColor;
@@ -65,7 +65,7 @@
     color: var(--color-theme-feature-text);
 
     &--compact {
-      max-width: 20ex;
+      max-width: 23ex;
     }
   }
 
@@ -73,10 +73,13 @@
     display: block;
     float: right;
     width: 10rem;
-    margin: 0 0 2rem 2rem;
+    margin: 0 0 0 2rem;
     overflow: hidden;
     z-index: 0;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    height: 12.4rem;
 
     &--compact {
       display: none;
