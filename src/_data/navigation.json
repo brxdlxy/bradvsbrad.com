@@ -13,7 +13,7 @@
     {
       "text": "Contact",
       "url": "/contact",
-      "external": true
+      "external": false
     },
     {
       "text": "Photos",
