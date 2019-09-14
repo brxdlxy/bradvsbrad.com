@@ -72,8 +72,11 @@
   &__photo {
     display: block;
     float: right;
-    margin: 0 0 0.2rem 0.2rem;
-    color: var(--color-theme-feature-text);
+    width: 10rem;
+    margin: 0 0 2rem 2rem;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: 1rem;
 
     &--compact {
       display: none;
