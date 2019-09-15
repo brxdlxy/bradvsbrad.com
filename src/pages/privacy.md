@@ -1,6 +1,9 @@
 ---
 layout: layouts/page.njk
 title: Privacy Policy
+section: contact
+date: 2019-09-15
+permalink: /contact/index.html
 ---
 
 Your privacy is important to us. It is Bradley Huchteman's policy to respect your privacy regarding any information we may collect from you across our website, [http://www.brxdlxy.com](http://www.brxdlxy.com), and other sites we own and operate.
