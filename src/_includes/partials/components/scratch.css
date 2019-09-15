@@ -1,0 +1,163 @@
+/* Color Theme Swatches in Hex */
+.Austral-daily-planner-2018-5-hex {
+  color: #f21515;
+}
+.Austral-daily-planner-2018-1-hex {
+  color: #04aef2;
+}
+.Austral-daily-planner-2018-2-hex {
+  color: #04c6f2;
+}
+.Austral-daily-planner-2018-3-hex {
+  color: #04daf2;
+}
+.Austral-daily-planner-2018-4-hex {
+  color: #f28971;
+}
+
+/* Color Theme Swatches in Hex */
+.Green-Fairy-Font-Family-1-hex {
+  color: #bc20bf;
+}
+.Green-Fairy-Font-Family-2-hex {
+  color: #29258c;
+}
+.Green-Fairy-Font-Family-3-hex {
+  color: #4e48f2;
+}
+.Green-Fairy-Font-Family-4-hex {
+  color: #141759;
+}
+.Green-Fairy-Font-Family-5-hex {
+  color: #3cf29d;
+}
+
+.Fairy-Font-Family-1-hex {
+  color: #51268c;
+}
+.Fairy-Font-Family-2-hex {
+  color: #5726bf;
+}
+.Fairy-Font-Family-3-hex {
+  color: #7135f2;
+}
+.Fairy-Font-Family-4-hex {
+  color: #41f2b1;
+}
+.Fairy-Font-Family-5-hex {
+  color: #3df29d;
+}
+
+/* Color Theme Swatches in Hex */
+.Stockholm-Metro-–-100-Stations-1-hex {
+  color: #037f8c;
+}
+.Stockholm-Metro-–-100-Stations-2-hex {
+  color: #04bfbf;
+}
+.Stockholm-Metro-–-100-Stations-3-hex {
+  color: #9cd9d9;
+}
+.Stockholm-Metro-–-100-Stations-4-hex {
+  color: #a69f92;
+}
+.Stockholm-Metro-–-100-Stations-5-hex {
+  color: #0d0d0d;
+}
+
+:root {
+  --color-primary: #f23535;
+  --color-primary-shade: #f25252;
+  --color-primary-glare: #f29191;
+  --color-highlight: #26bfbf;
+  --color-light: #f2f2f2;
+  --color-mid: #666666;
+  --color-slate: #404040;
+  --color-dark: #0c0c0c;
+  --color-mode: 'light';
+  --color-bg: #ffffff;
+  --color-bg-glare: #ffffff;
+  --color-text: #0c0c0c;
+  --color-text-glare: #0c0c0c;
+  --color-selection-text: #ffffff;
+  --color-selection-bg: #0c0c0c;
+  --color-stroke: #666666;
+  --color-action-bg: #03bfbf;
+  --color-action-text: #ffffff;
+  --color-theme-primary: #03bfbf;
+  --color-theme-primary-glare: #9cd8d8;
+  --color-theme-highlight: #03bfbf;
+  --color-theme-highlight-block: #03bfbf;
+}
+
+/* Contact Form */
+form {
+  display: grid;
+  padding: 0.8rem 0;
+}
+
+form label {
+  display: none;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1em;
+  font-size: 1rem;
+}
+
+input,
+textarea {
+  border: 1px solid black;
+}
+.a-div {
+  background: linear-gradient
+      (
+        22.5deg,
+        rgba(67, 67, 67, 0.02) 0%,
+        rgba(67, 67, 67, 0.02) 29%,
+        rgba(47, 47, 47, 0.02) 29%,
+        rgba(47, 47, 47, 0.02) 37%,
+        rgba(23, 23, 23, 0.02) 37%,
+        rgba(23, 23, 23, 0.02) 55%,
+        rgba(182, 182, 182, 0.02) 55%,
+        rgba(182, 182, 182, 0.02) 69%,
+        rgba(27, 27, 27, 0.02) 69%,
+        rgba(27, 27, 27, 0.02) 71%,
+        rgba(250, 250, 250, 0.02) 71%,
+        rgba(250, 250, 250, 0.02) 100%
+      ),
+    linear-gradient(
+      67.5deg,
+      rgba(117, 117, 117, 0.02) 0%,
+      rgba(117, 117, 117, 0.02) 14%,
+      rgba(199, 199, 199, 0.02) 14%,
+      rgba(199, 199, 199, 0.02) 40%,
+      rgba(33, 33, 33, 0.02) 40%,
+      rgba(33, 33, 33, 0.02) 48%,
+      rgba(135, 135, 135, 0.02) 48%,
+      rgba(135, 135, 135, 0.02) 60%,
+      rgba(148, 148, 148, 0.02) 60%,
+      rgba(148, 148, 148, 0.02) 95%,
+      rgba(53, 53, 53, 0.02) 95%,
+      rgba(53, 53, 53, 0.02) 100%
+    ),
+    linear-gradient(
+      135deg,
+      rgba(190, 190, 190, 0.02) 0%,
+      rgba(190, 190, 190, 0.02) 6%,
+      rgba(251, 251, 251, 0.02) 6%,
+      rgba(251, 251, 251, 0.02) 18%,
+      rgba(2, 2, 2, 0.02) 18%,
+      rgba(2, 2, 2, 0.02) 27%,
+      rgba(253, 253, 253, 0.02) 27%,
+      rgba(253, 253, 253, 0.02) 49%,
+      rgba(128, 128, 128, 0.02) 49%,
+      rgba(128, 128, 128, 0.02) 76%,
+      rgba(150, 150, 150, 0.02) 76%,
+      rgba(150, 150, 150, 0.02) 100%
+    ),
+    linear-gradient(90deg, #fff, #fff);
+}
