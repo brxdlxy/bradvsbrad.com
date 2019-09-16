@@ -2,7 +2,10 @@
     <div class="[ inner-wrapper ] [ sf-flow ]">
         <h2 class="[ post-list__heading ] [ text-700 md:text-800 ]">Send Email</h2>
 
-        <form name="contact" method="post" netlify="netlify">
+        <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
+            <div class="hidden">
+                <label>Don’t fill this out if you're human: <input name="bot-field"/></label>
+            </div>
             <label for="name">Name</label>
             <input type="text" name="name" id="name" autocomplete="name" placeholder="your name" title="please enter your name" required="required">
             <label for="email">Email</label>
