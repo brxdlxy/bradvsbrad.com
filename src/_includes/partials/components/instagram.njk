@@ -1,15 +1,13 @@
 <section class="[ contact-form ] [ pad-top-700 gap-bottom-900 ]">
     <div class="[ inner-wrapper ] [ sf-flow ]">
-
-        <h2 id="instagram">
-            <a href="https://instagram.com/brxdlxy">Recently on Instagram</a>
-        </h2>
+        <h2 class="[ post-list__heading ] [ text-700 md:text-800 ]">Recently on Instagram</h2>
         <div class="thumbnail-grid">
             {% for entry in instagram.slice(0, 12) %}
                 <a href="{{ entry.link }}" target="_BLANK" rel="noopener">
                     <img src="{{ entry.images.thumbnail.url }}" alt="Instagram photo: {{ entry.caption.text }}"/>
                 </a>
             {%- endfor -%}
+
         </div>
 
     </div>
