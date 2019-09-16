@@ -6,7 +6,7 @@ tags:
 navtitle: Contact
 section: contact
 date: Last Modified
-permalink: /contact
+permalink: /contact/success
 ---
 
-### should probably add other contact info here
+Success! You're message has been sent.
