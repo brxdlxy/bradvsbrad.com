@@ -6,7 +6,7 @@ tags:
 navtitle: Contact
 section: contact
 date: Last Modified
-permalink: /contact
+permalink: /contact/index.html
 ---
 
 ### should probably add other contact info here
