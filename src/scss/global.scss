@@ -14,7 +14,8 @@
 /**
  * GLOBAL STYLES
  */
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -38,6 +39,20 @@ hr {
   background: var(--color-stroke);
   border: none;
   margin: get-size(900) auto;
+}
+
+a {
+  color: var(--color-dark);
+  display: inline-block;
+  padding: 0.2rem;
+  text-decoration: none;
+  border-bottom: 4px solid cyan;
+
+  a:hover {
+    text-decoration: none;
+    background: #6dffff;
+  }
+  //@include apply-utility('leading', 'tight');
 }
 
 /**

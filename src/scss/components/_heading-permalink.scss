@@ -3,6 +3,8 @@
   font-size: 0.8em;
   margin-left: 0.3em;
   margin-top: 0.2em;
+  background-color: none;
+  border: none;
 
   @include media-query('md') {
     font-size: 0.6em;

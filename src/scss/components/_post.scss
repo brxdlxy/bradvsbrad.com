@@ -15,24 +15,26 @@
       position: relative;
       /*display: flex;*/
 
-      @include apply-utility('leading', 'tight');
+      // @include apply-utility('leading', 'tight');
     }
 
-    a:not([class]) {
-      color: var(--color-dark);
-      position: relative;
-      display: inline-block;
-      background: var(--color-theme-highlight);
-      padding: 0.2rem 0.4rem 0.3rem 0.4rem;
-      text-decoration: none;
-      word-break: break-word;
+    // a {
+    //   color: var(--color-dark);
+    //   position: relative;
+    //   display: inline-block;
+    //   background: none;
+    //   padding: 0.2rem 0.4rem 0.3rem 0.4rem;
+    //   text-decoration: none;
+    //   word-break: break-word;
+    //   border-bottom: 4px dashed cyan;
 
-      @include apply-utility('leading', 'tight');
-    }
+    //   @include apply-utility('leading', 'tight');
 
-    a:not([class]):hover {
-      text-decoration: underline;
-    }
+    //   :hover {
+    //     text-decoration: none;
+    //     background: #6dffff;
+    //   }
+    // }
 
     code {
       font-size: 1.2em;

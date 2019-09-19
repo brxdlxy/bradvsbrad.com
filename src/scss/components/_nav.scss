@@ -19,12 +19,15 @@
 
     a {
       color: currentColor;
+      border-bottom: 4px solid cyan;
+      text-decoration: none;
+      padding: 0.2rem 0.3rem;
 
       @include apply-utility('weight', 'mid');
-
-      &:not(:hover) {
-        text-decoration: none;
-      }
+    }
+    a:hover {
+      text-decoration: none;
+      background: #6dffff;
     }
   }
 }

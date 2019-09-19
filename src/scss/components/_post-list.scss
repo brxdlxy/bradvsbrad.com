@@ -11,7 +11,14 @@
     }
 
     &:hover {
-      text-decoration: underline;
+      text-decoration: none;
+      background: #6dffff;
     }
   }
+}
+a.ig-thumb-link,
+a.ig-thumb-link:hover {
+  border: none;
+  text-decoration: none;
+  background: none;
 }

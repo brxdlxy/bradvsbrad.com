@@ -30,6 +30,7 @@ $stalfos-util-prefix: 'sf-';
 $metrics: (
   'wrap-max-width': 58rem,
   'wrap-inner-max-width': 52rem,
+  'sm-breakpoint': 32rem,
   'md-breakpoint': 48rem
 );
 
@@ -171,7 +172,8 @@ $stalfos-config: (
     'property': 'width'
   ),
   'breakpoints': (
-    'md': #{'(min-width: ' + map-get($metrics, 'md-breakpoint') + ')'}
+    'md': #{'(min-width: ' + map-get($metrics, 'md-breakpoint') + ')'},
+    'sm': #{'(min-width: ' + map-get($metrics, 'sm-breakpoint') + ')'}
   ),
   'utilities': (
     'reset': 'on',
