@@ -1,33 +1,30 @@
 .nav {
-  &__list {
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    -ms-overflow-style: none;
+    margin-top: 1.6rem;
 
-    &::-webkit-scrollbar {
-      display: none;
+    &__list {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        -ms-overflow-style: none;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        >*+* {
+            margin-left: get-size(500);
+        }
     }
-
-    > * + * {
-      margin-left: get-size(500);
+    &__item {
+        padding: get-size(300) 0;
+        flex-shrink: 0;
+        a {
+            color: currentColor;
+            border-bottom: 4px solid #6dffff;
+            text-decoration: none;
+            padding: 0.1rem 0.3rem;
+            @include apply-utility('weight', 'mid');
+        }
+        a:hover {
+            text-decoration: none;
+            background: #6dffff;
+        }
     }
-  }
-
-  &__item {
-    padding: get-size(300) 0;
-    flex-shrink: 0;
-
-    a {
-      color: currentColor;
-      border-bottom: 4px solid cyan;
-      text-decoration: none;
-      padding: 0.2rem 0.3rem;
-
-      @include apply-utility('weight', 'mid');
-    }
-    a:hover {
-      text-decoration: none;
-      background: #6dffff;
-    }
-  }
 }

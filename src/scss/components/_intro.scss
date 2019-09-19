@@ -1,98 +1,46 @@
 .intro {
-  border-top: 0.8rem solid var(--color-theme-primary);
-  background: linear-gradient(
-      22.5deg,
-      rgba(67, 67, 67, 0.02) 0%,
-      rgba(67, 67, 67, 0.02) 29%,
-      rgba(47, 47, 47, 0.02) 29%,
-      rgba(47, 47, 47, 0.02) 37%,
-      rgba(23, 23, 23, 0.02) 37%,
-      rgba(23, 23, 23, 0.02) 55%,
-      rgba(182, 182, 182, 0.02) 55%,
-      rgba(182, 182, 182, 0.02) 69%,
-      rgba(27, 27, 27, 0.02) 69%,
-      rgba(27, 27, 27, 0.02) 71%,
-      rgba(250, 250, 250, 0.02) 71%,
-      rgba(250, 250, 250, 0.02) 100%
-    ),
-    linear-gradient(
-      67.5deg,
-      rgba(117, 117, 117, 0.02) 0%,
-      rgba(117, 117, 117, 0.02) 14%,
-      rgba(199, 199, 199, 0.02) 14%,
-      rgba(199, 199, 199, 0.02) 40%,
-      rgba(33, 33, 33, 0.02) 40%,
-      rgba(33, 33, 33, 0.02) 48%,
-      rgba(135, 135, 135, 0.02) 48%,
-      rgba(135, 135, 135, 0.02) 60%,
-      rgba(148, 148, 148, 0.02) 60%,
-      rgba(148, 148, 148, 0.02) 95%,
-      rgba(53, 53, 53, 0.02) 95%,
-      rgba(53, 53, 53, 0.02) 100%
-    ),
-    linear-gradient(
-      135deg,
-      rgba(190, 190, 190, 0.02) 0%,
-      rgba(190, 190, 190, 0.02) 6%,
-      rgba(251, 251, 251, 0.02) 6%,
-      rgba(251, 251, 251, 0.02) 18%,
-      rgba(2, 2, 2, 0.02) 18%,
-      rgba(2, 2, 2, 0.02) 27%,
-      rgba(253, 253, 253, 0.02) 27%,
-      rgba(253, 253, 253, 0.02) 49%,
-      rgba(128, 128, 128, 0.02) 49%,
-      rgba(128, 128, 128, 0.02) 76%,
-      rgba(150, 150, 150, 0.02) 76%,
-      rgba(150, 150, 150, 0.02) 100%
-    ),
-    linear-gradient(90deg, var(--color-light), var(--color-light));
-
-  &__summary {
-    --flow-space: #{get-size(600)};
-    font-size: get-size(600);
-
-    a {
-      color: currentColor;
-      border-bottom: none;
-      text-decoration: none;
-      padding: 0 0.1rem;
-      background: #fbfbc4;
+    border-top: 0.3rem solid var(--color-theme-primary);
+    background: linear-gradient( 22.5deg, rgba(67, 67, 67, 0.02) 0%, rgba(67, 67, 67, 0.02) 29%, rgba(47, 47, 47, 0.02) 29%, rgba(47, 47, 47, 0.02) 37%, rgba(23, 23, 23, 0.02) 37%, rgba(23, 23, 23, 0.02) 55%, rgba(182, 182, 182, 0.02) 55%, rgba(182, 182, 182, 0.02) 69%, rgba(27, 27, 27, 0.02) 69%, rgba(27, 27, 27, 0.02) 71%, rgba(250, 250, 250, 0.02) 71%, rgba(250, 250, 250, 0.02) 100%), linear-gradient( 67.5deg, rgba(117, 117, 117, 0.02) 0%, rgba(117, 117, 117, 0.02) 14%, rgba(199, 199, 199, 0.02) 14%, rgba(199, 199, 199, 0.02) 40%, rgba(33, 33, 33, 0.02) 40%, rgba(33, 33, 33, 0.02) 48%, rgba(135, 135, 135, 0.02) 48%, rgba(135, 135, 135, 0.02) 60%, rgba(148, 148, 148, 0.02) 60%, rgba(148, 148, 148, 0.02) 95%, rgba(53, 53, 53, 0.02) 95%, rgba(53, 53, 53, 0.02) 100%), linear-gradient( 135deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 6%, rgba(251, 251, 251, 0.02) 6%, rgba(251, 251, 251, 0.02) 18%, rgba(2, 2, 2, 0.02) 18%, rgba(2, 2, 2, 0.02) 27%, rgba(253, 253, 253, 0.02) 27%, rgba(253, 253, 253, 0.02) 49%, rgba(128, 128, 128, 0.02) 49%, rgba(128, 128, 128, 0.02) 76%, rgba(150, 150, 150, 0.02) 76%, rgba(150, 150, 150, 0.02) 100%), linear-gradient(90deg, var(--color-light), var(--color-light));
+    &__summary {
+        --flow-space: #{get-size(600)};
+        font-size: get-size(600);
+        a {
+            color: currentColor;
+            border-bottom: none;
+            text-decoration: none;
+            padding: 0 0.1rem;
+            background: #fbfbc4;
+        }
+        a:hover {
+            text-decoration: none;
+            background: #6dffff;
+        }
     }
-    a:hover {
-      text-decoration: none;
-      background: #6dffff;
+    &__heading {
+        max-width: 40ex;
+        color: var(--color-theme-feature-text);
+        &--compact {
+            max-width: 23ex;
+        }
     }
-  }
-
-  &__heading {
-    max-width: 40ex;
-    color: var(--color-theme-feature-text);
-
-    &--compact {
-      max-width: 23ex;
+    &__photo {
+        display: block;
+        float: right;
+        width: 4rem;
+        margin: 0 0 0 2rem;
+        overflow: hidden;
+        z-index: 0;
+        border-radius: 0.4rem;
+        -webkit-border-radius: 0.4rem;
+        -moz-border-radius: 0.4rem;
+        height: 9.7rem;
+        @include media-query('sm') {
+            display: none;
+            width: 5rem;
+        }
+        @include media-query('md') {
+            width: 8rem;
+            display: block;
+        }
     }
-  }
-
-  &__photo {
-    display: block;
-    float: right;
-    width: 4rem;
-    margin: 0 0 0 2rem;
-    overflow: hidden;
-    z-index: 0;
-    border-radius: 0.4rem;
-    -webkit-border-radius: 0.4rem;
-    -moz-border-radius: 0.4rem;
-    height: 12.4rem;
-
-    @include media-query('sm') {
-      display: none;
-      width: 5rem;
-    }
-
-    @include media-query('md') {
-      width: 8rem;
-      display: block;
-    }
-  }
 }

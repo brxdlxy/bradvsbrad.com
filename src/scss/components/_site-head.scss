@@ -1,10 +1,10 @@
 .site-head {
-  border-bottom: 0.3rem solid #f28971;
+  border-bottom: 0.2rem solid var(--color-slate);
 
   &__site-name {
     font-weight: 700;
     border: none;
     text-decoration: none;
-    color: var(--color-slate);
+    color: var(--dark);
   }
 }

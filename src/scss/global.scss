@@ -1,58 +1,51 @@
 @import 'config';
-
 // Pull in the stalfos lib
 @import '../../node_modules/stalfos/stalfos.scss';
-
 // Local mixins
 @import 'mixins/dark-mode';
-
 @import 'theme';
-
 // Local dependencies
 @import 'typography';
-
 /**
  * GLOBAL STYLES
  */
+
 html,
 body {
-  height: 100%;
+    height: 100%;
 }
 
 body {
-  scroll-behavior: smooth;
-  display: flex;
-  flex-direction: column;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
-  flex: 1 0 auto;
-  &:focus {
-    outline: none;
-  }
+    flex: 1 0 auto;
+    &:focus {
+        outline: none;
+    }
 }
 
 hr {
-  display: block;
-  height: 1px;
-  max-width: 500px;
-  background: var(--color-stroke);
-  border: none;
-  margin: get-size(900) auto;
+    display: block;
+    height: 1px;
+    max-width: 500px;
+    background: var(--color-stroke);
+    border: none;
+    margin: get-size(900) auto;
 }
 
 a {
-  color: var(--color-dark);
-  display: inline-block;
-  padding: 0.2rem;
-  text-decoration: none;
-  border-bottom: 4px solid cyan;
-
-  a:hover {
+    color: #323275;
+    padding: 0.1rem 0;
     text-decoration: none;
-    background: #6dffff;
-  }
-  //@include apply-utility('leading', 'tight');
+    border-bottom: 3px solid #6dffff;
+    a:hover {
+        text-decoration: none;
+        background: #6dffff;
+    } //@include apply-utility('leading', 'tight');
 }
 
 /**
@@ -63,7 +56,6 @@ a {
 @import 'utilities/inner-wrapper';
 @import 'utilities/visually-hidden';
 @import 'utilities/wrapper';
-
 // Components
 @import 'components/button';
 @import 'components/heading-permalink';
