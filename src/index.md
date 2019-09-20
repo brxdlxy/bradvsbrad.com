@@ -8,4 +8,7 @@ photo: 'images/bdh-avatar-300.jpg'
 ---
 
 I build websites and other web stuff in Atlanta, GA.
-I'm available for hire! Take a look at [my resume](http://hirebrad.com) and send me an email if you'd like to get in touch.
+
+**I'm available for hire!**
+
+Take a look at [my r&eacute;sum&eacute;](http://hirebrad.com) and send me an email if you'd like to get in touch.
