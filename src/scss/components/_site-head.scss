@@ -1,10 +1,11 @@
 .site-head {
-  border-bottom: 0.2rem solid var(--color-slate);
+  border-bottom: 0.3rem solid var(--color-slate);
 
   &__site-name {
-    font-weight: 700;
     border: none;
     text-decoration: none;
     color: var(--dark);
+    font: 600 4rem Helvetica, 'Helvetica Neue', 'Segoe UI', Sans-Serif;
+    text-shadow: 0.3rem 0.2rem 0 var(--color-primary);
   }
 }
