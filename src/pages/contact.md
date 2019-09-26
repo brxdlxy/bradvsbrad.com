@@ -9,4 +9,4 @@ date: Last Modified
 permalink: /contact/index.html
 ---
 
-### should probably add other contact info here
+If you have any questions or just want to say “hi”, you can reach me using the form below or at one of the linked social media sites.
