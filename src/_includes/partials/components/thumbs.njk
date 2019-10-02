@@ -1,7 +1,13 @@
 {% if smugmug.posts.length %}
-    {% for item in smugmug.posts %}
-        <li class="sm-item">
-            <a href="{{ item['media:group'][0]['media:content'][7].$.url }}" data-lightbox="sm-recent" data-title="{{ item.title }}">{{ item.title }}</a>
-        </li>
-    {% endfor %}
+<section class="[ ig-thumb-section ] [ pad-top-700 gap-bottom-900 ]">
+  <div class="[ inner-wrapper ] [ sf-flow ]">
+    <h2 class="[ post-list__heading ] [ text-700 md:text-800 ]">Recent Photos</h2>
+    <div class="thumbnail-grid">
+      {% for item in smugmug.posts.slice(0, 10)  %}
+        <a href="{{ item['media:group'][0]['media:content'][7].$.url }}" data-lightbox="sm-recent" data-title="{{ item.title }}" class="ig-thumb-link"><img src="{{ item.guid[0]._ }}" alt="{{ item.title }}" class="sm-item-thumb"></a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
 {% endif %}

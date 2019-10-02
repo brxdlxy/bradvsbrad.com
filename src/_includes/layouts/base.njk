@@ -23,7 +23,7 @@
     {% block content %}{% endblock content %}
     {% include "partials/global/site-foot.njk" %}
     {% block foot %}{% endblock %}
-    {% if pageType == 'photoset' %}
+    {% if pageType == 'photoset' or pageType == 'Homepage' %}
       <script type="application/javascript" src="/js/lightbox-plus-jquery.min.js"></script>
     {% endif %}}
   <script type="module" src="/js/components/theme-toggle.js" async defer></script>
