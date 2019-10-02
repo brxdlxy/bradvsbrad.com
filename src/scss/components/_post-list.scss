@@ -1,23 +1,30 @@
 .post-list {
-    &__item {
-        --flow-space: #{get-size(700)};
+  &__item {
+    --flow-space: #{get-size(700)};
+  }
+  &__link {
+    &,
+    &:visited {
+      color: #323275;
+      text-decoration: none;
     }
-    &__link {
-        &,
-        &:visited {
-            color: #323275;
-            text-decoration: none;
-        }
-        &:hover {
-            text-decoration: none;
-            background: #6dffff;
-        }
+    &:hover {
+      text-decoration: none;
+      background: #6dffff;
     }
+  }
 }
 
 a.ig-thumb-link,
-a.ig-thumb-link:hover {
-    border: none;
-    text-decoration: none;
-    background: none;
+a.ig-thumb-link:hover,
+a.sm-item-link,
+a.sm-item-link:hover {
+  border: none;
+  text-decoration: none;
+  background: none;
+}
+li.sm-item {
+  float: left;
+  border: none;
+  margin: 0 0 0.5rem 0.5rem;
 }

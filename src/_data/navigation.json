@@ -12,8 +12,7 @@
     },
     {
       "text": "Photos",
-      "url": "http://huchteman.com",
-      "external": true
+      "url": "/photos"
     }
   ]
 }

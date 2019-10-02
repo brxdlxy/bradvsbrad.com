@@ -1,0 +1,28 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'photoset' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block content %}
+    <main id="main-content" tabindex="-1">
+        <article class="[ post ] [ h-entry ]">
+            {% include "partials/components/intro.njk" %}
+            <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+                {{ content | safe }}
+                <ul class="listing">
+                    {% if smugmug.posts.length %}
+                        {% for item in smugmug.posts %}
+                            <li class="sm-item">
+                                <a href="{{ item['media:group'][0]['media:content'][7].$.url }}" data-lightbox="sm-recent" data-title="{{ item.title }}" class="sm-item-link"><img src="{{ item.guid[0]._ }}" alt="{{ item.title }}" class="sm-item-thumb"></a>
+                            </li>
+                        {% endfor %}
+                    {% endif %}
+
+                </ul>
+            </div>
+        </article>
+    </main>
+{% endblock %}
+
+{{ content | safe }}

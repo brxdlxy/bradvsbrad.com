@@ -59,6 +59,9 @@ module.exports = function(config) {
       input: 'src',
       output: 'dist'
     },
+    feed:
+      process.env.SMUGMUG_FEED ||
+      'https://www.huchteman.com/hack/feed.mg?Type=gallery&Data=74290744_v7dhQT&format=rss200',
     passthroughFileCopy: true
   };
 };

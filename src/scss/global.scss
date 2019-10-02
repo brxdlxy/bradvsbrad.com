@@ -59,7 +59,7 @@ hr {
     50%{background-position:100% 76%}
     100%{background-position:0% 25%}
 }
-}
+
 a {
   color: #323275;
   padding: 0.1rem 0;
@@ -95,3 +95,5 @@ h1.p-name {
 @import 'components/skip-link';
 @import 'components/syntax-highlighting';
 @import 'components/video-player';
+@import 'lightbox';
+

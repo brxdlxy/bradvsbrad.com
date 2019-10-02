@@ -1,0 +1,7 @@
+{% if smugmug.posts.length %}
+    {% for item in smugmug.posts %}
+        <li class="sm-item">
+            <a href="{{ item['media:group'][0]['media:content'][7].$.url }}" data-lightbox="sm-recent" data-title="{{ item.title }}">{{ item.title }}</a>
+        </li>
+    {% endfor %}
+{% endif %}
