@@ -195,10 +195,76 @@ body.lb-disable-scrolling {
   -moz-transition: opacity 0.2s;
   -o-transition: opacity 0.2s;
   transition: opacity 0.2s;
+  border-bottom: none;
 }
 
 .lb-data .lb-close:hover {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+
+
+/* masonry */
+
+/* BASIC */
+
+ul.photos-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li.photos-listitem {
+  height: 13vh;
+    flex-grow: 1;
+    padding: .22rem;}
+
+/*  There's no science in using "10" here. In all my testing, this delivered the best results. */
+li.photos-listitem:last-child {
+  flex-grow: 10;
+}
+
+img.photos-thumb  {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit: cover;
+  vertical-align: bottom;
+  border-radius: 1vmin;
+}
+/*
+ADVANCED
+
+ Portrait */
+
+@media (max-aspect-ratio: 1/1) {
+  li.photos-listitem {
+    height: 30vh;
+  }
+}
+
+/* Short screens */
+
+@media (max-height: 480px) {
+  li.photos-listitem {
+    height: 80vh;
+  }
+}
+
+/* Smaller screens in portrait */
+
+@media (max-aspect-ratio: 1/1) and (max-width: 480px) {
+  ul.photos-list {
+    flex-direction: row;
+  }
+
+  li.photos-listitem {
+    height: auto;
+    width: 100%;
+  }
+  img.photos-thumb {
+    width: 100%;
+    max-height: 75vh;
+    min-width: 0;
+  }
 }

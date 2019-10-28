@@ -4,7 +4,7 @@ title: Hello, my name is Brad.
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''
-photo: 'images/bdh-blue.jpg'
+photo: 'images/bdh-avatar-sq.jpg'
 ---
 
 I build websites and other web stuff out of Atlanta, GA.

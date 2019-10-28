@@ -6,6 +6,10 @@
     flex-direction: row;
     align-items: center;
   }
+  &intro__col {
+    mix-blend-mode: overlay;
+  }
+
   &__summary {
     color: #ffffff;
     @include media-query('sm') {

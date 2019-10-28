@@ -9,11 +9,12 @@ date: Last Modified
 permalink: /contact/index.html
 ---
 
-If you have any questions or just want to say “hi”, you can reach me using the form below or at one of the linked social media sites.
+If you have any questions or just want to say “hi”, you can reach me using the form below.
 
-[facebook](https://facebook.com/huchteman)
-[twitter](https://twitter.com/brxdlxy)
-[instagram](https://www.instagram.com/brxdlxy/)
-[500px](https://500px.com/brxdlxy)
-[flickr](https://www.flickr.com/photos/sypsyn/)
-[github.com](https://github.com/brxdlxy)
+You can also find me at:
+
+- [Twitter](https://twitter.com/brxdlxy) - twitter.com/brxdlxy
+- [Instagram](https://www.instagram.com/brxdlxy/) - instagram.com/brxdlxy
+- [500px](https://500px.com/brxdlxy) - 500px.com/brxdlxy
+- [Flickr](https://www.flickr.com/photos/sypsyn/) - flickr.com/photos/sypsyn
+- [Github](https://github.com/brxdlxy) - github.com/brxdlxy
