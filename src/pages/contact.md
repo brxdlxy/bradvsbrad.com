@@ -1,6 +1,6 @@
 ---
 layout: layouts/contact.njk
-title: Get in touch
+title: Contact
 tags:
   - nav
 navtitle: Contact
@@ -12,6 +12,15 @@ permalink: /contact/index.html
 If you have any questions or just want to say “hi”, you can reach me using the form below.
 
 You can also find me at:
+
+Phone: {{settings.phone}}
+Email: {{settings.email}}
+email: {{settings.email}}
+Social:
+{% for social in settings.socials %}
+  <a href="{{social.url}}" class="fab fa-{{social.name}}">
+{% endfor %}
+
 
 - [Twitter](https://twitter.com/brxdlxy) - twitter.com/brxdlxy
 - [Instagram](https://www.instagram.com/brxdlxy/) - instagram.com/brxdlxy

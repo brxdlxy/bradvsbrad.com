@@ -1,0 +1,316 @@
+---
+title: 'Résumé'
+permalink: /resume/index.html
+---
+
+{% extends 'layouts/base.njk' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block head %}
+  <style>
+
+    {# body {
+      color: #171819;
+      font-size: 100%;
+      font-variant-ligatures: common-ligatures;
+      font-weight: 400;
+      line-height: 1.4em;
+      margin: auto;
+      padding: 2em;
+      text-align: left;
+      font-kerning: normal;
+    } #}
+    h1 {
+      font-size: 2.4em;
+      margin: 0.75em 0 0;
+      line-height: 1;
+      padding-bottom: 0.2em;
+      font-weight: 700;
+      float: left;
+    }
+    h2.kicker {
+      font-size: 1.4em;
+      padding: 0;
+      margin: 0 0 2em;
+      clear: left;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      color: #171819;
+      text-transform: initial;
+    }
+    h2 {
+      font-size: 1.2em;
+      line-height: 1;
+      padding: 0;
+      margin: 0;
+      color: #6B747D;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
+    }
+    h3 {
+      font-size: 1.0em;
+      padding: 0;
+      margin: 0.5em 0 0;
+      line-height: 1.2;
+      font-weight: 700;
+    }
+    h4 {
+      font-size: 0.8em;
+      padding: 0;
+      margin: 0.3em 0 0.5em;
+      line-height: 1.2;
+      font-weight: 400;
+    }
+    .location,
+    time {
+      color: #999;
+      display: inline;
+    }
+
+    section {
+      margin-bottom: 2em;
+    }
+    .contact {
+      clear: left;
+    }
+    .wrap {
+      clear: both;
+    }
+    p {
+      margin: 0.5em 0 0;
+    }
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    .res-main li {
+      margin: 0.1em 0 0;
+      padding-left: 1em;
+      background: url("/images/bullet.png") -4px 2px no-repeat;
+      font-size: 87.5%;
+    }
+    header li {
+      background: none;
+      margin: 0;
+      color: #999;
+    }
+    a:link {
+      color: #3B44A9;
+      text-decoration: none;
+    }
+    a:visited {
+      color: #3B44A9;
+    }
+    a:hover {
+      color: #3B44A9;
+    }
+    a:focus {
+      outline: thin dotted;
+    }
+    a:active,
+    a:hover {
+      outline: 0;
+    }
+    .res-side,
+    .contact {
+      font-size: 87.5%;
+    }
+    .res-side h2 {
+      margin-bottom: 0.4em;
+    }
+
+    @media only screen and (min-width: 45em) {
+
+    }
+
+    .reswrap {
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+    }
+
+    .parent {
+      display: grid;
+      grid-template-columns: 63% 36%;
+      grid-template-rows: auto;
+      grid-template-areas:
+        "res-top res-top"
+        "res-main res-side";
+      grid-column-gap: 16px;
+      grid-row-gap: 16px;
+      }
+
+    .res-top {
+      grid-area: 1 / 1 / 2 / 3;
+
+    }
+    .res-main {
+      grid-area: 2 / 1 / 3 / 2;
+
+    }
+    .res-side {
+      grid-area: 2 / 2 / 3 / 3;
+
+    }
+
+  </style>
+{% endblock %}
+{% block content %}
+  <div class="inner-wrapper parent">
+
+      <div class="res-top">
+        <h1>Bradley Huchteman</h1>
+        <h2 class="kicker">Web Developer</h2>
+        <header id="profile">
+          <h2>Profile</h2>
+        </header>
+        <section>
+          <p>Developer with 18 years of experience building websites and web applications including front-end development, database design, mobile, social media strategy and accessible site design. </p>
+        </section>
+      </div>
+      <div class="res-main">
+        <header id="experience">
+          <h2>Experience</h2>
+        </header>
+
+        <section>
+
+          <h3>Senior Software Developer at Rezora</h3>
+          <h4>
+            <time>2013-2017</time>
+          </h4>
+          <ul>
+            <li>Responsible for systems' email deliverability</li>
+            <li>Account setup for new clients </li>
+            <li>Development of new features and system enhancements </li>
+            <li>Coding HTML email templates</li>
+            <li>System Tech Support in Zendesk and LiveChat</li>
+          </ul>
+        </section>
+
+        <section>
+
+          <h3>Web Developer at Kellen Interactive</h3>
+          <h4>
+            <time>2007-2013</time>
+          </h4>
+          <ul>
+            <li>Lead Developer for Georgia Natural Gas and Ohio Natural Gas websites </li>
+            <li>Drupal and Wordpress theming and customizations</li>
+            <li>Photographer for company events</li>
+            <li>Developed social media strategies for clients</li>
+          </ul>
+        </section>
+
+        <section>
+
+          <h3>Web Developer at Web Hugh Inc.</h3>
+          <h4>
+            <time>2005-2007</time>
+          </h4>
+          <ul>
+            <li>Developed all projects with a focus on advanced CSS and standard compliant XHTML.</li>
+            <li>Responsible for implementing design concepts to graphic designer's specifications.</li>
+            <li>Performed basic graphic design as needed.</li>
+          </ul>
+        </section>
+
+        <section>
+
+          <h3>Web Developer at G-A Communications</h3>
+          <h4>
+            <time>2003-2005</time>
+          </h4>
+          <ul>
+            <li>Project lead and primary contact for the largest account, Safeway.com and all related Safeway branded sites (Vons.com, Carrsqc.com, Genuardis.com, and Everyseasonmag.com).</li>
+            <li>Oversaw maintenance, redesigns, new development, and integration of third-party systems for numerous Safeway sites and applications.</li>
+            <li>Planned and performed weekly updates to HTML and database content for all Safeway sites.</li>
+          </ul>
+        </section>
+
+        <section>
+
+          <h3>Lead Web Designer at DDL of Georgia State University </h3>
+          <h4>
+            <time>1999-2003</time>
+          </h4>
+          <ul>
+            <li>Supervised the development, and maintenance of 30 websites and web projects.</li>
+            <li>Worked closely with award-winning faculty to create course content and interactive learning tools using Flash.</li>
+            <li>Supervised a staff of 3 web designers, 1 graphic designer, and 6 student employees.</li>
+            <li>Co-presented with faculty at educational conferences.</li>
+            <li>Provided faculty support to faculty web users at University.</li>
+            <li>Worked with managers to produce all departmental reports and policies</li>
+          </ul>
+        </section>
+        <section>
+
+          <h3>Contract Web Developer at Elemental Interactive </h3>
+          <h4>
+            <time>2001-2003</time>
+          </h4>
+          <ul>
+            <li>Projects include: Firstwave corporate site, Macromedia IR, Avaya, and Georgia Pacific </li>
+          </ul>
+        </section>
+
+    </div>
+
+
+    <div class="res-side">
+
+      <header id="skills">
+        <h2>Skills</h2>
+      </header>
+      <section>
+        <p>HTML, CSS, jQuery, PHP, Classic ASP, MySQL, MS SQL Server, Photoshop, Lightroom, nginx, Apache, responsive web design, Drupal, Wordpress, Web Accessibility</p>
+      </section>
+
+      <header id="education">
+        <h2>Education</h2>
+      </header>
+      <section>
+
+        <h3>Georgia State University </h3>
+        <h4>
+          <time>1998–2003</time>
+        </h4>
+        <p>Worked towards a BBA in Computer Information Systems</p>
+      </section>
+
+      <section>
+
+        <h3>Georgia Perimeter College</h3>
+        <h4>
+          <time>1997–1998 </time>
+        </h4>
+        <p>Completed undergraduate core curriculum with a concentration in Spanish and Art. </p>
+      </section>
+
+      <header id="skills">
+        <h2>Contact</h2>
+      </header>
+
+      <section class="contact">
+        <p>Phone: <a href="tel:4047516891">404-751-6891</a><br>
+          Email: <a href="mailto:brad@huchteman.com">brad@huchteman.com</a><br>
+          Twitter: <a href="https://twitter.com/brxdlxy">https://twitter.com/brxdlxy</a><br>
+          Linkedin: <a href="https://il.linkedin.com/in/brxdlxy">https://www.linkedin.com/in/brxdlxy</a><br>
+          Photography: <a href="http://www.huchteman.com/">huchteman.com</a><br>
+        </p>
+        <h3>
+          <a href="http://hirebrad.com/bradley_huchteman_2018.pdf">Download PDF</a>
+        </h3>
+      </section>
+    </div>
+
+    <aside role="complementary">
+
+    </aside>
+  </div>
+
+{% endblock %}

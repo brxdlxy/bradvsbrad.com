@@ -20,6 +20,7 @@
       {% include "assets/css/global.css" %}
     </style>
     {% block head %}{% endblock %}
+    <script src="https://kit.fontawesome.com/752869a828.js" crossorigin="anonymous"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
   <body>
@@ -29,7 +30,7 @@
     {% block foot %}{% endblock %}
     {% if pageType == 'photoset' or pageType == 'Homepage' %}
       <script type="application/javascript" src="/js/lightbox-plus-jquery.min.js"></script>
-    {% endif %}}
+    {% endif %}
   <script type="module" src="/js/components/theme-toggle.js" async defer></script>
     <script>
       if ('serviceWorker' in navigator) {

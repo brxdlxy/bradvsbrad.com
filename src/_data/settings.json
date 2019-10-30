@@ -1,0 +1,28 @@
+{
+    "name": "Bradley Huchteman",
+    "email": "brad@huchteman.com",
+    "phone": "404-587-8424",
+    "socials": [
+        {
+            "name": "facebook",
+            "url": "https://facebook.com/huchteman"
+        },
+        {
+            "name": "twitter",
+            "url": "https://www.instagram.com/brxdlxy"
+        },
+        {
+            "name": "instagram",
+            "url": "https://www.instagram.com/brxdlxy/"
+        },
+        {
+            "name": "github",
+            "url": "https://github.com/brxdlxy"
+        },
+        {
+            "name": "flickr",
+            "url": "https://www.flickr.com/photos/sypsyn/"
+        }
+    ],
+    "url": "https://brxdlxy.com"
+}

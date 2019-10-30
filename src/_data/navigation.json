@@ -11,8 +11,14 @@
       "external": false
     },
     {
+      "text": "Résumé",
+      "url": "/resume",
+      "external": false
+    },
+    {
       "text": "Photos",
-      "url": "/photos"
+      "url": "/photos",
+      "external": false
     }
   ]
 }
