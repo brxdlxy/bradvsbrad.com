@@ -75,6 +75,46 @@ h1.p-name {
   color: #ffffff;
 }
 
+
+
+    .reswrap {
+      display: flex;
+      justify-content: center;
+      padding-top: 2rem;
+    }
+
+    .parent {
+      display: grid;
+      grid-gap: 16px;
+      grid-template-areas:
+        "res-top"
+        "res-main"
+        "res-side";
+
+      @include media-query('sm') {
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+          "res-top res-top"
+          "res-main res-side";
+          }
+    }
+
+
+
+    .res-top {
+      grid-area: res-top;
+
+
+    }
+    .res-main {
+      grid-area: res-main;
+
+    }
+    .res-side {
+      grid-area: res-side;
+
+
+    }
 /**
  * PROJECT IMPORTS
  */
