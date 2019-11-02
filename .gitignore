@@ -6,7 +6,7 @@ npm-debug.*
 .DS_Store
 .sass-cache
 node_modules
-dist 
+dist
 *.code-workspace
 .env
 
@@ -18,3 +18,6 @@ src/scss/_tokens.scss
 # Hide compiled CSS
 src/_includes/assets/*
 package-lock.json
+.vscode/launch.json
+.vscode/settings.json
+src/_includes/partials/components/scratch.css

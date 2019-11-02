@@ -1,28 +1,11 @@
 ---
-title: A simple post
-date: '2019-06-18'
+title: Break Room Diaries
+date: '2019-10-31'
 tags:
-  - demo-content
-  - simple-post
-  - blog
+  - project
 ---
-A simple post to demonstrate how a normal blog post looks on Hylia. Content is all set in the “Body” field as markdown and Eleventy transforms it into a proper HTML post. You can also edit the markdown file directly if you prefer not to use the CMS.
-
-How about a `<blockquote>`?
-
-> Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.
-
-A list of stuff:
-
-- Sed posuere consectetur est at lobortis
-- Aenean lacinia bibendum nulla sed consectetur
-- Sed posuere consectetur est at lobortis
-
-How about an ordered list of stuff:
-
-1. Sed posuere consectetur est at lobortis
-2. Aenean lacinia bibendum nulla sed consectetur
-3. Sed posuere consectetur est at lobortis
+Break Room Diaries is photo blog that features an office’s break room from 2010 to 2013.
+There is a designated up-for-grabs table in the center of the break room where employees leave holiday treats, extra catering, conference swag, sign up for girl scout cookies — many break rooms or office common areas have a spot like this.
+The site was originally setup on tumblr, now Break Room Diaries has moved to Ghost CMS at https://breakroom.brxdlxy.com
 
 
-Hopefully, this has demonstrated how simple it is to make a nice looking blog with Hylia.
