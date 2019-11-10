@@ -65,56 +65,102 @@ a {
   color: #323275;
   padding: 0.1rem 0;
   text-decoration: none;
-  border-bottom: 3px solid #6dffff;
+  border-bottom: 3px solid #6dffffCC;
+  box-shadow: 0 -.25em 0 #6dffffcc inset;
+
   a:hover {
     text-decoration: none;
     background: #6dffff;
-  } //@include apply-utility('leading', 'tight');
+  }
 }
 h1.p-name {
   color: #ffffff;
 }
 
+a.icon-links {
+  margin-right: 1rem;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
 
 
-    .reswrap {
-      display: flex;
-      justify-content: center;
-      padding-top: 2rem;
-    }
+.gridwrap {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+}
 
-    .parent {
-      display: grid;
-      grid-gap: 16px;
-      grid-template-areas:
-        "res-top"
-        "res-main"
-        "res-side";
+.parent {
+  display: grid;
+  grid-gap: 16px;
+  grid-template-areas:
+    "grid-top"
+    "grid-main"
+    "grid-side";
 
-      @include media-query('sm') {
-        grid-template-columns: 2fr 1fr;
-        grid-template-areas:
-          "res-top res-top"
-          "res-main res-side";
-          }
-    }
-
-
-
-    .res-top {
-      grid-area: res-top;
+  @include media-query('sm') {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "grid-top grid-top"
+      "grid-main grid-side";
+      }
+}
 
 
-    }
-    .res-main {
-      grid-area: res-main;
+.parent-contact {
+  display: grid;
+  grid-gap: 32px;
+  grid-template-areas:
+    "grid-top"
+    "grid-main"
+    "grid-side";
 
-    }
-    .res-side {
-      grid-area: res-side;
+  @include media-query('sm') {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "grid-top grid-top"
+      "grid-main grid-side";
+      }
+}
 
 
-    }
+
+
+.grid-top {
+  grid-area: grid-top;
+
+
+}
+.grid-main {
+  grid-area: grid-main;
+
+}
+.grid-side {
+  grid-area: grid-side;
+
+
+}
+
+.grid-side,
+.contact {
+  font-size: 87.5%;
+}
+.grid-side h2 {
+  margin-bottom: 0.4em;
+}
+
+
+.side-social ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.side-social li {
+  font-size: 24px;
+  display: inline-block;;
+
+}
 /**
  * PROJECT IMPORTS
  */
