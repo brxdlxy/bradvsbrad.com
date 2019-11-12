@@ -4,4 +4,18 @@
   margin-right: auto;
   padding-left: get-size(500);
   padding-right: get-size(500);
+
+  &__gallery {
+    max-width: 80rem;
+    @include media-query('lg') {
+     max-width: 80rem;
+    }
+  }
+
 }
+
+li.photos-listitem {
+   @include media-query('lg') {
+     height: 15vh;
+    }
+  }

@@ -10,14 +10,14 @@ $stalfos-size-scale: map-get($tokens, 'size-scale');
 
 /**
  * COLORS
- * Colors are shared between backgrounds and text by default. 
+ * Colors are shared between backgrounds and text by default.
  * You can also use them to power borders, fills or shadows, for example.
  */
 $stalfos-colors: map-get($tokens, 'colors');
 
 /**
  * UTIL PREFIX
- * All pre-built, framework utilities will have this prefix. 
+ * All pre-built, framework utilities will have this prefix.
  * Example: the wrapper utility is '.sf-wrapper' because the default
  * prefix is 'sf-'.
  */
@@ -31,7 +31,8 @@ $metrics: (
   'wrap-max-width': 52rem,
   'wrap-inner-max-width': 52rem,
   'sm-breakpoint': 32rem,
-  'md-breakpoint': 48rem
+  'md-breakpoint': 48rem,
+  'lg-breakpoint': 80rem
 );
 
 /**
@@ -172,6 +173,7 @@ $stalfos-config: (
     'property': 'width'
   ),
   'breakpoints': (
+    'lg': #{'(min-width: ' + map-get($metrics, 'lg-breakpoint') + ')'},
     'md': #{'(min-width: ' + map-get($metrics, 'md-breakpoint') + ')'},
     'sm': #{'(min-width: ' + map-get($metrics, 'sm-breakpoint') + ')'}
   ),
