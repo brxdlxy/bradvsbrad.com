@@ -8,6 +8,7 @@
   }
   &intro__col {
     mix-blend-mode: overlay;
+    margin-bottom: 2rem;
   }
 
   &__summary {
@@ -47,7 +48,7 @@
   &__photo {
     float: left;
     width: 4rem;
-    margin: 0 1rem 0 0;
+    margin: 0 1rem 2rem 0;
     display: none;
 
     @include media-query('sm') {
@@ -56,7 +57,7 @@
       margin-right: 2rem;
     }
     @include media-query('md') {
-      width: 13rem;
+      width: 15rem;
       display: block;
       margin-right: 3rem;
     }

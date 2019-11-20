@@ -39,8 +39,9 @@ hr {
 
 .intro {
   // background: linear-gradient(-45deg, #3cf29d, #bc20bf, #29258c, #4e48f2, #aaaaaa, #444444; );
-  background:linear-gradient(-45deg, #333,#29258c, #152911,#292421);
-  background-size: 1000% 1000%;
+  // background:linear-gradient(180deg,#FFFFFF22 0%,#FFFfff 100%),linear-gradient(-45deg,#333,#29258c,#152911,#292421),linear-gradient(-45deg, #333,#29258c, #152911,#292421);
+  background:linear-gradient(-45deg, #666,#29258c, #152911,#292421);
+  background-size: 1000% 100%;
   -webkit-animation: gradientBG 120s ease infinite;
   -moz-animation: gradientBG 120s ease infinite;
   animation: gradientBG 120s ease infinite;

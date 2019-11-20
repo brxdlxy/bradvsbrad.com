@@ -12,107 +12,67 @@ permalink: /resume/index.html
   <style>
 
 
-    {# h1 {
-      font-size: 2.4em;
-      margin: 0.75em 0 0;
-      line-height: 1;
-      padding-bottom: 0.2em;
-      font-weight: 700;
+.location,
+time {
+  color: #999;
+  display: inline;
+}
 
-    }
-    h2.kicker {
-      font-size: 1.4em;
-      padding: 0;
-      margin: 0 0 2em;
-      clear: left;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      color: #171819;
-      text-transform: initial;
-    } #}
-    {# h2 {
-      font-size: 1.2em;
-      line-height: 1;
-      padding: 0;
-      margin: 0;
-      color: #6B747D;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.02em;
-    }
-    h3 {
-      font-size: 1.0em;
-      padding: 0;
-      margin: 0.5em 0 0;
-      line-height: 1.2;
-      font-weight: 700;
-    }
-    h4 {
-      font-size: 0.8em;
-      padding: 0;
-      margin: 0.3em 0 0.5em;
-      line-height: 1.2;
-      font-weight: 400;
-    } #}
-    .location,
-    time {
-      color: #999;
-      display: inline;
-    }
-
-    section {
-      margin-bottom: 2em;
-    }
-    .contact {
-      clear: left;
-    }
-    .wrap {
-      clear: both;
-    }
-    p {
-      margin: 0.5em 0 0;
-    }
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-    }
-    .grid-main li {
-      margin: 0.1em 0 0;
-      padding-left: 1em;
-      background: url("/images/bullet.png") -4px 2px no-repeat;
-      font-size: 87.5%;
-    }
-    header li {
-      background: none;
-      margin: 0;
-      color: #999;
-    }
-    a:link {
-      color: #3B44A9;
-      text-decoration: none;
-    }
-    a:visited {
-      color: #3B44A9;
-    }
-    a:hover {
-      color: #3B44A9;
-    }
-    a:focus {
-      outline: thin dotted;
-    }
-    a:active,
-    a:hover {
-      outline: 0;
-    }
-
-
-
-
+section {
+  margin-bottom: 2em;
+}
+.contact {
+  clear: left;
+}
+.wrap {
+  clear: both;
+}
+p {
+  margin: 0.5em 0 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.grid-main li {
+  margin: 0.1em 0 0;
+  padding-left: 1em;
+  background: url("/images/bullet.png") -4px 2px no-repeat;
+  font-size: 87.5%;
+}
+header li {
+  background: none;
+  margin: 0;
+  color: #999;
+}
+a:link {
+  color: #3B44A9;
+  text-decoration: none;
+}
+a:visited {
+  color: #3B44A9;
+}
+a:hover {
+  color: #3B44A9;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
 
   </style>
 {% endblock %}
+
+
 {% block content %}
+    <main id="main-content" tabindex="-1">
+        <article class="[ post ] [ h-entry ]">
+            {% include "partials/components/intro.njk" %}
+
   <div class="inner-wrapper parent">
 
       <div class="grid-top">
@@ -122,7 +82,7 @@ permalink: /resume/index.html
           <h2>Profile</h2>
         </header>
         <section>
-          <p>Developer with 18 years of experience building websites and web applications including front-end development, database design, mobile, social media strategy and accessible site design. </p>
+          <p>Developer with 19 years of experience building websites and web applications including front-end development, database design, mobile, social media strategy and accessible site design. </p>
         </section>
       </div>
       <div class="grid-main">
@@ -263,3 +223,6 @@ permalink: /resume/index.html
   </div>
 
 {% endblock %}
+</article>
+</main>
+
