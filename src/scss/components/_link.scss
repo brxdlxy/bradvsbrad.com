@@ -1,0 +1,20 @@
+$link-color: fade-out($color-accent, 0.3);
+
+.Link {
+	background: linear-gradient( to bottom, $link-color, $link-color) no-repeat bottom;
+	background-position: 0 140%;
+	background-size: 100% 50%;
+	color: $color-text;
+	cursor: pointer;
+	font-weight: bold;
+	position: relative;
+	top: 0;
+	text-decoration: none;
+	transition: all $hover-transition-duration ease-in-out;
+
+	.MetaLink:hover &,
+	&:hover {
+		background-position: 0 100%;
+		top: -4px;
+	}
+}

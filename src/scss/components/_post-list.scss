@@ -15,14 +15,15 @@
   }
 }
 
-a.ig-thumb-link,
-a.ig-thumb-link:hover,
-a.sm-item-link,
-a.sm-item-link:hover {
+.thumbnail-grid a.ig-thumb-link,
+.thumbnail-grid a.ig-thumb-link:hover,
+.photos-list a.sm-item-link,
+.photos-list a.sm-item-link:hover {
   border: none;
   text-decoration: none;
   background: none;
   padding: 0 0.2rem 0.2rem;
+  box-shadow: none;
 }
 li.sm-item {
   float: left;

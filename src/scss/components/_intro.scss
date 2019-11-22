@@ -6,13 +6,13 @@
     flex-direction: row;
     align-items: center;
   }
-  &intro__col {
-    mix-blend-mode: overlay;
+  &__col {
     margin-bottom: 2rem;
   }
 
   &__summary {
     color: #ffffff;
+    padding-top: 1rem;
     @include media-query('sm') {
       font-size: get-size(600);
       --flow-space: #{get-size(600)};
@@ -35,7 +35,6 @@
     max-width: 40ex;
     color: #ffffff;
     font-size: get-size(600);
-    padding-bottom: 1rem;
     @include media-query('sm') {
       font-size: get-size(800);
     }

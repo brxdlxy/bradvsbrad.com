@@ -5,8 +5,12 @@
     {% endif %}
     <div class="intro__col">
       <h1 class="[ intro__heading{{ ' intro__heading--compact' if page.url === '/' }} ] [ md:text-800 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
-      {% if introSummary %}
-        <div class="[ intro__summary ] [ sf-flow ] [ leading-mid measure-short ]">{{ introSummary | safe }}</div>
+      {% if pageType == 'About' or pageType == 'Homepage' %}
+        <div class="[ intro__summary ] [ sf-flow ] [ leading-mid measure-short ]">
+          I build web sites and make photos in Atlanta.<br>
+          I'm available for hire!  <br>
+          Take a look at my <a href="/resume">résumé</a> and send me an email if you would like to <a href="/contact">get in touch</a>.
+        </div>
       {% endif %}
     </div>
   </div>
