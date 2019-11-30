@@ -2,7 +2,7 @@
     &__body {
         --flow-space: #{get-size(800)};
         /**
-     * Generic HTML styles 
+     * Generic HTML styles
      */
         h2+*,
         h3+* {
@@ -11,6 +11,7 @@
         h2,
         h3 {
             position: relative;
+            color: $bvb-simple-black;
             /*display: flex;*/
             // @include apply-utility('leading', 'tight');
         } // a {

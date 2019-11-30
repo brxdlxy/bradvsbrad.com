@@ -1,5 +1,11 @@
 .intro {
-  border-top: 0.1rem solid var(--color-theme-primary);
+  border-top: 0.2rem solid $bvb-simple-pri;
+  background: linear-gradient(0deg, #ffffffff,#dddddd66),
+  linear-gradient(-45deg, #dddddd,#1db1b1cc, #dddddd, #dedeff, #a1a187);
+  background-size: 200% 100%;
+  -webkit-animation: gradientBG 120s ease infinite;
+  -moz-animation: gradientBG 120s ease infinite;
+  animation: gradientBG 120s ease infinite;
 
   &__inner-wrapper {
     display: flex;
@@ -11,7 +17,7 @@
   }
 
   &__summary {
-    color: #ffffff;
+    color: #555;
     padding-top: 1rem;
     @include media-query('sm') {
       font-size: get-size(600);
@@ -19,21 +25,19 @@
     }
 
     a {
-      color: currentColor;
-      border-bottom: none;
-      text-decoration: none;
+      color: $bvb-simple-black;
       padding: 0 0.1rem;
-      border-bottom: 3px solid #6dffff;
+      box-shadow: 0 -.25em 0 $bvb-simple-highlight inset;
 
       a:hover {
-        text-decoration: none;
-        background: #6dffff;
+        background-color: $bvb-simple-highlight;
+
       }
     }
   }
   &__heading {
     max-width: 40ex;
-    color: #ffffff;
+    color: #555;
     font-size: get-size(600);
     @include media-query('sm') {
       font-size: get-size(800);
@@ -67,3 +71,28 @@
     }
   }
 }
+
+
+@-webkit-keyframes gradientBG {
+    0%{background-position:0% 25%}
+    50%{background-position:100% 76%}
+    100%{background-position:0% 25%}
+}
+@-moz-keyframes gradientBG {
+    0%{background-position:0% 25%}
+    50%{background-position:100% 76%}
+    100%{background-position:0% 25%}
+}
+@keyframes gradientBG {
+    0%{background-position:0% 25%}
+    50%{background-position:100% 76%}
+    100%{background-position:0% 25%}
+}
+
+.intro__Homepage,
+.intro__About{
+    background: linear-gradient(0deg, #ddddddff,#dddddd66, #dddddd66, #ddddddff),
+  linear-gradient(-45deg, #dddddd,#1db1b1cc, #dddddd, #dedeff, #a1a187);
+
+  }
+

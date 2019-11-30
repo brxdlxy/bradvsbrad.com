@@ -1,14 +1,16 @@
 .site-head {
-  border-bottom: 0.3rem solid var(--color-slate);
+  border-bottom: 0.3rem solid $bvb-simple-black;
 
   &__site-name {
     border: none;
     text-decoration: none;
-    color: var(--dark);
-    font: 600 4rem Helvetica, 'Helvetica Neue', 'Segoe UI', Sans-Serif;
-    text-shadow: 0.3rem 0.2rem 0 var(--color-primary);
+    color: $bvb-simple-black;
+    font: 600 2rem 'Helvetica Neue', Helvetica, 'Segoe UI', Sans-Serif;
     border: none;
     background: none;
     box-shadow: none;
+  }
+  &__logo { width: 59%;
+
   }
 }

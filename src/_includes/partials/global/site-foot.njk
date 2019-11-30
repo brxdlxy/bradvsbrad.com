@@ -5,7 +5,11 @@
         <div>
           <article class="[ site-foot__details ] [ sf-flow measure-compact ]">
             <h2 class="font-base text-600">{{ site.name }}</h2>
-            {{ site.shortDesc | markdownFilter | safe }}
+            <ul class="footer-social">
+            {% for social in settings.socials %}
+                <li><a class="icon-links" href="{{social.url}}"><i class="fa fa-{{social.name}}"></i></a></li>
+            {% endfor %}
+            </ul>
           </article>
         </div>
       {% endif %}
