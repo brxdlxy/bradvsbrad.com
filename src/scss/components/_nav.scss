@@ -14,10 +14,11 @@
         padding: get-size(300) 0;
         flex-shrink: 0;
         a {
-            color: currentColor;
+            color: $bvb-simple-black;
             text-decoration: none;
             padding: 0.1rem 0.3rem;
             @include apply-utility('weight', 'mid');
+
         }
         a:hover {
             text-decoration: none;

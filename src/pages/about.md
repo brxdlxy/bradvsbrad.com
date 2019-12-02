@@ -26,7 +26,7 @@ I try to make a habit of drawing everyday. I usually just use a black pen or mar
 Twitter: [@brxdlxy](https://twitter.com/brxdlxy)\
 Linkedin: [linkedin.com/in/brxdlxy](https://www.linkedin.com/in/brxdlxy)\
 Facebook: [facebook.com/huchteman](https://facebook.com/huchteman)\
-Instagram: [@brxdlxy/](https://www.instagram.com/brxdlxy/)\
+Instagram: [@brxdlxy](https://www.instagram.com/brxdlxy/)\
 Github: [@brxdlxy](https://github.com/brxdlxy)\
 Flickr: [flickr.com/photos/sypsyn](https://www.flickr.com/photos/sypsyn/)\
 Photography: [huchteman.com](https://huchteman.com)

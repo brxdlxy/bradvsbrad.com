@@ -40,20 +40,17 @@ hr {
 
 a {
   color: $bvb-simple-pri;
-  padding: 0;
+  padding: 0.1rem;
   text-decoration: none;
-  // border-bottom: 3px solid $Bvb-red-2;
-  //box-shadow: 0 -.25em 0 $Bvb-blue-light inset;
-  box-shadow: 0 -0.4em 0 $bvb-simple-highlight inset;
-
+}
 
   a:hover {
     text-decoration: none;
     background: $bvb-simple-highlight;
   }
-}
+
 h1.p-name {
-  color: #555;
+  color: $bvb-simple-black;
 }
 
 a.icon-links {
@@ -90,7 +87,6 @@ a.icon-links {
 
 .parent-contact {
   display: grid;
-  grid-gap: 32px;
   grid-template-areas:
     "grid-top"
     "grid-main"
@@ -142,6 +138,12 @@ a.icon-links {
   font-size: 24px;
   display: inline-block;;
 
+}
+ul.social-list {
+  list-style: none; text-align: center;
+}
+ul.social-list li {
+  float: left; margin: 1rem;
 }
 /**
  * PROJECT IMPORTS

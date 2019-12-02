@@ -33,7 +33,7 @@
     <script src="https://kit.fontawesome.com/752869a828.js" crossorigin="anonymous"></script>
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
-  <body>
+  <body class="body__{{ pageType }}">
     {% include "partials/global/site-head.njk" %}
     {% block content %}{% endblock content %}
     {% include "partials/global/site-foot.njk" %}

@@ -1,7 +1,7 @@
 .intro {
-  border-top: 0.2rem solid $bvb-simple-pri;
-  background: linear-gradient(0deg, #ffffffff,#dddddd66),
-  linear-gradient(-45deg, #dddddd,#1db1b1cc, #dddddd, #dedeff, #a1a187);
+  border-top: 3px solid $bvb-simple-pri;
+  background: linear-gradient(0deg, #ffffffff,#ffffffaa),
+    linear-gradient(-45deg, #83a4d4, #b6fbff, #f3e7e9, #e3eeff, #a1ffce, #faffd1);
   background-size: 200% 100%;
   -webkit-animation: gradientBG 120s ease infinite;
   -moz-animation: gradientBG 120s ease infinite;
@@ -24,16 +24,16 @@
       --flow-space: #{get-size(600)};
     }
 
-    a {
-      color: $bvb-simple-black;
-      padding: 0 0.1rem;
-      box-shadow: 0 -.25em 0 $bvb-simple-highlight inset;
+    // a {
+    //   color: $bvb-simple-pri;
+    //   padding: 0 0.1rem;
+    //   box-shadow: 0 -.25em 0 $bvb-simple-highlight inset;
 
-      a:hover {
-        background-color: $bvb-simple-highlight;
+    //   a:hover {
+    //     background-color: $bvb-simple-highlight;
 
-      }
-    }
+    //   }
+    // }
   }
   &__heading {
     max-width: 40ex;

@@ -213,6 +213,7 @@ body.lb-disable-scrolling {
 ul.photos-list {
   display: flex;
   flex-wrap: wrap;
+  clear: both;
 }
 
 li.photos-listitem {
@@ -256,6 +257,7 @@ ADVANCED
 @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
   ul.photos-list {
     flex-direction: row;
+    clear: both;
   }
 
   li.photos-listitem {
