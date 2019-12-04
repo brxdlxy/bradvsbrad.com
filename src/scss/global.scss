@@ -2,7 +2,7 @@
 // Pull in the stalfos lib
 @import '../../node_modules/stalfos/stalfos.scss';
 // Local mixins
-@import 'mixins/dark-mode';
+//@import 'mixins/dark-mode';
 @import 'theme';
 // Local dependencies
 @import 'typography';
@@ -68,7 +68,6 @@ a.icon-links {
 }
 
 .parent {
-  margin-top: 2rem;
   display: grid;
   grid-gap: 16px;
   grid-template-areas:
@@ -76,7 +75,8 @@ a.icon-links {
     "grid-main"
     "grid-side";
 
-  @include media-query('sm') {
+  @include media-query('md') {
+    margin-top: 2rem;
     grid-template-columns: 2fr 1fr;
     grid-template-areas:
       "grid-top grid-top"
@@ -114,7 +114,9 @@ a.icon-links {
 }
 .grid-side {
   grid-area: grid-side;
-  padding-left: 3rem;
+    @include media-query('md') {
+      padding-left: 3rem;
+    }
 
 }
 
@@ -166,5 +168,6 @@ ul.social-list li {
 @import 'components/skip-link';
 @import 'components/syntax-highlighting';
 @import 'components/video-player';
+@import 'components/resume';
 @import 'lightbox';
 

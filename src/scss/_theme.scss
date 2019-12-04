@@ -22,22 +22,6 @@
   --color-theme-feature-text: #{get-color('slate')};
 }
 
-@include dark-mode() {
-  --color-bg: #{get-color('dark')};
-  --color-bg-glare: #{get-color('slate')};
-  --color-text: #{get-color('light')};
-  --color-selection-text: #{get-color('dark')};
-  --color-selection-bg: #{get-color('light')};
-  --color-stroke: #{get-color('slate')};
-  --color-theme-primary: #{lighten(get-color('primary'), 50%)};
-  --color-theme-primary-glare: #{lighten(get-color('primary-glare'), 50%)};
-  --color-action-bg: var(--color-theme-primary-glare);
-  --color-action-text: #{get-color('dark')};
-  --color-theme-highlight: #{get-color('highlight')};
-  --color-theme-highlight-block: #{get-color('slate')};
-  --color-theme-feature-text: #{get-color('highlight')};
-}
-
 body {
   color: var(--color-text);
   background-color: var(--color-bg);
@@ -52,17 +36,10 @@ main {
   background-color: var(--color-selection-bg);
 }
 
-$Bvb-red-1: #F2071Bcc;
-$Bvb-red-2: #F21D56;
-$Bvb-blue-dark: #182540;
-$Bvb-blue-med: #5684BF;
-$Bvb-blue-light: #84A9D9;
 
 $bvb-simple-pri: #4433ff;
 $bvb-simple-black: #191544;
 $bvb-simple-light: #838FA0;
 $bvb-simple-highlight: #ffffaa;
-;
 
 
-;

@@ -1,8 +1,8 @@
 .intro {
   border-top: 3px solid $bvb-simple-pri;
-  background: linear-gradient(0deg, #ffffffff,#ffffffaa),
-    linear-gradient(-45deg, #83a4d4, #b6fbff, #f3e7e9, #e3eeff, #a1ffce, #faffd1);
-  background-size: 200% 100%;
+  background: linear-gradient(0deg,#ffffffff 0,#ffffffcc 50%,#ffffffaa 88%,#ffffff99 100%),
+    linear-gradient(-45deg,#c7cef5 0%, #d8e4f0 27%, #dbbfff 54%, #eeeeee 81%, #c7cef5 100%);
+  background-size: 600% 100%;
   -webkit-animation: gradientBG 120s ease infinite;
   -moz-animation: gradientBG 120s ease infinite;
   animation: gradientBG 120s ease infinite;
@@ -70,29 +70,23 @@
       -moz-border-radius: 50%;
     }
   }
-}
 
 
-@-webkit-keyframes gradientBG {
-    0%{background-position:0% 25%}
-    50%{background-position:100% 76%}
-    100%{background-position:0% 25%}
-}
-@-moz-keyframes gradientBG {
-    0%{background-position:0% 25%}
-    50%{background-position:100% 76%}
-    100%{background-position:0% 25%}
-}
-@keyframes gradientBG {
-    0%{background-position:0% 25%}
-    50%{background-position:100% 76%}
-    100%{background-position:0% 25%}
-}
-
-.intro__Homepage,
-.intro__About{
-    background: linear-gradient(0deg, #ddddddff,#dddddd66, #dddddd66, #ddddddff),
-  linear-gradient(-45deg, #dddddd,#1db1b1cc, #dddddd, #dedeff, #a1a187);
-
+  @-webkit-keyframes gradientBG {
+      0%{background-position:0% 25%}
+      50%{background-position:100% 76%}
+      100%{background-position:0% 25%}
   }
+  @-moz-keyframes gradientBG {
+      0%{background-position:0% 25%}
+      50%{background-position:100% 76%}
+      100%{background-position:0% 25%}
+  }
+  @keyframes gradientBG {
+      0%{background-position:0% 25%}
+      50%{background-position:100% 76%}
+      100%{background-position:0% 25%}
+  }
+
+}
 
