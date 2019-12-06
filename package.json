@@ -1,7 +1,7 @@
 {
-  "name": "hylia",
-  "version": "0.4.5",
-  "description": "A simple Eleventy starter kit to help you have a blog of your own",
+  "name": "bradvsbrad.com",
+  "version": "1.0.0",
+  "description": "Personal website of Brad Huchteman",
   "main": "index.js",
   "dependencies": {
     "@11ty/eleventy": "^0.8.3",
@@ -42,15 +42,7 @@
     "serve": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
     "production": "npm run sass:process && npm run cms:precompile && npm run cms:bundle && npx eleventy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/andybelldesign/hylia.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/andybelldesign/hylia/issues"
-  },
-  "homepage": "https://github.com/andybelldesign/hylia#readme"
-}
+  "author": "Brad Huchteman <sypsyn@gmail.com> (https://bradvsbrad.com)",
+  "private": true,
+  "license": "MIT"
+

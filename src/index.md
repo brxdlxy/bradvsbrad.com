@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Hi, I'm Brad
+title: Hello!
 postsHeading: Latest posts
 archiveButtonText: See all posts
 socialImage: ''

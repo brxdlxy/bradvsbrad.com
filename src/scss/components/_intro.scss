@@ -1,16 +1,22 @@
 .intro {
-  border-top: 3px solid $bvb-simple-pri;
-  background: linear-gradient(0deg,#ffffffff 0,#ffffffcc 50%,#ffffffaa 88%,#ffffff99 100%),
-    linear-gradient(-45deg,#c7cef5 0%, #d8e4f0 27%, #dbbfff 54%, #eeeeee 81%, #c7cef5 100%);
+  border-top: 4px solid $bvb-simple-pri;
+  background: linear-gradient(0deg,#ffffffff 0,#ffffffcc 50%,#ffffffaa 81%,#ffffff66 100%),
+  linear-gradient(40deg,#c3cbf5 0,#fff 20%, #bcc3f7 32%, #fff 45%, #e1bfff 64%,#fff 81%,#c4cdfd 100%);
   background-size: 600% 100%;
-  -webkit-animation: gradientBG 120s ease infinite;
-  -moz-animation: gradientBG 120s ease infinite;
-  animation: gradientBG 120s ease infinite;
+  -webkit-animation: gradientBG 30s ease infinite;
+  -moz-animation: gradientBG 30s ease infinite;
+  animation: gradientBG 30s ease infinite;
+
 
   &__inner-wrapper {
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    background-color: #f6f5eb;
+    -webkit-box-shadow: 0 10px 6px 3px #777;
+    -moz-box-shadow: 0 10px 6px 3px #777;
+    box-shadow: 1px 10px 6px 3px #777;
   }
   &__col {
     margin-bottom: 2rem;
@@ -60,7 +66,7 @@
       margin-right: 2rem;
     }
     @include media-query('md') {
-      width: 15rem;
+      width: 13rem;
       display: block;
       margin-right: 3rem;
     }
