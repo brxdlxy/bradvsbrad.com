@@ -10,9 +10,8 @@
 
 body {
   // Strip the unit off the size ratio to generate a line height
-  $line-height: get-size(600);
+  $line-height: 1.5rem;
   line-height: $line-height / ($line-height * 0 + 1);
-
   @include apply-utility('font', 'base');
 }
 
@@ -20,30 +19,39 @@ h1,
 h2,
 h3 {
   @include apply-utility('font', 'headers');
+  // margin: 2.5rem 0;
 }
 
 h1 {
-  font-size: get-size(600);
+  font-size: get-size(700);
+  margin: get-size(600) 0 get-size(500) 0;
+
 }
 
 h2 {
   font-size: get-size(500);
+   margin: get-size(500) 0 get-size(400) 0;
 }
 
 h3 {
-  font-size: get-size(base);
+  font-size: get-size(500);
 }
 
 @include media-query('md') {
-  h1 {
-    font-size:  get-size(600);
-  }
 
-  h2 {
+h1 {
+  font-size: get-size(800);
+   margin: get-size(700) 0 get-size(600) 0;
+}
+
+h2 {
+  font-size: get-size(600);
+  margin: get-size(500) 0 get-size(400) 0;
+
+}
+
+h3 {
     font-size: get-size(500);
-  }
+}
 
-  h3 {
-    font-size: get-size(base);
-  }
 }

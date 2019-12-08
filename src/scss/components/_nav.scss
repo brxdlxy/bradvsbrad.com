@@ -18,6 +18,7 @@
             text-decoration: none;
             padding: 0.1rem 0.3rem;
             @include apply-utility('weight', 'mid');
+            // border-bottom-width: 4px;
 
         }
         a:hover {

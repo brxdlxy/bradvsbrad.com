@@ -27,7 +27,6 @@ main {
     outline: none;
   }
 }
-
 hr {
   display: block;
   height: 1px;
@@ -39,18 +38,21 @@ hr {
 
 
 a {
-  color: $bvb-simple-pri;
-  padding: 0.1rem;
-  text-decoration: none;
+    color: $bvb-simple-pri;
+    text-decoration: none;
+    border-bottom: 3px solid $bvb-simple-greendream;
 }
 
   a:hover {
     text-decoration: none;
-    background: $bvb-simple-highlight;
+    background: $bvb-simple-greendream;
   }
 
 h1.p-name {
   color: $bvb-simple-black;
+  padding: 0;
+  margin: 0;
+  font-size: 1.95rem;
 }
 
 a.icon-links {
@@ -58,8 +60,13 @@ a.icon-links {
   border: none;
   background: none;
   box-shadow: none;
+  color: $bvb-simple-black;
 }
-
+.social-list a {
+  border: none;
+  background: none;
+  color: $bvb-simple-black;
+}
 
 .gridwrap {
   display: flex;
@@ -138,11 +145,14 @@ a.icon-links {
 .side-social li,
 .footer-social li {
   font-size: 24px;
-  display: inline-block;;
+  display: inline-block;
 
 }
 ul.social-list {
-  list-style: none; text-align: center;
+  list-style: none;
+  text-align: center;
+  margin: 1rem 0;
+  padding: 1rem 0;
 }
 ul.social-list li {
   float: left; margin: 1rem;

@@ -1,11 +1,5 @@
 .intro {
-  border-top: 4px solid $bvb-simple-pri;
-  background: linear-gradient(0deg,#ffffffff 0,#ffffffcc 50%,#ffffffaa 81%,#ffffff66 100%),
-  linear-gradient(40deg,#c3cbf5 0,#fff 20%, #bcc3f7 32%, #fff 45%, #e1bfff 64%,#fff 81%,#c4cdfd 100%);
-  background-size: 600% 100%;
-  -webkit-animation: gradientBG 30s ease infinite;
-  -moz-animation: gradientBG 30s ease infinite;
-  animation: gradientBG 30s ease infinite;
+
 
 
   &__inner-wrapper {
@@ -13,10 +7,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: #f6f5eb;
-    -webkit-box-shadow: 0 10px 6px 3px #777;
-    -moz-box-shadow: 0 10px 6px 3px #777;
-    box-shadow: 1px 10px 6px 3px #777;
+    background: linear-gradient(90deg,#ffffff00 0,#ffffffff 40%,#ffffffff 50%,#ffffff00 100%), #f6f5eb;
   }
   &__col {
     margin-bottom: 2rem;
@@ -26,8 +17,8 @@
     color: #555;
     padding-top: 1rem;
     @include media-query('sm') {
-      font-size: get-size(600);
-      --flow-space: #{get-size(600)};
+      font-size: get-size(500);
+      --flow-space: #{get-size(500)};
     }
 
     // a {
@@ -57,7 +48,7 @@
   &__photo {
     float: left;
     width: 4rem;
-    margin: 0 1rem 2rem 0;
+    margin: 1rem 1rem 1rem 0;
     display: none;
 
     @include media-query('sm') {
@@ -66,7 +57,7 @@
       margin-right: 2rem;
     }
     @include media-query('md') {
-      width: 13rem;
+      width: 10rem;
       display: block;
       margin-right: 3rem;
     }
@@ -78,21 +69,8 @@
   }
 
 
-  @-webkit-keyframes gradientBG {
-      0%{background-position:0% 25%}
-      50%{background-position:100% 76%}
-      100%{background-position:0% 25%}
-  }
-  @-moz-keyframes gradientBG {
-      0%{background-position:0% 25%}
-      50%{background-position:100% 76%}
-      100%{background-position:0% 25%}
-  }
-  @keyframes gradientBG {
-      0%{background-position:0% 25%}
-      50%{background-position:100% 76%}
-      100%{background-position:0% 25%}
-  }
-
 }
 
+article.nointro div.intro__innerwrapper{
+  background: none;
+}
