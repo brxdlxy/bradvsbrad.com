@@ -76,7 +76,7 @@ a.icon-links {
 
 .parent {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 32px;
   grid-template-areas:
     "grid-top"
     "grid-main"
@@ -106,6 +106,7 @@ a.icon-links {
       "grid-main grid-side";
       }
 }
+.parent-contact .grid-main { padding-right: 2rem;}
 
 
 
@@ -122,7 +123,7 @@ a.icon-links {
 .grid-side {
   grid-area: grid-side;
     @include media-query('md') {
-      padding-left: 3rem;
+      // padding-left: 3rem;
     }
 
 }
@@ -148,6 +149,15 @@ a.icon-links {
   display: inline-block;
 
 }
+
+ul.side-social {
+  display: none;
+ @include media-query('md') {
+     display: block;
+    }
+
+}
+
 ul.social-list {
   list-style: none;
   text-align: center;

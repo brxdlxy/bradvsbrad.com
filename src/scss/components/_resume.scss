@@ -3,7 +3,7 @@
   margin-bottom: 1rem;
 
     @include media-query('md') {
-        padding: 5rem 2rem;
+        padding: 2.5rem 2rem;
         margin-bottom: 4rem;
         background-color: #f6f5eb;
         -webkit-box-shadow: 0 10px 6px 6px #777;
@@ -18,10 +18,13 @@
         margin: 0;
     }
 
-    h3,
-    h4{
-    font-size: 1.0rem;
+    h3 {
+        font-size: 1.0rem;
     }
+    h4{
+        font-size: get-size(300);
+    }
+
 
     h1{
     font-size: 1.5rem;
@@ -35,6 +38,9 @@
         color: #333;
         text-transform: none;
     }
+    .grid-top p {
+        font-size: 87.5%
+     }
     .grid-side h2 {
         font-size: 1.0rem;
     }
@@ -42,7 +48,7 @@
         font-size: 1.0rem;
     }
     .grid-side h4 {
-    font-size: 0.875rem;
+        font-size: 0.875rem;
     }
     .gridside p {
         font-size: 0.875rem;
@@ -55,8 +61,9 @@
     }
 
     section {
-    margin-bottom: 2em;
+    margin-bottom: 2rem;
     }
+    .grid-top__section { margin-bottom: .5rem}
     .contact {
     clear: left;
     }
@@ -64,7 +71,7 @@
     clear: both;
     }
     p {
-    margin: 0.5em 0 0;
+    margin: 0.5rem 0 0;
     }
     ul {
     list-style: none;

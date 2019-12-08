@@ -7,7 +7,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    background: linear-gradient(90deg,#ffffff00 0,#ffffffff 40%,#ffffffff 50%,#ffffff00 100%), #f6f5eb;
+    // background: linear-gradient(90deg,#ffffff00 0,#ffffffff 40%,#ffffffff 50%,#ffffff00 100%), #f6f5eb;
+    background: linear-gradient(90deg,#ffffffff 0,#ffffff00 20%,#ffffff00 80%,#ffffffff 100%),linear-gradient(120deg,#ffffff00 0,#ffffffee 60%,#ffffffdd 70%,#ffffff00 100%),#c7d1e1;
   }
   &__col {
     margin-bottom: 2rem;
