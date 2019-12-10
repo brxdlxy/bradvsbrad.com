@@ -108,12 +108,8 @@ a.icon-links {
 }
 .parent-contact .grid-main { padding-right: 2rem;}
 
-
-
-
 .grid-top {
   grid-area: grid-top;
-
 
 }
 .grid-main {
@@ -122,9 +118,6 @@ a.icon-links {
 }
 .grid-side {
   grid-area: grid-side;
-    @include media-query('md') {
-      // padding-left: 3rem;
-    }
 
 }
 
