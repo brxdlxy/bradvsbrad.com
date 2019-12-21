@@ -14,10 +14,10 @@
 
 {% block content %}
   <main id="main-content" tabindex="-1">
-    <article class="[ post ] [ h-entry ]">
-      {% include "partials/components/intro.njk" %}
-      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
-        {{ content | safe }}
+    <article class="[ post ] [ h-entry ]s">
+            <div class="[ post__body ] [ inner-wrapper parent-contact ] [ leading-loose ] [ e-content ]">
+          <h1>{{ introHeading }}</h1>
+                {{ content | safe }}
       </div>
       {% if site.enableThirdPartyComments %}
         <hr />

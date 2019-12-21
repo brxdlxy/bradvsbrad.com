@@ -2,17 +2,17 @@
   &__item {
     --flow-space: #{get-size(700)};
   }
-  &__link {
-    &,
-    &:visited {
-      color: #323275;
-      text-decoration: none;
-    }
-    &:hover {
-      text-decoration: none;
-      background: #6dffff;
-    }
-  }
+  // &__link {
+  //   &,
+  //   &:visited {
+  //     // color: #323275;
+  //     // text-decoration: none;
+  //   }
+  //   &:hover {
+  //     text-decoration: none;
+  //     background: #6dffff;
+  //   }
+  // }
 }
 
 .thumbnail-grid a.ig-thumb-link,

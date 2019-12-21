@@ -36,17 +36,26 @@ hr {
   margin: get-size(900) auto;
 }
 
+$link-color: fade-out($bvb-simple-pri, 0.5);
 
 a {
-    color: $bvb-simple-pri;
-    text-decoration: none;
-    border-bottom: 3px solid $bvb-simple-greendream;
-}
+  background: linear-gradient( to bottom, #5a549c20 ,#5a549c80) no-repeat bottom;
+	background-position: 0 140%;
+	background-size: 100% 50%;
+  color: $bvb-simple-black;
+  text-decoration: none;
+  cursor: pointer;
+	font-weight: bold;
+	position: relative;
+	top: 0;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
 
-  a:hover {
-    text-decoration: none;
-    background: $bvb-simple-greendream;
-  }
+	&:hover {
+		background-position: 0 100%;
+		top: -4px;
+	}
+}
 
 h1.p-name {
   color: $bvb-simple-black;
