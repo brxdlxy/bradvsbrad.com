@@ -39,10 +39,11 @@ hr {
 $link-color: fade-out($bvb-simple-pri, 0.5);
 
 a {
-  background: linear-gradient( to bottom, #5a549c20 ,#5a549c80) no-repeat bottom;
-	background-position: 0 140%;
+  background-image: url(IMAGE), linear-gradient( to bottom, #5a549c20 ,#5a549c60);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
 	background-size: 100% 50%;
-  color: $bvb-simple-black;
+  color: #191b08;
   text-decoration: none;
   cursor: pointer;
 	font-weight: bold;
