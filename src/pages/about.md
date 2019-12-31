@@ -16,7 +16,6 @@ My photos on Google Maps have over [6M views](https://www.google.com/maps/contri
 I am selling prints at [huchteman.com](https://huchteman.com) and stock photography at [shutterstock](https://www.shutterstock.com/g/Brad+Huchteman).
 
 
-
 ## I make art
 I think of myself as a creative type. I love playing music. I usually play the guitar or drums, but I'll attempt to play along with any instrument available. Especially if there is someone else around to play music with. I try to make a habit of drawing every day.
 I mostly use a black pen with a tiny tip, but recently, I have been experimenting with brush pens and markers. Over the past year, I have been learning how to paint.

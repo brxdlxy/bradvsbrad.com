@@ -39,7 +39,7 @@
     {% include "partials/global/site-foot.njk" %}
     {% block foot %}{% endblock %}
     {% if pageType == 'photoset' or pageType == 'Homepage' %}
-      <script type="application/javascript" src="/js/lightbox-plus-jquery.min.js"></script>
+      <script src="/js/lightbox-plus-jquery.min.js"></script>
     {% endif %}
     <script>
       if ('serviceWorker' in navigator) {
