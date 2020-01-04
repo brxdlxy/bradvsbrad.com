@@ -12,6 +12,7 @@
     }
     &__item {
         padding: get-size(300) 0;
+        letter-spacing: 0.06rem;
         flex-shrink: 0;
         a {
             color: $bvb-simple-black;
