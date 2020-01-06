@@ -10,15 +10,15 @@
     align-items: center;
   }
   &__col {
-    margin-bottom: 2rem;
+   // margin-bottom: 2rem;
   }
 
   &__summary {
     // color: #444;
     padding-top: 1rem;
     @include media-query('sm') {
-      font-size: get-size(500);
-      --flow-space: #{get-size(500)};
+      font-size: get-size(600);
+      --flow-space: #{get-size(600)};
     }
 
     // a {
@@ -57,7 +57,7 @@
       margin-right: 2rem;
     }
     @include media-query('md') {
-      width: 10rem;
+      width: 11rem;
       display: block;
       margin-right: 3rem;
     }
@@ -66,7 +66,9 @@
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
     }
+
   }
+  .intro__more { text-align: right;}
 
 
 }

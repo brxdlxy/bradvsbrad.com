@@ -6,11 +6,6 @@
       "external": false
     },
     {
-      "text": "Contact",
-      "url": "/contact",
-      "external": false
-    },
-    {
       "text": "Résumé",
       "url": "/resume",
       "external": false
@@ -18,6 +13,11 @@
     {
       "text": "Photos",
       "url": "/photos",
+      "external": false
+    },
+    {
+      "text": "Contact",
+      "url": "/contact",
       "external": false
     }
   ]

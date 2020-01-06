@@ -1,7 +1,17 @@
 .site-head {
   border-bottom: 3px solid $bvb-simple-black;
 
-  &__site-name {
+
+  &__logo { width: 59%;
+
+  }
+  &__inner {
+    align-items: baseline;
+  }
+}
+.site-head__site-name,
+a.site-head__site-name,
+a.site-head__site-name:hover{
     border: none;
     text-decoration: none;
     color: $bvb-simple-black;
@@ -10,11 +20,5 @@
     border: none;
     background: none;
     box-shadow: none;
-  }
-  &__logo { width: 59%;
-
-  }
-  &__inner {
-    align-items: baseline;
-  }
 }
+
