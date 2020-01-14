@@ -7,7 +7,7 @@
             <h2 class="font-base text-600">{{ site.name }}</h2>
             <ul class="footer-social">
             {% for social in settings.socials %}
-                <li><a class="icon-links" href="{{social.url}}"><i class="fa fa-{{social.name}}"></i></a></li>
+                <li><a class="icon-links" href="{{social.url}}"> <svg class="icon icon-{{social.name}}"><use xlink:href="#icon-{{social.name}}"></use></svg></a></li>
             {% endfor %}
             </ul>
           </article>

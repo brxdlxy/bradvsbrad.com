@@ -6,7 +6,7 @@ photo: "/images/bdh-avatar-sq.jpg"
 ---
 
 ## I code things
-I have been building websites, applications, and other web stuff since 1999, including front-end development, back-end development, database design, social media integration, and HTML email, while working in academia, start-ups, corporate, and non-profit work environments.
+I have been building websites, applications, and other web stuff since 1999, including front-end development, back-end development, database design, social media integration, and HTML email, while working in range of academia, start-ups, corporate, and non-profit work environments.
 
 ## I make photographs
 Over the last couple of years, I took a break from web work to pursue a focus on [photography](/photos).

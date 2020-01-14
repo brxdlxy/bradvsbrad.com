@@ -40,6 +40,7 @@ module.exports = function(config) {
   const now = new Date();
 
   // Custom collections
+
   const livePosts = post => post.date <= now && !post.data.draft;
   config.addCollection('posts', collection => {
     return [
