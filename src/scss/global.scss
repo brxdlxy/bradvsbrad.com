@@ -23,6 +23,8 @@ body {
 
 main {
   flex: 1 0 auto;
+  border-bottom: 1.4rem solid #e6e6e6;
+  border-top: 0.9rem solid #eeeeee;
   &:focus {
     outline: none;
   }
@@ -35,8 +37,6 @@ hr {
   border: none;
   margin: get-size(900) auto;
 }
-
-$link-color: fade-out($bvb-simple-pri, 0.5);
 
 a {
   background-image: linear-gradient( to bottom, #5a549c20 ,#5a549c60);
