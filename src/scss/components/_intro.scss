@@ -9,9 +9,6 @@
     flex-direction: row;
     align-items: center;
   }
-  &__col {
-   // margin-bottom: 2rem;
-  }
 
   &__summary {
     // color: #444;
@@ -68,9 +65,16 @@
     }
 
   }
-  .intro__more { text-align: right;}
 
 
+}
+.intro__read-more{
+  float: right;
+  font-size: 1.3rem;
+
+}
+a.intro__read-more-link {
+  background-image: none;
 }
 
 article.nointro div.intro__innerwrapper{

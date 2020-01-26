@@ -1,34 +1,20 @@
 .post {
     &__body {
-        --flow-space: #{get-size(800)};
+         --flow-space: 0.55rem;
+
         /**
      * Generic HTML styles
      */
         h2+*,
         h3+* {
-            --flow-space: #{get-size(500)};
+          --flow-space: 0.55rem
         }
         h2,
         h3 {
             position: relative;
             color: $bvb-simple-black;
-            /*display: flex;*/
-            // @include apply-utility('leading', 'tight');
-        } // a {
-        //   color: var(--color-dark);
-        //   position: relative;
-        //   display: inline-block;
-        //   background: none;
-        //   padding: 0.2rem 0.4rem 0.3rem 0.4rem;
-        //   text-decoration: none;
-        //   word-break: break-word;
-        //   border-bottom: 4px dashed cyan;
-        //   @include apply-utility('leading', 'tight');
-        //   :hover {
-        //     text-decoration: none;
-        //     background: #6dffff;
-        //   }
-        // }
+        }
+
         code {
             font-size: 1.2em;
             color: #323275;
@@ -104,6 +90,8 @@
         }
     }
     &__footer {
+
+        margin-bottom: 0;
         h2 {
             flex-shrink: 0;
             margin-right: get-size('base');

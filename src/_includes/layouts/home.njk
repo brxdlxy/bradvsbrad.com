@@ -14,12 +14,16 @@
   {% set paginationNextText = archiveButtonText %}
   {% set paginationNextUrl = '/archive' %}
 {% endif %}
+  {% block head %}
+  <styles>
 
+  </styles>
+  {% endblock %}
 {% block content %}
-  <main id="main-content" tabindex="-1">
-    {% include "partials/components/intro.njk" %}
-    {% include "partials/components/post-list.njk" %}
-    {% include "partials/components/thumbs.njk" %}
-    {% include "partials/components/pagination.njk" %}
+  <main id="main-content" tabindex="-1" class="homegrid">
+    <div class="grid-intro">{% include "partials/components/intro.njk" %}</div>
+    <div class="grid-posts">{% include "partials/components/post-list.njk" %}
+        {% include "partials/components/pagination.njk" %}</div>
+    <div class="grid-thumbs">{% include "partials/components/thumbs-grid.njk" %}</div>
   </main>
 {% endblock %}

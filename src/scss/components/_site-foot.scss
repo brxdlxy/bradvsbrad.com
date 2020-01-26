@@ -1,7 +1,13 @@
 .site-foot {
     background: #b3b3b3;
     color: #373541;
-    border-top: 1.4rem solid #ccc;
+
+  border-top: .9rem solid #dddddd;
+    -webkit-box-shadow: 0px 10px 0px 10px #eeeeee;
+    -moz-box-shadow: 0px 10px 0px 10px #eeeeee;
+    box-shadow: 0px -5px 0px 10px #eeeeee,
+      0px -16px 0px 10px #f6f6f6;
+
   a {
     color: currentColor;
 

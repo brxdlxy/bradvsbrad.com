@@ -211,27 +211,49 @@ body.lb-disable-scrolling {
 /* BASIC */
 
 ul.photos-list {
-  display: flex;
-  flex-wrap: wrap;
+
   clear: both;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-columns: 1fr 1fr;
+
+}
+  @media (min-width: 32rem) {
+    ul.photos-list {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+
 }
 
 li.photos-listitem {
-  height: 13vh;
+  /* height: 13vh;
     flex-grow: 1;
-    padding: .22rem;}
+    padding: .22rem;} */
 
-/*  There's no science in using "10" here. In all my testing, this delivered the best results. */
+/*  There's no science in using "10" here. In all my testing, this delivered the best results.
 li.photos-listitem:last-child {
-  flex-grow: 10;
+  flex-grow: 10; */
+  background-color: none;
+
 }
+/* .photos-listitem:nth-child(16n-1) {
+ grid-column: 1 / 3;
+  grid-row: 1 / 3;
+} */
+
+
+
 
 img.photos-thumb  {
-  max-height: 100%;
+  /* max-height: 100%;
   min-width: 100%;
   object-fit: cover;
   vertical-align: bottom;
-  border-radius: 1vmin;
+  border-radius: 1vmin; */
+  object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
 /*
 ADVANCED
@@ -253,7 +275,7 @@ ADVANCED
 }
 
 /* Smaller screens in portrait */
-
+/*
 @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
   ul.photos-list {
     flex-direction: row;
@@ -269,4 +291,4 @@ ADVANCED
     max-height: 75vh;
     min-width: 0;
   }
-}
+} */

@@ -1,6 +1,10 @@
 .site-head {
-  border-bottom: 0.9rem solid #e6e6e6;
-  background: #cccccc;
+  background: #ccc;
+  border-bottom: .9rem solid #dddddd;
+    -webkit-box-shadow: 0px 10px 0px 10px #eeeeee;
+    -moz-box-shadow: 0px 10px 0px 10px #eeeeee;
+    box-shadow: 0px 5px 0px 10px #eeeeee,
+      0px 16px 0px 10px #f6f6f6;
 
 
   &__logo { width: 59%;
@@ -16,8 +20,7 @@ a.site-head__site-name:hover{
     border: none;
     text-decoration: none;
     color: $bvb-simple-black;
-    font: 600 1.5rem 'Helvetica Neue', Helvetica, 'Segoe UI', Sans-Serif;
-    letter-spacing: 0.06rem;
+    font: 600 1.5rem 'neue-haas-grotesk-display', Helvetica, 'Segoe UI', Sans-Serif;
     border: none;
     background: none;
     box-shadow: none;
