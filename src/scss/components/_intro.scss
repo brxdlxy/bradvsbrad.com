@@ -70,11 +70,13 @@
 }
 .intro__read-more{
   float: right;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
+  margin: 10px 0 0 10px;
 
 }
 a.intro__read-more-link {
   background-image: none;
+  color: #555;
 }
 
 article.nointro div.intro__innerwrapper{

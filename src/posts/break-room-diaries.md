@@ -1,13 +1,15 @@
 ---
-title: Break Room Diaries
+title: Break Room Diaries Blog Moves to Ghost CMS
 date: '2019-10-31'
+socialImage: '/images/feat-breakroomdiaries.jpg'
 tags:
   - project
 ---
 
-Break Room Diaries is photo blog that features an office's break room from 2010 to 2013.  
-There is a designated up-for-grabs table in the center of the break room where employees might leave holiday treats, extra catering, conference swag, sign up for girl scout cookies — I'm sure many break rooms or office common areas have a spot like this. I started taking posting photos of the weirder stuff found on the table.
+Break Room Diaries is a photo-blog about an office's break room from 2010 to 2013. There is a designated up-for-grabs table in the center of the break room where employees might leave treats, extra catering, and conference swag — I'm sure many break rooms or common areas have a spot like this.  It seemed like this break room more oddities than most so  I started posting photos.
 
-The site was originally setup on tumblr and now Break Room Diaries has moved to Ghost CMS at https://breakroom.brxdlxy.com
+
+The blog originally lived on Tumblr but now Break Room Diaries is running Ghost CMS as a stand-alone site at [breakroom.brxdlxy.com](https://breakroom.brxdlxy.com)
+
 
 

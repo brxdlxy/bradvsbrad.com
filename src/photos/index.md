@@ -3,7 +3,6 @@ layout: layouts/photoset.njk
 title: Photos
 ---
 
-Prints are available at [huchteman.com](https://Huchteman.com)\
 Follow the photos at:
 <ul class="social-list">
     <li><a href="https://www.instagram.com/brxdlxy/"><i class="fa fa-instagram"></i> instagram</a></li>

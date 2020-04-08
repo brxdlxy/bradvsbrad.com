@@ -1,8 +1,16 @@
+---
+pagination:
+    data: huchteman.photos
+    size: 1
+    alias: photo
+permalink: "photos/{{ photo.smugmug_slug | slug }}/"
+tags:
+    - photo
+---
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'photo' %}
 
 {# Intro content #}
-{% set introHeading = "Photos" %}
 {% set introSummary %}
 <p class="[ intro__meta ] [ text-500 leading-tight ]">
     {% if date %}
@@ -15,10 +23,15 @@
 {% block content %}
     <main id="main-content" tabindex="-1">
         <article class="[ post ] [ h-entry ] nointro">
-            <h1 class="[ intro__heading{{ ' intro__heading--compact' if page.url === '/' }} ] [ md:text-700 leading-tight ] [ p-name ]">{{ introHeading }}</h1>
+            <h1 class="[ intro__heading{{ ' intro__heading--compact' if page.url === '/' }} ] [ md:text-700 leading-tight ] [ p-name ]">
+            {{photo.title}} </h1>
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
                 {{ content | safe }}
-            </div>
+
+                <img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" class="hero-photo" alt="" />
+                <p>{{ photo.caption}}</p>
+
+
             {% if tags %}
                 <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
                     <div class="inner-wrapper">

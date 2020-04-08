@@ -2,16 +2,21 @@
   <section class="[ post-list ] [ post-section ] [ gap-bottom-900 ]">
     <div class="[ inner-wrapper ] [ sf-flow ]">
       <h2 class="[ post-list__heading ]">{{ postListHeading }}</h2>
-      <ol class="[ post-list__items ] [ sf-flow ] [ pad-top-300 ]" reversed>
+      <ol class="[ post-list__items ] [ sf-flow ]" reversed>
         {% for item in postListItems %}
           {% if item.date.getTime() <= global.now %}
             <li class="post-list__item">
+              <div class="image">
+                <img src="{{ item.data.socialImage }}" alt="{{item.data.title}}">
+              </div>
+              <div class="caption">
               <h3 class="font-base leading-tight text-500 weight-mid">
                 <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
               </h3>
-              <p class="">
+              <p class="post-list__date">
                 <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
               </p>
+            </div>
             </li>
           {% endif %}
         {% endfor %}

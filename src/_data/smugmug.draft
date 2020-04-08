@@ -1,9 +1,9 @@
 var axios = require('axios');
 var toJSON = require('xml2js').parseString;
 
-var url =
-  process.env.SMUGMUG_FEED ||
-  'https://www.huchteman.com/hack/feed.mg?Type=gallery&Data=74290744_v7dhQT&format=rss200';
+var url = '';
+  // process.env.SMUGMUG_FEED ||
+  // 'https://www.huchteman.com/hack/feed.mg?Type=gallery&Data=74290744_v7dhQT&format=rss200';
 
 module.exports = () => {
   return new Promise((resolve, reject) => {
@@ -36,7 +36,8 @@ module.exports = () => {
         });
       })
       .catch(error => {
-        reject(error);
+        console.log(error);
+        // reject(error);
       });
   });
 };

@@ -73,9 +73,9 @@
     {% block content %}{% endblock content %}
     {% include "partials/global/site-foot.njk" %}
     {% block foot %}{% endblock %}
-    {% if pageType == 'photoset' or pageType == 'Homepage' %}
+    {# {% if pageType == 'photoset' or pageType == 'Homepage' %} #}
       <script src="/js/lightbox-plus-jquery.min.js"></script>
-    {% endif %}
+    {# {% endif %} #}
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {

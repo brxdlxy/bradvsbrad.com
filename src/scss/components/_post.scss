@@ -14,6 +14,7 @@
             position: relative;
             color: $bvb-simple-black;
         }
+        p { margin: 1rem 0; }
 
         code {
             font-size: 1.2em;
@@ -106,3 +107,5 @@
         }
     }
 }
+
+img.hero-photo { width: 90%;}

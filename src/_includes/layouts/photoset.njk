@@ -11,13 +11,12 @@
             <h1>{{ introHeading }}</h1>
                 {{ content | safe }}
                 <ul class="photos-list">
-                    {% if smugmug.posts.length %}
-                        {% for item in smugmug.posts %}
+                        {% for photo in huchteman.photos %}
                             <li class="photos-listitem">
-                                <a href="{{ item['media:group'][0]['media:content'][7].$.url }}" data-lightbox="sm-recent" data-title="{{ item.title }}" class="sm-item-link"><img src="{{item['media:group'][0]['media:content'][2].$.url }}" alt="{{ item.title  }}" alt="{{ item.title }}" class="photos-thumb"></a>
+                                <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" data-lightbox="sm-recent" data-title="{{ photo.title }}" class="ig-thumb-link"><img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_sm }}" alt="{{ photo.title }}" class="photos-thumb"></a></li>
                             </li>
+
                         {% endfor %}
-                    {% endif %}
 
                 </ul>
             </div>

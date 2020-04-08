@@ -1,0 +1,12 @@
+---
+pagination:
+    data: photos
+    size: 1
+    alias: photos
+permalink: "photos/{{ photos.smugmug_slug }}/"
+---
+<ol>
+{%- for item in pagination.items %}
+  <li>{{ item }}</li>
+{% endfor -%}
+</ol>

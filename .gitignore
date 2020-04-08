@@ -10,6 +10,9 @@ dist
 *.code-workspace
 .env
 
+extras-to-keep/*
+s3/*
+
 # Specifics
 
 # Hide design tokens
@@ -26,3 +29,17 @@ screenshots/bradvsbrad.com-1280x1024-cropped.png
 screenshots/bradvsbrad.com-1920x1080-cropped.png
 screenshots/bradvsbrad.com-320x568-cropped.png
 screenshots/bradvsbrad.com-480x320-cropped.png
+album-74290744-downloads-pt1.zip
+album-74290744-downloads-pt2.zip
+Book3.xlsx
+Book5.xlsx
+huchteman-json.xlsx
+huchteman.com-sitemap-CLEAN.xlsx
+huchteman.com-sitemap.json
+huchteman.com-sitemap.xlsx
+huchteman.json
+pageres-bvb.js
+photos-bk-dirtydata.json
+resize.sh
+resizephotos.sh
+s3-sync-bvb.sh
