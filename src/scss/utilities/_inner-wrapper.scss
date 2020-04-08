@@ -14,8 +14,3 @@
 
 }
 
-li.photos-listitem {
-   @include media-query('lg') {
-     height: 15vh;
-    }
-  }

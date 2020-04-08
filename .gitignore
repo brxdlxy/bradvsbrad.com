@@ -43,3 +43,6 @@ photos-bk-dirtydata.json
 resize.sh
 resizephotos.sh
 s3-sync-bvb.sh
+
+# Local Netlify folder
+.netlify
