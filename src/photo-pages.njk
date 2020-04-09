@@ -8,6 +8,9 @@ tags:
     - photo
 ---
 {% extends 'layouts/base.njk' %}
+<style>
+   .wrapper { max-width: 100rem !important; }
+    </style>
 {% set pageType = 'photo' %}
 
 {# Intro content #}
@@ -22,11 +25,10 @@ tags:
 
 {% block content %}
     <main id="main-content" tabindex="-1">
-        <article class="[ post ] [ h-entry ] nointro">
-            <h1 class="[ intro__heading{{ ' intro__heading--compact' if page.url === '/' }} ] [ md:text-700 leading-tight ] [ p-name ]">
-            {{photo.title}} </h1>
+        <article class="[ photo-details post ] [ h-entry ] nointro">
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
-                {{ content | safe }}
+            <h1 class="[ intro__heading ] [ md:text-700 leading-tight ] [ p-name ]">
+                 {{photo.title}} </h1>
 
                 <img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" class="hero-photo" alt="" />
                 <p>{{ photo.caption}}</p>
