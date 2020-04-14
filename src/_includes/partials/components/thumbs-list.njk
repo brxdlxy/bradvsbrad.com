@@ -1,0 +1,17 @@
+{% if huchteman.photos.length %}
+<section class="[ ig-thumb-section ] [ pad-top-600 gap-bottom-900 ]">
+  <div class="[ inner-wrapper ] [ sf-flow ]">
+    <h2 class="[ post-list__heading ] [ text-600 md:text-700 ]">Recent Photos</h2>
+
+
+    <div class="thumbnail-grid">
+    <ul>
+      {% for photo in huchteman.photos  %}
+        <li><a href="{{ photo['url'] }} " data-lightbox="sm-recent" data-title="{{ photo.title }}" class="ig-thumb-link"><img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo['filename_sm'] }}" alt="{{ photo.title }}" class="sm-item-thumb"></a></li>
+      {% endfor %}
+    </ul>
+    </div>
+  </div>
+</section>
+
+{% endif %}

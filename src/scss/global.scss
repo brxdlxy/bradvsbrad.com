@@ -105,8 +105,8 @@ a.icon-links {
 
     @include media-query('md') {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 52rem;
-    padding: 0 1.25rem;
+      max-width: 52rem;
+      padding: 0 1.25rem;
 }
 
     }
@@ -167,8 +167,8 @@ a.icon-links {
 
 ul.mandalas-grid {
   display: grid;
-  grid-gap: 6px;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr;
 
 }
 
@@ -178,7 +178,8 @@ ul.mandalas-grid {
   height: 100%;
 }
 
-a.photos-thumb-link {
+a.photos-thumb-link,
+a.ig-thumb-link  {
   background: none;
 }
 

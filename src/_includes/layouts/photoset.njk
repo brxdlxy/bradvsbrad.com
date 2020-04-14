@@ -11,7 +11,7 @@
             <h1>{{ introHeading }}</h1>
                 {{ content | safe }}
                 <ul class="photos-list">
-                        {% for photo in huchteman.photos %}
+                        {% for photo in huchteman.photos.slice(0, 45) %}
                             <li class="photos-listitem">
                                 <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" data-lightbox="sm-recent" data-title="{{ photo.title }}" class="ig-thumb-link"><img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_sm }}" alt="{{ photo.title }}" class="photos-thumb"></a></li>
                             </li>

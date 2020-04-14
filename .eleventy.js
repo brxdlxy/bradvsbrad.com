@@ -1,6 +1,15 @@
 const rssPlugin = require('@11ty/eleventy-plugin-rss');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
+
+// const pluginRespimg = require("eleventy-plugin-respimg");
+// eleventyConfig.cloudinaryCloudName = 'bradvsbrad';
+// eleventyConfig.srcsetWidths = [320, 916, 1350, 1600];
+// eleventyConfig.fallbackWidth = 916;
+
+// eleventyConfig.addPlugin(pluginRespimg);
+
+
 // Import filters
 const dateFilter = require('./src/filters/date-filter.js');
 const markdownFilter = require('./src/filters/markdown-filter.js');
@@ -57,6 +66,26 @@ module.exports = function(config) {
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);
+
+  config.cloudinaryCloudName = 'bradvsbrad';
+  config.srcsetWidths = [320, 916, 1350, 1600];
+  config.fallbackWidth = 916;
+  config.lazyLoad = true;
+  // config.addPlugin(pluginRespimg);
+  config.addShortcode('respimg', (path, alt, sizes, className, srcsetWidths = config.srcsetWidths) => {
+    const fetchBase = `https://res.cloudinary.com/${config.cloudinaryCloudName}/image/fetch/`;
+    const src = `${fetchBase}q_auto,f_auto,w_${config.fallbackWidth}/${path}`;
+    if (!Array.isArray(srcsetWidths)) {
+      srcsetWidths = srcsetWidths.split(',');
+    }
+
+    const srcset = srcsetWidths.map(w => {
+      return `${fetchBase}q_auto:eco,f_auto,w_${w}/${path} ${w}w`;
+    }).join(', ');
+
+    return `<img loading="lazy" src="${src}" srcset="${srcset}" class="${className ? className : "respimg"}" sizes="${sizes ? sizes : '100vw'}" alt="${alt ? alt : ''}">`;
+  });
+
 
   return {
     dir: {
