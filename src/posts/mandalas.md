@@ -6,11 +6,12 @@ socialImage: 'https://res.cloudinary.com/bradvsbrad/image/upload/v1586873634/pos
 tags:
   - project
   - art
+  - mandala
 ---
 
-I recently watched a couple of Skillshare classes on how to draw mandalas. This is my first attempt at drawing one.  I was hoping for the more detailed and traditional mandala look but as I worked through the 4th and 5th layers,  I think I lost my focus or grew impatient with repetition.
+I recently watched a couple of Skillshare courses on how to draw mandalas. As this my first attempt,  I wanted to follow the orderly concepts and rules provided by the course.  However, my mandala's repeating shapes all try to escape their home column after three or four rings. Maybe I'll find the patience on the next try, but also, I'm not hating the twists in this one. It's just not what I had envisioned at the start.
 
-After scanning it into photoshop, I had fun applying different combinations of colors and gradients to the background and foreground. Here are a few of my favorite combos.
+After scanning it into photoshop, I had a great time applying different combinations of colors and gradients to the background and foreground.   Here are a few of my favorite combos.
 
 <ul class="mandalas-grid">
 
