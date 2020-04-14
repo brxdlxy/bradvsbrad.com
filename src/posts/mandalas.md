@@ -2,7 +2,7 @@
 layout: layouts/post.njk
 title: Coloring a Mandala in Photoshop
 date: '2020-01-31'
-socialImage: 'https://res.cloudinary.com/bradvsbrad/image/upload/v1586857205/posts/feat-mandala.jpg'
+socialImage: 'https://res.cloudinary.com/bradvsbrad/image/upload/v1586873634/posts/feat-mandala-coloring.jpg'
 tags:
   - project
   - art
