@@ -3,11 +3,11 @@ const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
 
 // const pluginRespimg = require("eleventy-plugin-respimg");
-// eleventyConfig.cloudinaryCloudName = 'bradvsbrad';
-// eleventyConfig.srcsetWidths = [320, 916, 1350, 1600];
-// eleventyConfig.fallbackWidth = 916;
+  // eleventyConfig.cloudinaryCloudName = 'bradvsbrad';
+  // eleventyConfig.srcsetWidths = [320, 916, 1350, 1600];
+  // eleventyConfig.fallbackWidth = 916;
 
-// eleventyConfig.addPlugin(pluginRespimg);
+  // eleventyConfig.addPlugin(pluginRespimg);
 
 
 // Import filters

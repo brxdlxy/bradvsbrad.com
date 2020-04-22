@@ -3,9 +3,15 @@ pagination:
     data: huchteman.photos
     size: 1
     alias: photo
-permalink: "photos/{{ photo.smugmug_slug | slug }}/"
+    title:  {{ photo.title }}
+    date: {{ photo.lastmod }}
+    socialImage: "https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_sm }}"
+    permalink: "photos/{{ photo.smugmug_slug | slug }}/"
 tags:
     - photo
+    - sm
+    - {{ photo.keywords }}
+
 ---
 {% extends 'layouts/base.njk' %}
 <style>
