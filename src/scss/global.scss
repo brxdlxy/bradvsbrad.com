@@ -59,8 +59,9 @@ a {
 		//top: -2px;
 	}
 }
-.innerwrapper a{ text-decoration: none !important; }
-
+a:not([class]) {
+    text-decoration: none;
+}
 h1.p-name {
   color: $bvb-simple-black;
   padding: 0;
