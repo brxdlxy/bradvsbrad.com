@@ -211,18 +211,32 @@ ul.photos-list {
   display: grid;
   grid-gap: 0.5rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(10, 185px);
+  // grid-template-rows: repeat(10, 185px);
 
 }
+ul.cards-list {
+  clear: both;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  // grid-template-rows: repeat(10, 185px);
+
+}
+
 @media (min-width: 32rem) {
     ul.photos-list {
       grid-template-columns: 1fr 1fr 1fr;
+
+  }
+    ul.cards-list {
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
   }
 }
 
 li.photos-listitem {
   background: none;
+  line-height: 0;
 }
 
 
