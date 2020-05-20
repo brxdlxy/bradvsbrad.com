@@ -1,7 +1,4 @@
 .intro {
-
-
-
   &__inner-wrapper {
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -63,22 +60,18 @@
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
     }
-
   }
-
-
 }
-.intro__read-more{
+.intro__read-more {
   float: right;
   font-size: 1.1rem;
   margin: 10px 0 0 10px;
-
 }
 a.intro__read-more-link {
   background-image: none;
   color: #555;
 }
 
-article.nointro div.intro__innerwrapper{
+article.nointro div.intro__innerwrapper {
   background: none;
 }

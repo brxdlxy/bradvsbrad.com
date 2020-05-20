@@ -1,14 +1,17 @@
 {% if huchteman.photos.length %}
-<section class="[ ig-thumb-section ] [ gap-bottom-900 ]">
-  <div class="[ inner-wrapper ] [ sf-flow ]">
-    <h2 class="[ post-list__heading ]">Recent Photos</h2>
-    <ul class="photos-list-home">
-    {% for photo in huchteman.photos.slice(0, 7) %}
-        <li class="photos-listitem">
-            <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" data-lightbox="sm-recent" data-title="{{ photo.title }}" class="ig-thumb-link photos-thumb-link"><img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_md }}" alt="{{ photo.title }}" class="photos-thumb sm-item-thumb"></a></li>
+  <section class="[ ig-thumb-section ] [ gap-bottom-900 ]">
+    <div class="[ inner-wrapper ] [ sf-flow ]">
+      <h2 class="[ post-list__heading ]">Photos</h2>
+      <ul class="photos-list-home">
+        {% for photo in huchteman
+          .photos
+          .slice(0, 7) %}
+          <li class="photos-listitem">
+            <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" data-lightbox="sm-recent" data-title="{{ photo.title }}" class="ig-thumb-link photos-thumb-link"><img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_md }}" alt="{{ photo.title }}" class="photos-thumb sm-item-thumb"></a>
+          </li>
         </li>
 
-    {% endfor %}
+      {% endfor %}
 
     </ul>
   </div>
