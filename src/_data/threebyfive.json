@@ -1,6 +1,818 @@
 {
   "cards": [
     {
+      "public_id": "cards/dirty-tennis",
+      "folder": "cards",
+      "filename": "dirty-tennis",
+      "format": "jpg",
+      "version": 1590195992,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:32+00:00",
+      "uploaded_at": "2020-05-23T01:06:32+00:00",
+      "bytes": 867735,
+      "backup_bytes": 0,
+      "width": 1445,
+      "height": 900,
+      "aspect_ratio": 1.60556,
+      "pixels": 1300500,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195992/cards/dirty-tennis.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195992/cards/dirty-tennis.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "80c94b2ea80034859d2764a1ad287a83",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/dotted-halves",
+      "folder": "cards",
+      "filename": "dotted-halves",
+      "format": "jpg",
+      "version": 1590195991,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:31+00:00",
+      "uploaded_at": "2020-05-23T01:06:31+00:00",
+      "bytes": 942021,
+      "backup_bytes": 0,
+      "width": 1451,
+      "height": 900,
+      "aspect_ratio": 1.61222,
+      "pixels": 1305900,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/dotted-halves.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/dotted-halves.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "a570c15ef846caa2c4a03d2ffe08da31",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/morning-seed",
+      "folder": "cards",
+      "filename": "morning-seed",
+      "format": "jpg",
+      "version": 1590195991,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:31+00:00",
+      "uploaded_at": "2020-05-23T01:06:31+00:00",
+      "bytes": 1193785,
+      "backup_bytes": 0,
+      "width": 1455,
+      "height": 900,
+      "aspect_ratio": 1.61667,
+      "pixels": 1309500,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/morning-seed.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/morning-seed.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "78e8fe4aa75840772f93d99c57f1d8e0",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/forcing-phrases",
+      "folder": "cards",
+      "filename": "forcing-phrases",
+      "format": "jpg",
+      "version": 1590195991,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:31+00:00",
+      "uploaded_at": "2020-05-23T01:06:31+00:00",
+      "bytes": 1065102,
+      "backup_bytes": 0,
+      "width": 1460,
+      "height": 900,
+      "aspect_ratio": 1.62222,
+      "pixels": 1314000,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/forcing-phrases.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/forcing-phrases.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "f1daf16b5a21e51fa6ec21df385f36f4",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/beacons-call",
+      "folder": "cards",
+      "filename": "beacons-call",
+      "format": "jpg",
+      "version": 1590195991,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:31+00:00",
+      "uploaded_at": "2020-05-23T01:06:31+00:00",
+      "bytes": 813710,
+      "backup_bytes": 0,
+      "width": 1446,
+      "height": 900,
+      "aspect_ratio": 1.60667,
+      "pixels": 1301400,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/beacons-call.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/beacons-call.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "8da66516d388d5329ca703021debbd4c",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/grey-frame",
+      "folder": "cards",
+      "filename": "grey-frame",
+      "format": "jpg",
+      "version": 1590195991,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:31+00:00",
+      "uploaded_at": "2020-05-23T01:06:31+00:00",
+      "bytes": 765201,
+      "backup_bytes": 0,
+      "width": 1517,
+      "height": 900,
+      "aspect_ratio": 1.68556,
+      "pixels": 1365300,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/grey-frame.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195991/cards/grey-frame.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "f3c21123cb300ed79c6a9ba30d77f431",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/avoiding-a-call",
+      "folder": "cards",
+      "filename": "avoiding-a-call",
+      "format": "jpg",
+      "version": 1590195990,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:30+00:00",
+      "uploaded_at": "2020-05-23T01:06:30+00:00",
+      "bytes": 586579,
+      "backup_bytes": 0,
+      "width": 1529,
+      "height": 900,
+      "aspect_ratio": 1.69889,
+      "pixels": 1376100,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195990/cards/avoiding-a-call.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195990/cards/avoiding-a-call.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "561cbdeeb1c1096b2c8b39165c9b4303",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/oh-drapes",
+      "folder": "cards",
+      "filename": "oh-drapes",
+      "format": "jpg",
+      "version": 1590195989,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:29+00:00",
+      "uploaded_at": "2020-05-23T01:06:29+00:00",
+      "bytes": 1025083,
+      "backup_bytes": 0,
+      "width": 1443,
+      "height": 900,
+      "aspect_ratio": 1.60333,
+      "pixels": 1298700,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/oh-drapes.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/oh-drapes.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "e6505eb23fab7b2564291978db4f159b",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/falling-into-balance",
+      "folder": "cards",
+      "filename": "falling-into-balance",
+      "format": "jpg",
+      "version": 1590195989,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:29+00:00",
+      "uploaded_at": "2020-05-23T01:06:29+00:00",
+      "bytes": 996057,
+      "backup_bytes": 0,
+      "width": 1451,
+      "height": 900,
+      "aspect_ratio": 1.61222,
+      "pixels": 1305900,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/falling-into-balance.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/falling-into-balance.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "9f3bbb6c75531c1cd3267d47fa433bea",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/two-artifacts",
+      "folder": "cards",
+      "filename": "two-artifacts",
+      "format": "jpg",
+      "version": 1590195989,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:29+00:00",
+      "uploaded_at": "2020-05-23T01:06:29+00:00",
+      "bytes": 832583,
+      "backup_bytes": 0,
+      "width": 1508,
+      "height": 900,
+      "aspect_ratio": 1.67556,
+      "pixels": 1357200,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/two-artifacts.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/two-artifacts.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "aec72bfa9dff404326bf7aedf3763aba",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/building-3or4",
+      "folder": "cards",
+      "filename": "building-3or4",
+      "format": "jpg",
+      "version": 1590195989,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:29+00:00",
+      "uploaded_at": "2020-05-23T01:06:29+00:00",
+      "bytes": 731366,
+      "backup_bytes": 0,
+      "width": 900,
+      "height": 1461,
+      "aspect_ratio": 0.61602,
+      "pixels": 1314900,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/building-3or4.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/building-3or4.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "e9c957fd40c909d5f7a486ae8bb4a262",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/eye-study-for-self-port",
+      "folder": "cards",
+      "filename": "eye-study-for-self-port",
+      "format": "jpg",
+      "version": 1590195989,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:29+00:00",
+      "uploaded_at": "2020-05-23T01:06:29+00:00",
+      "bytes": 467096,
+      "backup_bytes": 0,
+      "width": 1485,
+      "height": 900,
+      "aspect_ratio": 1.65,
+      "pixels": 1336500,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/eye-study-for-self-port.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/eye-study-for-self-port.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "5900eabe46f79d190047dbb1d6de936e",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/rewind-review-gr-blue",
+      "folder": "cards",
+      "filename": "rewind-review-gr-blue",
+      "format": "jpg",
+      "version": 1590195989,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:29+00:00",
+      "uploaded_at": "2020-05-23T01:06:29+00:00",
+      "bytes": 872098,
+      "backup_bytes": 0,
+      "width": 1505,
+      "height": 900,
+      "aspect_ratio": 1.67222,
+      "pixels": 1354500,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/rewind-review-gr-blue.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195989/cards/rewind-review-gr-blue.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "8f857b5750d8ce058e86960ef2bc5047",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/godzilla-BTS",
+      "folder": "cards",
+      "filename": "godzilla-BTS",
+      "format": "jpg",
+      "version": 1590195988,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:28+00:00",
+      "uploaded_at": "2020-05-23T01:06:28+00:00",
+      "bytes": 901059,
+      "backup_bytes": 0,
+      "width": 1481,
+      "height": 900,
+      "aspect_ratio": 1.64556,
+      "pixels": 1332900,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/godzilla-BTS.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/godzilla-BTS.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "070ae9956c0d996cf077843277099600",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/intersects-of-pi",
+      "folder": "cards",
+      "filename": "intersects-of-pi",
+      "format": "jpg",
+      "version": 1590195988,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:28+00:00",
+      "uploaded_at": "2020-05-23T01:06:28+00:00",
+      "bytes": 894989,
+      "backup_bytes": 0,
+      "width": 1495,
+      "height": 900,
+      "aspect_ratio": 1.66111,
+      "pixels": 1345500,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/intersects-of-pi.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/intersects-of-pi.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "a03d751c2f94f78dcaa168cd665b36bd",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/rewind-review",
+      "folder": "cards",
+      "filename": "rewind-review",
+      "format": "jpg",
+      "version": 1590195988,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:28+00:00",
+      "uploaded_at": "2020-05-23T01:06:28+00:00",
+      "bytes": 592562,
+      "backup_bytes": 0,
+      "width": 1538,
+      "height": 900,
+      "aspect_ratio": 1.70889,
+      "pixels": 1384200,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/rewind-review.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/rewind-review.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "b1fd5d90809da0e330068432eb70560a",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/screwbot",
+      "folder": "cards",
+      "filename": "screwbot",
+      "format": "jpg",
+      "version": 1590195988,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:28+00:00",
+      "uploaded_at": "2020-05-23T01:06:28+00:00",
+      "bytes": 850097,
+      "backup_bytes": 0,
+      "width": 900,
+      "height": 1517,
+      "aspect_ratio": 0.59328,
+      "pixels": 1365300,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/screwbot.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195988/cards/screwbot.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "9c51a26c7d81b05d662530a8dece9b98",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/joker-card",
+      "folder": "cards",
+      "filename": "joker-card",
+      "format": "jpg",
+      "version": 1590195987,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:27+00:00",
+      "uploaded_at": "2020-05-23T01:06:27+00:00",
+      "bytes": 331633,
+      "backup_bytes": 0,
+      "width": 900,
+      "height": 1485,
+      "aspect_ratio": 0.60606,
+      "pixels": 1336500,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/joker-card.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/joker-card.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "170075052edb531cc1489df086464c0e",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/z-bridge",
+      "folder": "cards",
+      "filename": "z-bridge",
+      "format": "jpg",
+      "version": 1590195987,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:27+00:00",
+      "uploaded_at": "2020-05-23T01:06:27+00:00",
+      "bytes": 812402,
+      "backup_bytes": 0,
+      "width": 1426,
+      "height": 900,
+      "aspect_ratio": 1.58444,
+      "pixels": 1283400,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/z-bridge.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/z-bridge.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "4cb9360c7addb1b9981423f07626d54e",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/flower-fanning",
+      "folder": "cards",
+      "filename": "flower-fanning",
+      "format": "jpg",
+      "version": 1590195987,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:27+00:00",
+      "uploaded_at": "2020-05-23T01:06:27+00:00",
+      "bytes": 809549,
+      "backup_bytes": 0,
+      "width": 1481,
+      "height": 900,
+      "aspect_ratio": 1.64556,
+      "pixels": 1332900,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/flower-fanning.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/flower-fanning.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "c5ae2181476529a699b7b67d19534499",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/poor-pattern-choices",
+      "folder": "cards",
+      "filename": "poor-pattern-choices",
+      "format": "jpg",
+      "version": 1590195987,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:27+00:00",
+      "uploaded_at": "2020-05-23T01:06:27+00:00",
+      "bytes": 1029840,
+      "backup_bytes": 0,
+      "width": 1498,
+      "height": 900,
+      "aspect_ratio": 1.66444,
+      "pixels": 1348200,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/poor-pattern-choices.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/poor-pattern-choices.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "7b22e5acf8542228067f52518d15040c",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/orangs",
+      "folder": "cards",
+      "filename": "orangs",
+      "format": "jpg",
+      "version": 1590195987,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:27+00:00",
+      "uploaded_at": "2020-05-23T01:06:27+00:00",
+      "bytes": 371839,
+      "backup_bytes": 0,
+      "width": 900,
+      "height": 544,
+      "aspect_ratio": 1.65441,
+      "pixels": 489600,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/orangs.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195987/cards/orangs.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "47d397feb63143a3eeadf2b90d84c38a",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/billy-box",
+      "folder": "cards",
+      "filename": "billy-box",
+      "format": "jpg",
+      "version": 1590195986,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:26+00:00",
+      "uploaded_at": "2020-05-23T01:06:26+00:00",
+      "bytes": 693113,
+      "backup_bytes": 0,
+      "width": 1480,
+      "height": 900,
+      "aspect_ratio": 1.64444,
+      "pixels": 1332000,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/billy-box.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/billy-box.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "b88e1bf0c90f86b9862d6abccb655287",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/easy-andy",
+      "folder": "cards",
+      "filename": "easy-andy",
+      "format": "jpg",
+      "version": 1590195986,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:26+00:00",
+      "uploaded_at": "2020-05-23T01:06:26+00:00",
+      "bytes": 651797,
+      "backup_bytes": 0,
+      "width": 1520,
+      "height": 900,
+      "aspect_ratio": 1.68889,
+      "pixels": 1368000,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/easy-andy.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/easy-andy.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "1ca1878d296e94e1e3cbe66ca6e7ab25",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/oranges-intent",
+      "folder": "cards",
+      "filename": "oranges-intent",
+      "format": "jpg",
+      "version": 1590195986,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:26+00:00",
+      "uploaded_at": "2020-05-23T01:06:26+00:00",
+      "bytes": 371839,
+      "backup_bytes": 0,
+      "width": 900,
+      "height": 544,
+      "aspect_ratio": 1.65441,
+      "pixels": 489600,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/oranges-intent.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/oranges-intent.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "47d397feb63143a3eeadf2b90d84c38a",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/cadence-s",
+      "folder": "cards",
+      "filename": "cadence-s",
+      "format": "jpg",
+      "version": 1590195986,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:26+00:00",
+      "uploaded_at": "2020-05-23T01:06:26+00:00",
+      "bytes": 376095,
+      "backup_bytes": 0,
+      "width": 1501,
+      "height": 900,
+      "aspect_ratio": 1.66778,
+      "pixels": 1350900,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/cadence-s.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195986/cards/cadence-s.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "f5708910122cd05c6314bd6cf0cb0545",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/star-witness",
+      "folder": "cards",
+      "filename": "star-witness",
+      "format": "jpg",
+      "version": 1590195984,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:24+00:00",
+      "uploaded_at": "2020-05-23T01:06:24+00:00",
+      "bytes": 832747,
+      "backup_bytes": 0,
+      "width": 1508,
+      "height": 900,
+      "aspect_ratio": 1.67556,
+      "pixels": 1357200,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195984/cards/star-witness.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195984/cards/star-witness.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "a8941b92528bd21406501c78b34a3cfd",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
+      "public_id": "cards/lopsided-long",
+      "folder": "cards",
+      "filename": "lopsided-long",
+      "format": "jpg",
+      "version": 1590195984,
+      "resource_type": "image",
+      "type": "upload",
+      "created_at": "2020-05-23T01:06:24+00:00",
+      "uploaded_at": "2020-05-23T01:06:24+00:00",
+      "bytes": 153330,
+      "backup_bytes": 0,
+      "width": 1395,
+      "height": 900,
+      "aspect_ratio": 1.55,
+      "pixels": 1255500,
+      "url": "http://res.cloudinary.com/bradvsbrad/image/upload/v1590195984/cards/lopsided-long.jpg",
+      "secure_url": "https://res.cloudinary.com/bradvsbrad/image/upload/v1590195984/cards/lopsided-long.jpg",
+      "status": "active",
+      "access_mode": "public",
+      "access_control": null,
+      "etag": "6920a7127e6efccaf98a16cfcd193c06",
+      "created_by": {
+        "access_key": "244689219856367"
+      },
+      "uploaded_by": {
+        "access_key": "244689219856367"
+      }
+    },
+    {
       "public_id": "cards/youre-next-no-five",
       "folder": "cards",
       "filename": "youre-next-no-five",
