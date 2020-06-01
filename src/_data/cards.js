@@ -60,6 +60,7 @@ async function main() {
 
     container.push(merged);
   }
+  //console.log("main -> container", container)
   // const sortedContainer = container.sort((a, b) => a.created_at - b.created_at);
   // console.log('main -> container', sortedContainer.slice(0, 10));
   // console.log(JSON.stringify(container));
@@ -77,16 +78,17 @@ async function main() {
       status: item.status,
       tags: item.tags,
       colors: item.colors,
+      predominant: item.predominant.google,
     };
   });
 
-  //   fs.writeFile(__dirname + '/cards.json', JSON.stringify(container), err => {
-  //     if (err) {
-  //       console.log(err);
-  //     } else {
-  //       console.log('file ready!!!!!!!');
-  //     }
-  //   });
+  // fs.writeFile(__dirname + '/cards-ref.json', JSON.stringify(formattedCards), err => {
+  //   if (err) {
+  //     console.log(err);
+  //   } else {
+  //     console.log('file ready!!!!!!!');
+  //   }
+  // });
   return formattedCards;
 }
 // export for 11ty
