@@ -1,10 +1,9 @@
 require('dotenv').config();
-// const fs = require('fs');
 let cloudinary = require('cloudinary').v2;
 cloudinary.config({
   cloud_name: 'bradvsbrad',
   api_key: '244689219856367',
-  api_secret: process.env.CLOUDINARY_SECRET,
+  api_secret: process.env.CLOUDINARY_SECRET
 });
 
 async function getCardMeta(item) {
@@ -81,14 +80,6 @@ async function main() {
       predominant: item.predominant.google,
     };
   });
-
-  // fs.writeFile(__dirname + '/cards-ref.json', JSON.stringify(formattedCards), err => {
-  //   if (err) {
-  //     console.log(err);
-  //   } else {
-  //     console.log('file ready!!!!!!!');
-  //   }
-  // });
   return formattedCards;
 }
 // export for 11ty
