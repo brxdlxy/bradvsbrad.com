@@ -61,8 +61,8 @@ module.exports = function (config) {
 
   return {
     dir: {
-      includes: '_includes/',
-      layouts: '_includes/layouts/',
+      includes: '_includes',
+      layouts: '_includes',
       input: 'src',
       output: 'dist'
     }
