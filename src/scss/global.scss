@@ -215,13 +215,23 @@ ul.cards-list {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   // grid-template-rows: repeat(10, 185px);
 }
+ul.pano-list {
+  clear: both;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: 1fr;
+  // grid-template-rows: repeat(10, 185px);
+}
 
 @media (min-width: 32rem) {
   ul.photos-list {
     grid-template-columns: 1fr 1fr 1fr;
   }
-  ul.cards-list {
+   ul.cards-list {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  ul.pano-list {
+    grid-template-columns: 1fr;
   }
 }
 

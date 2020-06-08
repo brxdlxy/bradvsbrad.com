@@ -1,3 +1,4 @@
+const fs = require('fs')
 require('dotenv').config();
 let cloudinary = require('cloudinary').v2;
 cloudinary.config({
@@ -22,20 +23,20 @@ async function getCardMeta(item) {
   return merged;
 }
 
-async function getCards() {
-  cloudinary.search
-    .expression('resource_type:image AND folder=cards')
-    .sort_by('created_at', 'desc')
-    .max_results(5)
-    .execute()
-    .then((response) => {
-      //   console.log('getCards -> response.resources', response.resources);
-      return response.resources;
-    })
-    .catch((err) => {
-      console.error(err);
-    });
-}
+// async function getCards() {
+//   cloudinary.search
+//     .expression('resource_type:image AND folder=cards')
+//     .sort_by('created_at', 'desc')
+//     .max_results(5)
+//     .execute()
+//     .then((response) => {
+//       //   console.log('getCards -> response.resources', response.resources);
+//       return response.resources;
+//     })
+//     .catch((err) => {
+//       console.error(err);
+//     });
+// }
 async function main() {
   const myCards = await cloudinary.search
     .expression('resource_type:image AND folder=cards')
@@ -80,7 +81,32 @@ async function main() {
       predominant: item.predominant.google,
     };
   });
+
+  fs.writeFile(__dirname + '/cards.json', JSON.stringify(formattedCards), err => {
+    if (err) {
+      console.log(err);
+    } else {
+      console.log('file ready!!!!!!!');
+    }
+  });
+
+
   return formattedCards;
 }
+
+
+const path = __dirname + '/cards.json'
+
+try {
+  if (fs.existsSync(path) && (process.env.NODE_ENV2 == 'dev')) {
+    //file exists
+    console.log('using existing cards.json on dev.  delete file for fresh data')
+  } else {
+    module.exports = main();
+  }
+} catch (err) {
+  console.error(err)
+}
+
 // export for 11ty
-module.exports = main();
+
