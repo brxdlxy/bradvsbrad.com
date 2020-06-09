@@ -1,7 +1,7 @@
 {
     "gallery_id": 7,
-    "gallery_name": "Panoramic",
-    "gallery_description": "These images have been Stiched together from several shots to obtain a larger feild of view.",
+    "gallery_name": "Panorama",
+    "gallery_description": "These images have been stiched together from several shots to obtain a larger feild of view.",
     "gallery_photos": [
         {
             "id": 317,
@@ -29,6 +29,13 @@
             "title": "missing title",
             "caption": "",
             "cldpublic": "photos/ar/20161018-20161018-DSC07155-Pano-Edit",
+            "status_id": 1
+        },
+        {
+            "id": 342,
+            "title": "A Crush On Chromatica",
+            "caption": "",
+            "cldpublic": "photos/ar/20161028-20161028-DSC07844-Pano-2-Edit-side-2",
             "status_id": 1
         },
         {
@@ -172,13 +179,6 @@
             "status_id": 1
         },
         {
-            "id": 342,
-            "title": "A Crush On Chromatica",
-            "caption": "",
-            "cldpublic": "photos/ar/20161028-20161028-DSC07844-Pano-2-Edit-side-2",
-            "status_id": 1
-        },
-        {
             "id": 343,
             "title": "Midtown Skyline from 17th St Bridge",
             "caption": "",
@@ -235,31 +235,10 @@
             "status_id": 1
         },
         {
-            "id": 355,
-            "title": "Roswell Afterglow",
-            "caption": "6/26/17",
-            "cldpublic": "photos/ar/20170626-20170626-DSC06141-2",
-            "status_id": 1
-        },
-        {
             "id": 9999,
             "title": "missing title",
             "caption": "",
             "cldpublic": "photos/ar/20161014-20161014-DSC06615-Pano-2",
-            "status_id": 1
-        },
-        {
-            "id": 9999,
-            "title": "missing title",
-            "caption": "",
-            "cldpublic": "photos/ar/20161014-20161014-DSC06649-Pano",
-            "status_id": 1
-        },
-        {
-            "id": 9999,
-            "title": "missing title",
-            "caption": "",
-            "cldpublic": "photos/ar/20161105-20161105-DSC08395-Pano",
             "status_id": 1
         },
         {
@@ -309,13 +288,6 @@
             "title": "missing title",
             "caption": "",
             "cldpublic": "photos/ar/20161025-20161025-DSC07547-Pano-2",
-            "status_id": 1
-        },
-        {
-            "id": 9999,
-            "title": "missing title",
-            "caption": "",
-            "cldpublic": "photos/ar/20161126-20161126-DSC01169-Pano-Edit",
             "status_id": 1
         },
         {
