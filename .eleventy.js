@@ -54,6 +54,11 @@ module.exports = function (config) {
       .slice(0, site.maxPostsPerPage);
   });
 
+  config.addCollection('galleryList', (collection) => {
+    return [...collection.getFilteredByGlob('./src/photos/*.md')]
+      .reverse();
+  });
+
   // Plugins
   config.addPlugin(rssPlugin);
   config.addPlugin(syntaxHighlight);

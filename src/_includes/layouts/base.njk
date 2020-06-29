@@ -31,6 +31,7 @@
       {% include "assets/css/global.css" %}
     </style>
     {% block head %}{% endblock %}
+    {{ page | log }}
 
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   </head>
@@ -90,5 +91,7 @@
         });
       }
     </script>
+    <script data-goatcounter="https://bradvsbrad.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>
