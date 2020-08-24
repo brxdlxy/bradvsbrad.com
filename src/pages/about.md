@@ -12,8 +12,8 @@ I have been building websites, applications, and other web stuff since 1999, inc
 ## I make photographs
 
 Over the last couple of years, I took a break from web work to pursue a focus on [photography](/photos).
-Most of the images I post are <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/md/20180222-DSC02927-Edit_MD.jpg" data-lightbox="sm-recent" data-title="Mind The Gap" class="ig-thumb-link">landscapes</a> from Atlanta's parks, but I also love the <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/md/20180831-DSC00892-Edit_MD.jpg" data-lightbox="sm-recent" data-title="Avoids Transitions" class="sm-item-link">sky bridges</a> and
-<a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/md/20170902-DSC02251-Edit_MD.jpg" data-lightbox="sm-recent" data-title="Core Temp and Symmetry" class="ig-thumb-link">hotel architecture</a> downtown. I currently shoot with an old Sony a6000 but thinking about Olympus for my next.
+Most of the images I post are <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/md/20180222-DSC02927-Edit_MD.jpg" data-lightbox="sm-recent" data-title="Mind The Gap" class="sm-item-link">landscapes</a> from Atlanta's parks, but I also love the <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/md/20180831-DSC00892-Edit_MD.jpg" data-lightbox="sm-recent" data-title="Avoids Transitions" class="sm-item-link">sky bridges</a> and
+<a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/md/20170902-DSC02251-Edit_MD.jpg" data-lightbox="sm-recent" data-title="Core Temp and Symmetry" class="sm-item-link">hotel architecture</a> downtown. I currently shoot with an old Sony a6000 but thinking about Olympus for my next.
 I contribute photos to google maps as a google local guide.
 My photos on Google Maps have over [6M views](https://www.google.com/maps/contrib/116237027913673287579/photos/@34.2146746,-84.4298275,9z/data=!3m1!4b1!4m3!8m2!3m1!1e2). Prints are available upon request.
 A few images are available to license at [Shutterstock](https://www.shutterstock.com/g/Brad+Huchteman).

@@ -1,0 +1,30 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'photoset' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+
+{% block content %}
+    <main id="main-content" tabindex="-1">
+        <article class="[ post ] [ h-entry ]">
+            <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
+                <h1>{{ introHeading }}</h1>
+                {{ content | safe }}
+                <ul class="photos-list">
+                    {% for photo in huchteman
+                        .photos
+                        .slice(0, 45) %}
+                        <li class="photos-listitem">
+                            <a href="https://res.cloudinary.com/bradvsbrad/photos/ar/{{ photo.filename }}" data-lightbox="sm-recent" data-title="{{ photo.title }}" class="ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_259,ar_1:1,c_fill,g_auto/photos/ar/{{ photo.filename }}" alt="{{ photo.title }}" class="photos-thumb"></a>
+                        </li>
+                    </li>
+
+                {% endfor %}
+
+            </ul>
+        </div>
+    </article>
+</main>
+{% endblock %}
+
+{{ content | safe }}

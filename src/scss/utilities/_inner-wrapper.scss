@@ -8,13 +8,10 @@
   &__gallery {
     max-width: 80rem;
     @include media-query('lg') {
-     max-width: 80rem;
+      max-width: 80rem;
     }
   }
-
 }
 .photo-details .inner-wrapper {
   max-width: 100rem;
-
 }
-

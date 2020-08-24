@@ -1,0 +1,21 @@
+{% if photoGalleries.length %}
+    <section class="[ post-list ] [ post-section ] [ gap-bottom-900 ]">
+        <div class="[ inner-wrapper ] [ sf-flow ]">
+            <h2 class="[ post-list__heading ]">{{ galleryListHeading }}</h2>
+            <ol class="[ post-list__items ] [ sf-flow ]" reversed>
+                {% for galleryitem in photoGalleries %}
+                    <li class="post-list__item">
+                        <div class="image">
+                            <img src="{{ galleryitem.data.socialImage }}" alt="{{galleryitem.data.title}}">
+                        </div>
+                        <div class="caption">
+                            <h3 class="font-base leading-tight text-500 weight-mid">
+                                <a href="{{ galleryitem.url }}" class="post-list__link" rel="bookmark">{{ galleryitem.data.title }}</a>
+                            </h3>
+                        </div>
+                    </li>
+                {% endfor %}
+            </ol>
+        </div>
+    </section>
+{% endif %}

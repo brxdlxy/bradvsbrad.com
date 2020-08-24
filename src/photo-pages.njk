@@ -6,7 +6,7 @@ pagination:
     title:  {{ photo.title }}
     date: {{ photo.lastmod }}
     socialImage: "https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_sm }}"
-    permalink: "photos/{{ photo.smugmug_slug | slug }}/"
+    permalink: "photos/{{ photo.smugmug_slug }}/"
 tags:
     - photo
     - sm
@@ -16,8 +16,10 @@ tags:
 {# maybe try the before call back  see https://www.11ty.dev/docs/pagination/#paging-an-object  #}
 {% extends 'layouts/base.njk' %}
 <style>
-   .wrapper { max-width: 100rem !important; }
-    </style>
+    .wrapper {
+        max-width: 100rem !important;
+    }
+</style>
 {% set pageType = 'photo' %}
 
 {# Intro content #}
@@ -34,31 +36,31 @@ tags:
     <main id="main-content" tabindex="-1">
         <article class="[ photo-details post ] [ h-entry ] nointro">
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
-            <h1 class="[ intro__heading ] [ md:text-700 leading-tight ] [ p-name ]">
-                 {{photo.title}} </h1>
+                <h1 class="[ intro__heading ] [ md:text-700 leading-tight ] [ p-name ]">
+                    {{photo.title}}
+                </h1>
 
-                <img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" class="hero-photo" alt="" />
+                <img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" class="hero-photo" alt=""/>
                 <p>{{ photo.caption}}</p>
 
-
-            {% if tags %}
-                <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
-                    <div class="inner-wrapper">
-                        <div class="[ nav ] [ box-flex align-center ]">
-                            <h2 class="font-base text-600 weight-mid">Filed under</h2>
-                            <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
-                                {% for item in tags %}
-                                    <li class="nav__item">
-                                        <a href="/tags/{{ item }}">{{ item }}</a>
-                                    </li>
-                                {% endfor %}
-                            </ul>
+                {% if tags %}
+                    <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
+                        <div class="inner-wrapper">
+                            <div class="[ nav ] [ box-flex align-center ]">
+                                <h2 class="font-base text-600 weight-mid">Filed under</h2>
+                                <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
+                                    {% for item in tags %}
+                                        <li class="nav__item">
+                                            <a href="/tags/{{ item }}">{{ item }}</a>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </footer>
-            {% endif %}
-        </article>
-    </main>
-{% endblock %}
+                    </footer>
+                {% endif %}
+            </article>
+        </main>
+    {% endblock %}
 
-{{ content | safe }}
+    {{ content | safe }}

@@ -1,6 +1,8 @@
 ---
-layout: layouts/photoset.njk
+layout: layouts/photoset-old-rss.njk
 title: Photos
+permalink: '/photos/index.html'
+
 ---
 
 Follow the photos at:
