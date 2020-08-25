@@ -8,26 +8,32 @@
     <main id="main-content" tabindex="-1">
         <article class="[ post ] [ h-entry ]s">
             <div class="[ post__body ] [ inner-wrapper parent-contact ] [ leading-loose ] [ e-content ]">
-          <h1>{{ introHeading }}</h1>
+                <h1>{{ introHeading }}</h1>
                 <div class="grid-main">
                     {{ content | safe }}
-                     {% include "partials/components/form.njk" %}
+                    {% include "partials/components/form.njk" %}
                 </div>
                 <div class="grid-side">
                     <p>
                         <a href="mailto:{{settings.email}}">{{settings.email}}</a><br>
-                            {{settings.phone}} <br>
-                           <br>
+                        {{settings.phone}}
+                        <br>
+                        <br>
                     </p>
 
                     <ul class="side-social">
-                     {% for social in settings.socials %}
-                        <li><a class="" href="{{social.url}}"> <svg class="icon icon-{{social.name}}"><use xlink:href="#icon-{{social.name}}"></use></svg></a></li>
-                     {% endfor %}
+                        {% for social in settings.socials %}
+                            <li>
+                                <a class="icon-links" href="{{social.url}}">
+                                    <svg class="icon icon-{{social.name}}">
+                                        <use xlink:href="#icon-{{social.name}}"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        {% endfor %}
                     </ul>
 
                 </div>
-
 
             </div>
         </article>

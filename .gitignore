@@ -9,9 +9,12 @@ node_modules
 dist
 *.code-workspace
 .env
-
+cld-3by5.json
+addsuffix.sh
+cards.json
 extras-to-keep/*
 s3/*
+psd/*
 
 # Specifics
 
