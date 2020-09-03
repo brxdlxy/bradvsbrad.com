@@ -3,15 +3,10 @@ pagination:
     data: huchteman.photos
     size: 1
     alias: photo
-    title:  {{ photo.title }}
-    date: {{ photo.lastmod }}
-    socialImage: "https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_sm }}"
-    permalink: "photos/{{ photo.smugmug_slug }}/"
+permalink: photos/{{ pagination.items[0].smugmug_slug | slug }}/index.html
 tags:
     - photo
     - sm
-    - {{ photo.keywords }}
-
 ---
 {# maybe try the before call back  see https://www.11ty.dev/docs/pagination/#paging-an-object  #}
 {% extends 'layouts/base.njk' %}

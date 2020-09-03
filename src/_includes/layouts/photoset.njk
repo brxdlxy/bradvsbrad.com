@@ -10,8 +10,11 @@
 
 {% block content %}
     <main id="main-content" tabindex="-1">
-        <h1>{{ introHeading }}</h1>
-        {{ content | safe }}
-        {% include "partials/components/gallery-list.njk" %}
+        <div class="[ inner-wrapper ] [ sf-flow ]">
+
+            <h1>{{ introHeading }}</h1>
+            {{ content | safe }}
+            {% include "partials/components/gallery-list.njk" %}
+        </div>
     </main>
 {% endblock %}

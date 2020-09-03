@@ -158,16 +158,17 @@ a.icon-links {
 .post-list__item .image {
   grid-row: 1 / 3;
   grid-column: 1;
+
 }
 
-.image img {
+.post-list__item .image img {
   object-fit: cover;
   width: 100%;
   height: 100%;
 }
 
 .post-list__item .caption {
-  background-color: #ffffffaa;
+  background-color: #ffffffbb;
   padding: 0.5rem;
   grid-row: 2;
   grid-column: 1;
@@ -178,7 +179,53 @@ a.icon-links {
   text-decoration: none;
   background: none;
   display: block;
+  color: #000000;
 }
+
+.gallery-list__items {
+  clear: left;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 1rem;
+
+  @include media-query('md') {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
+  }
+}
+
+.gallery-list__item {
+  display: grid;
+  grid-template-rows: 1fr minmax(2rem, auto);
+  height: 245px;
+}
+
+.gallery-list__item .image {
+  grid-row: 1 / 3;
+  grid-column: 1;
+}
+
+.gallery-list__item .image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.gallery-list__item .caption {
+  background-color: #00000099;
+  padding: 0.5rem;
+  grid-row: 2;
+  grid-column: 1;
+  line-height: 1;
+}
+
+.gallery-list__item .caption a {
+  text-decoration: none;
+  background: none;
+  display: block;
+  color: #ffffff;
+}
+
 
 ul.mandalas-grid {
   display: grid;

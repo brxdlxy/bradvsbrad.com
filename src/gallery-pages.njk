@@ -1,8 +1,16 @@
+---
+pagination:
+    data: galleries
+    size: 1
+    alias: galleryitem
+permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
+---
+{# maybe try the before call back  see https://www.11ty.dev/docs/pagination/#paging-an-object  #}
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'photosetFB' %}
-
+{{ page | log }}
 {# Intro content #}
-{% set introHeading = galleries.atlanta.gallery_name %}
+{% set introHeading = galleryitem.gallery_name %}
 
 {% block content %}
     <main id="main-content" tabindex="-1">
@@ -11,7 +19,7 @@
                 <h1>{{ introHeading }}</h1>
                 {{ content | safe }}
                 <ul class="photos-list">
-                    {% for photo in galleries.atlanta.gallery_photos %}
+                    {% for photo in galleryitem.gallery_photos %}
                         <li class="photos-listitem">
                             <a href="https://res.cloudinary.com/bradvsbrad/image/upload/w_1600/{{ photo.cldpublic }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }}" class="ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_259,c_fill,g_auto,ar_1.667/{{ photo.cldpublic }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
 
