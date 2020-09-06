@@ -48,5 +48,4 @@ s3-sync-bvb.sh
 
 # Local Netlify folder
 .netlify
-photos.json
 db
