@@ -1,13 +1,13 @@
-{% if huchteman.photos.length %}
+{% if bvbphotos.photos.length %}
   <section class="[ ig-thumb-section ] [ gap-bottom-900 ]">
     <div class="[ inner-wrapper ] [ sf-flow ]">
       <h2 class="[ post-list__heading ]">Photos</h2>
       <ul class="photos-list-home">
-        {% for photo in huchteman
+        {% for photo in bvbphotos
           .photos
           .slice(0, 7) %}
           <li class="photos-listitem">
-            <a href="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_lg }}" data-lightbox="sm-recent" data-title="{{ photo.title }}" class="ig-thumb-link photos-thumb-link"><img src="https://bradvsbrad.s3.amazonaws.com/photos/ar/{{ photo.filename_md }}" alt="{{ photo.title }}" class="photos-thumb sm-item-thumb"></a>
+            <a href="https://res.cloudinary.com/bradvsbrad/image/upload/w_1600/{{ photo.public_id }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }}" data-slug="{{ photo.smugmug-slug }}" class="ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_259,c_fill,g_auto,ar_1.667/{{ photo.public_id }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
           </li>
         </li>
 

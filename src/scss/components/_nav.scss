@@ -3,26 +3,29 @@
         overflow-x: auto;
         -webkit-overflow-scrolling: touch;
         -ms-overflow-style: none;
+
         &::-webkit-scrollbar {
             display: none;
         }
+
         >*+* {
             margin-left: get-size(500);
         }
     }
+
     &__item {
         padding: get-size(300) 0;
-        // letter-spacing: 0.06rem;
         flex-shrink: 0;
+
         a {
             color: $bvb-simple-black;
             text-decoration: none;
-            padding: 0.1rem 0.3rem;
+            padding: 0.1rem 0;
             background-image: none;
             @include apply-utility('weight', 'mid');
-            // border-bottom-width: 4px;
 
         }
+
         a:hover {
             text-decoration: none;
 
