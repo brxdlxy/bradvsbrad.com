@@ -164,18 +164,23 @@ a.icon-links {
 }
 
 .post-list__item .caption {
-  background-color: #ffffffbb;
+  background-color: #000000bb;
   padding: 0.5rem;
   grid-row: 2;
   grid-column: 1;
   line-height: 1;
 }
 
+.post-list__date {
+  margin-top: 0.5rem;
+  color: #ffffff;
+}
+
 .caption a {
   text-decoration: none;
   background: none;
   display: block;
-  color: #000000;
+  color: #ffffff;
 }
 
 .gallery-list__items {
