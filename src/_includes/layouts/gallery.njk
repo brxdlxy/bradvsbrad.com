@@ -10,6 +10,7 @@
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
                 <h1>{{ introHeading }}</h1>
                 {{ content | safe }}
+                TEST TEST TEST
                 <ul class="photos-list">
                     {% for photo in "galleries." + page.filePathStem + ".gallery_photos" %}
                         <li class="photos-listitem">

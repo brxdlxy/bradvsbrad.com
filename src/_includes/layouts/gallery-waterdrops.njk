@@ -1,36 +1,28 @@
----
-pagination:
-    data: galleries
-    size: 1
-    alias: galleryitem
-permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
----
-{# maybe try the before call back  see https://www.11ty.dev/docs/pagination/#paging-an-object  #}
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'photosetFB' %}
-{{ page | log }}
 {# Intro content #}
-{% set introHeading = galleryitem.gallery_name %}
+{% set introHeading = title %}
 
 {% block content %}
     <main id="main-content" tabindex="-1">
         <article class="[ post ] [ h-entry ]">
-            <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ e-content ]">
+            <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-bottom-900 text-500 ] [ sf-flow ] [ e-content ]">
                 <h1>{{ introHeading }}</h1>
                 {{ content | safe }}
-                <ul class="photos-list photos-list_{{ pagination.items[0].gallery_slug | slug }}">
-                    {% for photo in galleryitem.gallery_photos %}
+                <ul class="photos-list photos-list_waterdrop">
+                    {% for photo in galleries[0].gallery_photos %}
                         <li class="photos-listitem">
                             <a href="https://res.cloudinary.com/bradvsbrad/image/upload/w_1600/{{ photo.cldpublic }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }}" data-slug="{{ photo.smugmug_slug }}" class="fancybox ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_392,c_fill,g_auto,ar_1.667/{{ photo.cldpublic }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
 
                         </li>
+                    </li>
 
-                    {% endfor %}
+                {% endfor %}
 
-                </ul>
-            </div>
-        </article>
-    </main>
+            </ul>
+        </div>
+    </article>
+</main>
 {% endblock %}
 
 {{ content | safe }}

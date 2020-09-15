@@ -49,3 +49,4 @@ s3-sync-bvb.sh
 # Local Netlify folder
 .netlify
 db
+rst.json

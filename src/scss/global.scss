@@ -271,6 +271,14 @@ ul.photos-list {
   // grid-template-rows: repeat(10, 185px);
 }
 
+ul.photos-list_waterdrop {
+  clear: both;
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+  // grid-template-rows: repeat(10, 185px);
+}
+
 ul.cards-list {
   clear: both;
   display: grid;
@@ -290,6 +298,11 @@ ul.pano-list {
 @media (min-width: 32rem) {
   ul.photos-list {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  ul.photos-list_waterdrop {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5rem;
   }
 
   ul.cards-list {

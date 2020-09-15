@@ -1,6 +1,150 @@
 [{
     "gallery_description": "",
+    "gallery_id": 11,
+    "gallery_weight": 100,
+    "gallery_name": "Water Drops",
+    "gallery_permalink": "/photos/waterdrop/",
+    "gallery_slug": "waterdrop",
+    "gallery_socialImage": "https://res.cloudinary.com/bradvsbrad/image/upload/w_356/posts/20200831-DSC01601-Edit.jpg",
+    "gallery_photos": [{
+        "cldpublic": "posts/20200830-DSC01568",
+        "title": "Orange and Pink",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 18",
+        "aperture": "ƒ / 18",
+        "dateTime": "8/30/20 10:19:59 PM",
+        "folderName": "20200830",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      }, {
+        "cldpublic": "posts/20200830-DSC01577-Edit",
+        "title": "Monk on Stripes",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/31/20 8:44:55 AM",
+        "folderName": "20200830",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      },
+      {
+        "cldpublic": "posts/20200831-DSC01609-Edit",
+        "title": "Amber Pawn",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/31/20 8:03:07 AM",
+        "folderName": "20200831",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      },
+      {
+        "cldpublic": "posts/20200830-DSC01572-Edit",
+        "title": "Crown in Stripes",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/31/20 8:21:05 AM",
+        "folderName": "20200830",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      },
+      {
+        "cldpublic": "posts/20200828-DSC01451",
+        "title": "Pawn on Party Grid",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/28/20 11:21:29 PM",
+        "folderName": "20200828",
+        "status_id": 1,
+        "keywordTags": "atl, atlanta, drop, water, water droplets, waterdrop"
+      },
+      {
+        "cldpublic": "posts/20200831-DSC01625-Edit",
+        "title": "Two on Blue",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/31/20 8:11:52 AM",
+        "folderName": "20200831",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      }, {
+        "cldpublic": "posts/20200828-DSC01460",
+        "title": "Crown on Yellow and Pink",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/28/20 11:23:00 PM",
+        "folderName": "20200828",
+        "status_id": 1,
+        "keywordTags": "atl, atlanta, drop, water, water droplets, waterdrop"
+      },
+
+      {
+        "cldpublic": "posts/20200830-DSC01573-Edit",
+        "title": "Pawn on Stripes",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/31/20 8:29:33 AM",
+        "folderName": "20200830",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      },
+
+
+      {
+        "cldpublic": "posts/20200831-DSC01601-Edit",
+        "title": "Crown in Amber",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/31/20 7:58:32 AM",
+        "folderName": "20200831",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      },
+      {
+        "cldpublic": "posts/20200831-DSC01646-Edit-Edit",
+        "title": "Dagger on Purple",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "9/14/20 5:05:57 AM",
+        "folderName": "20200831",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      },
+      {
+        "cldpublic": "posts/20200830-DSC01571-Edit",
+        "title": "Bead Over Stripes",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 14",
+        "aperture": "ƒ / 14",
+        "dateTime": "8/31/20 8:23:07 AM",
+        "folderName": "20200830",
+        "status_id": 1,
+        "keywordTags": "drop, macro, water, water droplet, water droplets, waterdrop"
+      },
+      {
+        "cldpublic": "posts/20200828-DSC01253-Edit",
+        "title": "Blue and Green",
+        "caption": "",
+        "exposure": "1/200 sec at ƒ / 11",
+        "aperture": "ƒ / 11",
+        "dateTime": "9/14/20 2:14:39 AM",
+        "folderName": "20200828",
+        "status_id": 1,
+        "keywordTags": "drop, water, water droplets, waterdrop"
+      }
+    ]
+  },
+  {
+    "gallery_description": "",
     "gallery_id": 2,
+    "gallery_weight": 10,
     "gallery_name": "Atlanta",
     "gallery_permalink": "/photos/atlanta/",
     "gallery_slug": "atlanta",
@@ -450,6 +594,7 @@
   {
     "gallery_description": "",
     "gallery_id": 3,
+    "gallery_weight": 20,
     "gallery_name": "Landscape and Nature",
     "gallery_permalink": "/photos/landscape/",
     "gallery_slug": "landscape",
@@ -1906,6 +2051,7 @@
   },
   {
     "gallery_id": 7,
+    "gallery_weight": 10,
     "gallery_name": "Panorama",
     "gallery_permalink": "/photos/panorama/",
     "gallery_slug": "panorama",
