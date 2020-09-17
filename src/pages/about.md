@@ -35,6 +35,8 @@ Flickr: [flickr.com/photos/sypsyn](https://www.flickr.com/photos/sypsyn/)
 
 This site is powered by [Eleventy](https://www.11ty.io/ 'Eleventy Static Site Generator') with the [Hylia Starter Kit](https://hylia.website/ 'Hylia Eleventy Starter Kit') theme and hosted at [Netlify](https://netlify.com/).
 
+<script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#29abe0', 'U7U6208K1');kofiwidget2.draw();</script>
+
 {% block foot %}
 
 <script type="application/javascript" src="/js/lightbox-plus-jquery.min.js"></script>

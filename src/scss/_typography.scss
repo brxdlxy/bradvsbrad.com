@@ -20,7 +20,7 @@ h1 {
 
 h2 {
   font-size: get-size(500);
-   margin: get-size(500) 0 get-size(400) 0;
+  margin: get-size(500) 0 0 0;
 }
 
 h3 {
@@ -29,19 +29,19 @@ h3 {
 
 @include media-query('md') {
 
-h1 {
-  font-size: get-size(800);
-   margin: get-size(700) 0 get-size(600) 0;
-}
+  h1 {
+    font-size: get-size(800);
+    margin: get-size(700) 0 get-size(600) 0;
+  }
 
-h2 {
-  font-size: get-size(600);
-  margin: get-size(500) 0 get-size(400) 0;
+  h2 {
+    font-size: get-size(600);
+    margin: get-size(500) 0 get-size(400) 0;
 
-}
+  }
 
-h3 {
+  h3 {
     font-size: get-size(500);
-}
+  }
 
 }

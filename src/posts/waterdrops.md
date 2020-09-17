@@ -7,7 +7,19 @@ socialImage: 'https://res.cloudinary.com/bradvsbrad/image/upload/w_356/posts/202
 tags:
   - project
   - photography
+  - gallery
+  - waterdrop
 ---
-<!-- <a href="/photos/waterdrop/"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_792,c_fill,g_auto,ar_1.667/posts/20200831-DSC01609-Edit.jpg" alt="Amber Pawn" class="photos-thumb" loading="lazy"></a> -->
-I recently started learning about water drop photography.  The basic idea is taking a high-speed photo of a waterdrop splashing into a dish or container of water. Typically, one would use a macro lens to magnify the little, tiny moment of impact.  I do not have a real macro lens, so I am using extension tubes on my 55-210mm for a similar effect. There are a couple of devices available to assist with synchronizing a camera with the water drops.  But I decided to try it the old fashioned way first.  I poked a hole in a ziplock bag full of water and clamped it up to cymbal stand.  For lighting, I used three speedlights (Yongnuo and Godox) and a bunch of gels. At first, the process was slow and tedious, but I eventually found a groove and a little success.  I am happy with the results so far and look forward to another session.
+
+I recently started learning about water drop photography.  The basic idea is taking a high-speed photo of a waterdrop splashing into a dish or container of water.
+
+A macro is the preferred type of lens to capture the little, tiny moment of impact.  Since I do not have a macro, I am using extension tubes on my 55-210mm for a similar effect.
+
+You also need a system to release the water drops. There are several products available that trigger your camera to fire at the right moment and also control the size of the drops.  These all look pretty great but want to make sure I have enough interest in this problem to warrant buying a magic solution.  (I can already picture a robot tear machine sitting alone and unused in a sad corner of my room.)
+
+Instead, I poked a hole in a ziplock bag full of water and clamped it about 18 inches over the target. When the bag was full, it was dripping at a rate of two to three times per second.  This rate depends on the size of the puncture as well as its remaining volume/water pressure. I am taking a shot about every five seconds and the timing of each is a matter of chance.  The low hit rate means I need to shoot a lot of images, and that's fine with me. For lighting, I used three speedlights (Yongnuo and Godox) and some gels to add color.
+
+The process was slow at first, but I eventually found a groove and a little success.  I am happy with the results so far and look forward to another session.
+
+<a href="javascript:;" data-fancybox-trigger="images" data-fancybox-index="1">Open Water Drop Gallery</a>
 <!-- [View Water Drop Gallery](/photos/waterdrop/) -->

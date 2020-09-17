@@ -2,16 +2,23 @@
   max-width: map-get($metrics, 'wrap-inner-max-width');
   margin-left: auto;
   margin-right: auto;
-  padding-left: get-size(500);
-  padding-right: get-size(500);
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
 
   &__gallery {
     max-width: 80rem;
+
+    @include media-query('sm') {
+      padding-left: get-size(500);
+      padding-right: get-size(500);
+    }
+
     @include media-query('lg') {
       max-width: 80rem;
     }
   }
 }
+
 .photo-details .inner-wrapper {
   max-width: 100rem;
 }

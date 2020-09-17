@@ -1,10 +1,10 @@
 .intro {
   &__inner-wrapper {
-    margin-bottom: .5rem;
-    margin-top: .5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-left: .6rem;
+    padding-right: 0rem;
 
     @include media-query('sm') {
       margin-bottom: 2rem;
@@ -15,11 +15,12 @@
 
   &__summary {
     // color: #444;
-    padding-top: 1rem;
+    padding-top: 0rem;
 
     @include media-query('sm') {
       font-size: get-size(600);
       --flow-space: #{get-size(600)};
+      padding-top: 1rem;
     }
 
   }
@@ -76,7 +77,7 @@
 
 a.intro__read-more-link {
   background-image: none;
-  color: #555;
+  color: #777;
 }
 
 article.nointro div.intro__innerwrapper {
