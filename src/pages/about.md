@@ -2,7 +2,8 @@
 layout: layouts/about.njk
 title: "Hi, I'm Brad"
 permalink: '/about/index.html'
-photo: '/images/bdh-avatar-sq.jpg'
+photo: 'https://res.cloudinary.com/bradvsbrad/image/upload/v1600377849/profile/bdh-avatar-sq.jpg)'
+
 ---
 
 ## I code things

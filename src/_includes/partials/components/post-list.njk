@@ -4,19 +4,22 @@
       <h2 class="[ post-list__heading ]">{{ postListHeading }}</h2>
       <ol class="[ post-list__items ] [ sf-flow ]" reversed>
         {% for item in postListItems %}
-          {% if item.date.getTime() <= global.now %}
+          {% if item
+            .date
+            .getTime() <= global
+            .now %}
             <li class="post-list__item">
               <div class="image">
                 <img src="{{ item.data.socialImage }}" alt="{{item.data.title}}">
               </div>
               <div class="caption">
-              <h3 class="font-base leading-tight text-500 weight-mid">
-                <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
-              </h3>
-              <p class="post-list__date">
-                <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
-              </p>
-            </div>
+                <h3 class="font-base leading-tight text-500 weight-mid">
+                  <a href="{{ item.url }}" class="post-list__link" rel="bookmark">{{ item.data.title }}</a>
+                </h3>
+                <p class="post-list__date">
+                  <time datetime="{{ item.date | w3DateFilter }}">{{ item.date | dateFilter }}</time>
+                </p>
+              </div>
             </li>
           {% endif %}
         {% endfor %}
