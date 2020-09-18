@@ -6,7 +6,7 @@
                     <ul class="footer-social">
                         {% for social in settings.socials %}
                             <li>
-                                <a class="icon-links" href="{{social.url}}">
+                                <a class="icon-links" aria-label="{{ social.name}}" href="{{social.url}}">
                                     <svg class="icon icon-{{social.name}}" alt="{{social.name}}">
                                         <use xlink:href="#icon-{{social.name}}"></use>
                                     </svg>
