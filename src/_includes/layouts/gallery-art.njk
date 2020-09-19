@@ -12,7 +12,7 @@
                 <ul class="photos-list cards-list">
                     {% for card in cards %}
                         <li class="photos-listitem">
-                            <a href="https://res.cloudinary.com/bradvsbrad/image/upload/if_ar_gt_1,w_1200/if_else,h_800/{{ card.public_id }}.{{ card.format}}" data-fancybox="images" data-caption="{{ card.colors }}" class="ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_259,c_fill,g_auto,ar_1.667/{{ card.public_id }}.{{ card.format}}" alt="{{ card.public_id }}" class="photos-thumb"></a>
+                            <a href="https://res.cloudinary.com/bradvsbrad/image/upload/if_ar_gt_1,w_1200/if_else,h_800/{{ card.public_id }}.{{ card.format}}" data-fancybox="images" data-caption="{{ card.colors }}" aria-label="{{ card.public_id }}" class="ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_259,c_fill,g_auto,ar_1.667/{{ card.public_id }}.{{ card.format}}" alt="{{ card.public_id }}" class="photos-thumb"></a>
                         </li>
                     </li>
 

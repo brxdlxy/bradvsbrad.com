@@ -21,4 +21,4 @@ Instead, I poked a hole in a ziplock bag full of water and clamped it about 18 i
 
 The process was slow at first, but I eventually found a groove and a little success.  I am happy with the results so far and look forward to another session.
 
-<a href="javascript:;" data-fancybox-trigger="images" data-fancybox-index="1">Open Water Drop Gallery</a>
+<a href="javascript:;" data-fancybox-trigger="images" aria-label="Open Water Drop Gallery" data-fancybox-index="1">Open Water Drop Gallery</a>
