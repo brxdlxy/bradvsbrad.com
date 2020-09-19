@@ -10,7 +10,7 @@
             .now %}
             <li class="post-list__item">
               <div class="image">
-                <img src="{{ item.data.socialImage }}" alt="{{item.data.title}}">
+                <a href="{{ item.url }}" class="post-list__link" aria=label="{{item.data.title}}"><img src="{{ item.data.socialImage }}" alt="{{item.data.title}}"></a>
               </div>
               <div class="caption">
                 <h3 class="font-base leading-tight text-500 weight-mid">

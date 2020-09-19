@@ -3,7 +3,7 @@ layout: layouts/gallery-waterdrops.njk
 title: Water Drops
 permalink: /waterdrop/index.html
 date: '2020-09-14'
-socialImage: 'https://res.cloudinary.com/bradvsbrad/image/upload/w_356/posts/20200831-DSC01601-Edit.jpg'
+socialImage: 'https://res.cloudinary.com/bradvsbrad/image/upload/w_376/posts/20200831-DSC01601-Edit.jpg'
 tags:
   - project
   - photography
