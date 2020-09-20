@@ -1,1 +1,26 @@
-{"name":"bradvsbrad.com","short_name":"bradvsbrad.com","icons":[{"src":"/icons/asndroid-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/icons/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}],"theme_color":"#ffffff","background_color":"#ffffff","display":"standalone"}
+{
+    "name": "bradvsbrad.com",
+    "short_name": "@brxdlxy",
+    "start_url": "/index.html",
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "/icons/asndroid-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/maskable_icon.png",
+            "sizes": "196x196",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

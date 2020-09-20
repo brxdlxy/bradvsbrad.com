@@ -20,7 +20,6 @@
     @include media-query('sm') {
       font-size: get-size(600);
       --flow-space: #{get-size(600)};
-      padding-top: 1rem;
     }
 
   }
