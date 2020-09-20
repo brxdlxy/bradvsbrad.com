@@ -82,7 +82,7 @@ async function main() {
 const path = __dirname + '/photos.json';
 
 try {
-  if (fs.existsSync(path) && process.env.NODE_ENV2 == 'dev') {
+  if (fs.existsSync(path) {
     //file exists
     console.log('using existing photos.json on dev.  delete file for fresh data');
   } else {
