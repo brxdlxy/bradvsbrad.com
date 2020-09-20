@@ -6,9 +6,8 @@ cloudinary.config({
   api_key: '244689219856367',
   api_secret: process.env.CLOUDINARY_SECRET
 });
-
+// gets meta/details for a single image/resource
 async function getCardMeta(item) {
-  //console.log('getCardMeta -> item', item);
   const cardMeta = await cloudinary.api.resource(
     item.public_id,
     {
@@ -23,28 +22,14 @@ async function getCardMeta(item) {
   return merged;
 }
 
-// async function getCards() {
-//   cloudinary.search
-//     .expression('resource_type:image AND folder=cards')
-//     .sort_by('created_at', 'desc')
-//     .max_results(5)
-//     .execute()
-//     .then((response) => {
-//       //   console.log('getCards -> response.resources', response.resources);
-//       return response.resources;
-//     })
-//     .catch((err) => {
-//       console.error(err);
-//     });
-// }
 async function main() {
+  //get list of resources
   const myCards = await cloudinary.search
     .expression('resource_type:image AND folder=cards')
     .sort_by('public_id', 'desc')
     .max_results(500)
     .execute()
     .then((response) => {
-      //      console.log('getCards -> response.resources', response.resources);
       return response.resources;
     })
     .catch((err) => {
@@ -52,19 +37,13 @@ async function main() {
     });
 
   //   console.log('main -> myCards', myCards);
-
+  //makes a additional call for each resource and merges new data objects
   let container = [];
   for (let item of myCards) {
     const merged = await getCardMeta(item);
-    //console.log('main -> merged', merged);
-
     container.push(merged);
   }
-  //console.log("main -> container", container)
-  // const sortedContainer = container.sort((a, b) => a.created_at - b.created_at);
-  // console.log('main -> container', sortedContainer.slice(0, 10));
-  // console.log(JSON.stringify(container));
-
+// reformat merged object in container[]
   const formattedCards = container.map((item) => {
     return {
       public_id: item.public_id,
@@ -82,6 +61,7 @@ async function main() {
     };
   });
 
+  //save data file
   fs.writeFile(__dirname + '/cards.json', JSON.stringify(formattedCards), err => {
     if (err) {
       console.log(err);
@@ -90,7 +70,6 @@ async function main() {
     }
   });
 
-
   return formattedCards;
 }
 
@@ -98,8 +77,7 @@ async function main() {
 const path = __dirname + '/cards.json'
 
 try {
-  if (fs.existsSync(path) && (process.env.NODE_ENV2 == 'dev')) {
-    //file exists
+  if (fs.existsSync(path)) {
     console.log('using existing cards.json on dev.  delete file for fresh data')
   } else {
     module.exports = main();
