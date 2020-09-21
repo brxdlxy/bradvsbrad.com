@@ -1,9 +1,18 @@
 ---
 layout: "layouts/base.njk"
-title: "Oops! Not Found"
-permalink: "/404.html"
-
+title: Oops! Not Found
+permalink: 404.html
 ---
-
-<h2>{{title}}</h2>
-I couldn’t find the content you were looking for.
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title }}</title>
+    </head>
+    <body>
+        <h1>{{ title }}</h1>
+        <p>I couldn’t find the content you were looking for. Maybe on the <a href="{{ "/" | url }}">home page?</a>
+        </p>
+    </body>
+</html>
