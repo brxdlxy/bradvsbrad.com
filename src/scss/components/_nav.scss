@@ -24,7 +24,7 @@
             background-image: none;
             @include apply-utility('weight', 'mid');
 
-            @include 0media-query('sm') {
+            @include media-query('sm') {
                 padding: 0.1rem 0.6rem;
             }
 
