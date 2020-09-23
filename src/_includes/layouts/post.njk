@@ -15,12 +15,12 @@
 {% block content %}
   <main id="main-content" tabindex="-1">
     <article class="[ post ] [ h-entry ]s">
-            <div class="[ post__body ] [ inner-wrapper ] [ leading-loose ] [ e-content ]">
-          <h1>{{ introHeading }}</h1>
-                {{ content | safe }}
+      <div class="[ post__body ] [ inner-wrapper ] [ leading-loose ] [ e-content ]">
+        <h1>{{ introHeading }}</h1>
+        {{ content | safe }}
       </div>
       {% if site.enableThirdPartyComments %}
-        <hr />
+        <hr/>
         <aside class="[ post__body ] [ inner-wrapper ] [ pad-bottom-900 text-500 ]">
           {% include "partials/global/third-party-comments.njk" %}
         </aside>
@@ -46,3 +46,8 @@
 {% endblock %}
 
 {{ content | safe }}
+{% block sidebar %}
+
+  {% include "partials/global/site-side.njk" %}
+
+{% endblock %}

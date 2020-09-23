@@ -1,4 +1,5 @@
 :root {
+
   // Pull the tokens and generate custom props
   @each $color in $stalfos-colors {
     #{'--color-' + nth($color, 1)}: #{nth($color, 2)};
@@ -45,5 +46,4 @@ $bvb-simple-light: #f6f5eb;
 $bvb-simple-highlight: #ffffaa;
 $bvb-simple-greendream: #66ffb0;
 $bvb-simple-bluegrey: #8bb1df;
-
-
+$bvb-side-current: #66ffb0;

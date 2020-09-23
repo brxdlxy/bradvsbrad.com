@@ -16,8 +16,11 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
     <main id="main-content" tabindex="-1">
         <article class="[ post ] [ h-entry ]">
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ e-content ]">
-                <h1>{{ introHeading }}</h1>
+                <h1 class="gallery">{{ introHeading }}</h1>
                 {{ content | safe }}
+                <div class="gallery-btn-back">
+                    <a href="/photos/" class="gallery-btn-link">Back to Galleries</a>
+                </div>
                 <ul class="photos-list photos-list_{{ pagination.items[0].gallery_slug | slug }}">
                     {% for photo in galleryitem.gallery_photos %}
                         <li class="photos-listitem">

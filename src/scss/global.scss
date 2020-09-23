@@ -109,14 +109,12 @@ a.icon-links {
 .homegrid {
   display: grid;
   grid-template-columns: 1fr;
-  //max-width: 52rem;
   padding: 0 0.5rem;
   margin-left: auto;
   margin-right: auto;
 
   @include media-query('md') {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    max-width: 52rem;
     padding: 0 1.25rem;
   }
 }
@@ -152,7 +150,7 @@ a.icon-links {
 .post-list__item {
   display: grid;
   grid-template-rows: 1fr minmax(5rem, auto);
-  height: 245px;
+  height: 397px;
 }
 
 .post-list__item .image {
@@ -253,7 +251,7 @@ ul.photos-list-home {
   display: grid;
   grid-gap: 1rem;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: repeat(5, 115px);
+  grid-template-rows: repeat(5, 190px);
 }
 
 .photos-list-home li:first-child {
@@ -271,16 +269,14 @@ ul.photos-list {
   clear: both;
   display: grid;
   grid-gap: 0.5rem;
-  grid-template-columns: 1fr 1fr;
-  // grid-template-rows: repeat(10, 185px);
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 }
 
 ul.photos-list_waterdrop {
   clear: both;
   display: grid;
   grid-gap: 0.5rem;
-  grid-template-columns: 1fr 1fr;
-  // grid-template-rows: repeat(10, 185px);
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
 }
 
 ul.cards-list {
@@ -301,12 +297,14 @@ ul.pano-list {
 
 @media (min-width: 32rem) {
   ul.photos-list {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+
   }
 
   ul.photos-list_waterdrop {
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1.5rem;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
 
   ul.cards-list {
@@ -323,24 +321,6 @@ li.photos-listitem {
   line-height: 0;
 }
 
-/*
-ADVANCED
-
- Portrait */
-
-// @media (max-aspect-ratio: 1/1) {
-//   li.photos-listitem {
-//     height: 30vh;
-//   }
-// }
-
-/* Short screens */
-
-// @media (max-height: 480px) {
-//   li.photos-listitem {
-//     height: 80vh;
-//   }
-// }
 
 .parent {
   display: grid;
@@ -437,6 +417,7 @@ ul.social-list li {
 @import 'components/heading-permalink';
 @import 'components/intro';
 @import 'components/nav';
+@import 'components/site-side';
 @import 'components/pagination';
 @import 'components/post';
 @import 'components/post-list';
@@ -446,4 +427,3 @@ ul.social-list li {
 @import 'components/syntax-highlighting';
 @import 'components/video-player';
 @import 'components/resume';
-@import 'lightbox';

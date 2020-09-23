@@ -4,4 +4,29 @@
   margin-right: auto;
   padding-left: get-size(500);
   padding-right: get-size(500);
+  width: 100%;
+
+}
+
+.grid-parent {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas: "main";
+  grid-gap: 1rem;
+
+  @include media-query('sm') {
+    grid-template-areas: "main side";
+    grid-template-columns: max-content 1fr;
+  }
+
+}
+
+.gp-side {
+  grid-area: side;
+
+}
+
+.gp-main {
+  grid-area: main;
+
 }
