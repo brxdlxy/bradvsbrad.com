@@ -20,12 +20,18 @@ a.side-gallery-list-link {
 
 .gallery-btn-back {
     float: right;
+    display: block;
+
+    @include media-query('sm') {
+        display: none;
+    }
+
 }
 
 a.gallery-btn-link {
     background-image: none;
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.825rem;
 }
 
 h1.gallery {

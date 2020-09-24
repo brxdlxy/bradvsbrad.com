@@ -11,18 +11,26 @@
 .grid-parent {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-areas: "main";
+  grid-template-areas: "main"
+    "side";
   grid-gap: 1rem;
 
   @include media-query('sm') {
     grid-template-areas: "main side";
-    grid-template-columns: max-content 1fr;
+    grid-template-columns: 1fr max-content;
   }
 
 }
 
 .gp-side {
   grid-area: side;
+  display: none;
+
+  @include media-query('sm') {
+    display: block;
+
+  }
+
 
 }
 

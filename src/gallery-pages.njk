@@ -37,3 +37,8 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
 {% endblock %}
 
 {{ content | safe }}
+{% block sidebar %}
+
+    {% include "partials/global/site-side.njk" %}
+
+{% endblock %}
