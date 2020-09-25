@@ -3,11 +3,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: .6rem;
+    padding-left: 0rem;
     padding-right: 0rem;
 
     @include media-query('sm') {
-      margin-bottom: 2rem;
+      padding-left: .6rem;
+      margin-bottom: 0rem;
       margin-top: 2rem;
     }
 
@@ -66,10 +67,10 @@
 
 .intro__read-more {
   float: right;
-  font-size: 1rem;
+  font-size: .825rem;
   margin: 10px 0 0 10px;
 
-  @include media-query('md') {
+  @include media-query('sm') {
     font-size: 1.1rem;
   }
 }
