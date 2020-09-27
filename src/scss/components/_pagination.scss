@@ -18,10 +18,6 @@
       }
     }
 
-    // If only child and forwards, push out to the right
-    &[data-direction='forwards']:only-child {
-      margin-left: auto;
-    }
   }
 
   svg {

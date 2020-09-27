@@ -19,15 +19,13 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
                 <h1 class="gallery">{{ introHeading }}</h1>
                 {{ content | safe }}
                 <div class="gallery-btn-back">
-                    <a href="/photos/" class="gallery-btn-link">Back to Galleries</a>
+                    <a href="/photos/" class="gallery-btn-link">&lt; Back to Galleries</a>
                 </div>
                 <ul class="photos-list photos-list_{{ pagination.items[0].gallery_slug | slug }}">
                     {% for photo in galleryitem.gallery_photos %}
                         <li class="photos-listitem">
                             <a href="https://res.cloudinary.com/bradvsbrad/image/upload/w_1600/{{ photo.cldpublic }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }}" data-slug="{{ photo.smugmug_slug }}" class="fancybox ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_392,c_fill,g_auto,ar_1.667/{{ photo.cldpublic }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
-
                         </li>
-
                     {% endfor %}
 
                 </ul>
