@@ -1,0 +1,42 @@
+.side-gallery-list {
+    margin-top: 105px;
+}
+
+a.side-gallery-list-link {
+    background-image: none;
+    font-size: 0.825rem;
+    font-weight: normal;
+    padding: .05rem .1rem;
+
+}
+
+.cur-photoswaterdrop a.photoswaterdrop,
+.cur-photosatlanta a.photosatlanta,
+.cur-photoslandscape a.photoslandscape,
+.cur-photospanorama a.photospanorama {
+    background-color: #f7ff8f;
+    font-weight: 700;
+}
+
+.gallery-btn-back {
+    float: right;
+    display: block;
+
+    @include media-query('sm') {
+        display: none;
+    }
+
+}
+
+a.gallery-btn-link {
+    background-image: none;
+    font-weight: normal;
+    font-size: 0.825rem;
+
+}
+
+h1.gallery {
+    text-align: center;
+    font-size: get-size(500);
+    margin: 2rem 0 2rem 0;
+}

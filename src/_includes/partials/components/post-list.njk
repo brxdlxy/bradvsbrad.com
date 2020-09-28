@@ -2,7 +2,7 @@
   <section class="[ post-list ] [ post-section ] [ gap-bottom-900 ]">
     <div class="[ inner-wrapper ] [ sf-flow ]">
       <h2 class="[ post-list__heading ]">{{ postListHeading }}</h2>
-      <ol class="[ post-list__items ] [ sf-flow ]" reversed>
+      <ol class="post-list__items" reversed>
         {% for item in postListItems %}
           {% if item
             .date

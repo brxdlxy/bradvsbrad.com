@@ -16,15 +16,16 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
     <main id="main-content" tabindex="-1">
         <article class="[ post ] [ h-entry ]">
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ e-content ]">
-                <h1>{{ introHeading }}</h1>
+                <h1 class="gallery">{{ introHeading }}</h1>
                 {{ content | safe }}
+                <div class="gallery-btn-back">
+                    <a href="/photos/" class="gallery-btn-link">&lt; Back to Galleries</a>
+                </div>
                 <ul class="photos-list photos-list_{{ pagination.items[0].gallery_slug | slug }}">
                     {% for photo in galleryitem.gallery_photos %}
                         <li class="photos-listitem">
                             <a href="https://res.cloudinary.com/bradvsbrad/image/upload/w_1600/{{ photo.cldpublic }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }}" data-slug="{{ photo.smugmug_slug }}" class="fancybox ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_392,c_fill,g_auto,ar_1.667/{{ photo.cldpublic }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
-
                         </li>
-
                     {% endfor %}
 
                 </ul>
@@ -34,3 +35,8 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
 {% endblock %}
 
 {{ content | safe }}
+{% block sidebar %}
+
+    {% include "partials/global/site-side.njk" %}
+
+{% endblock %}

@@ -1,13 +1,15 @@
 .resume-view {
   margin-bottom: 1rem;
 
-  @include media-query('md') {
+  @include media-query('sm') {
     padding: 2.5rem 2rem;
-    margin-bottom: 4rem;
     background-color: #f6f5eb;
     -webkit-box-shadow: 0 10px 6px 6px #777;
     -moz-box-shadow: 0 10px 6px 6px #777;
     box-shadow: 1px 16px 11px 3px #777;
+    max-width: 60rem;
+    margin: 0 auto 4rem;
+    width: 90%;
   }
 
   h2 {
@@ -20,6 +22,7 @@
   h3 {
     font-size: 1rem;
   }
+
   h4 {
     font-size: get-size(300);
   }
@@ -29,24 +32,30 @@
     color: #333;
     margin: 0;
   }
+
   h2.kicker {
     font-size: 1.1rem;
     padding-bottom: 2rem;
     color: #333;
     text-transform: none;
   }
+
   .grid-top p {
     font-size: 87.5%;
   }
+
   .grid-side h2 {
     font-size: 1rem;
   }
+
   .grid-side h3 {
     font-size: 1rem;
   }
+
   .grid-side h4 {
     font-size: 0.875rem;
   }
+
   .gridside p {
     font-size: 0.875rem;
   }
@@ -60,29 +69,36 @@
   section {
     margin-bottom: 2rem;
   }
+
   .grid-top__section {
     margin-bottom: 0.5rem;
   }
+
   .contact {
     clear: left;
   }
+
   .wrap {
     clear: both;
   }
+
   p {
     margin: 0.5rem 0 0;
   }
+
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
   }
+
   .grid-main li {
     margin: 0.1em 0 0;
     padding-left: 1em;
     background: url('/images/bullet.png') -4px 2px no-repeat;
     font-size: 87.5%;
   }
+
   header li {
     background: none;
     margin: 0;

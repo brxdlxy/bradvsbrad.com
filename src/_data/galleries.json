@@ -1,5 +1,5 @@
 [{
-    "gallery_description": "",
+    "gallery_description": "Gallery from a weekend of learning water drop photography.  ",
     "gallery_id": 11,
     "gallery_weight": 100,
     "gallery_name": "Water Drops",
@@ -142,7 +142,7 @@
     ]
   },
   {
-    "gallery_description": "",
+    "gallery_description": "Atlanta",
     "gallery_id": 2,
     "gallery_weight": 10,
     "gallery_name": "Atlanta",
@@ -592,7 +592,7 @@
     ]
   },
   {
-    "gallery_description": "",
+    "gallery_description": "Landscape, Nature and Ourdoor photography",
     "gallery_id": 3,
     "gallery_weight": 20,
     "gallery_name": "Landscape and Nature",
@@ -2056,7 +2056,7 @@
     "gallery_permalink": "/photos/panorama/",
     "gallery_slug": "panorama",
     "gallery_socialImage": "https://res.cloudinary.com/bradvsbrad/image/upload/w_356,c_fill,g_auto,ar_1.667/photos/ar/20160725-DSC06629-Pano.jpg",
-    "gallery_description": "These images have been stiched together from several shots to obtain a larger feild of view.",
+    "gallery_description": "These images have been stitched together from several shots to obtain a larger feild of view.",
     "gallery_photos": [{
         "id": 317,
         "title": "The Morning Skyline of Rome, Georgia.",
