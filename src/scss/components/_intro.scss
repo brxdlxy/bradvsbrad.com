@@ -15,12 +15,13 @@
   }
 
   &__summary {
-    // color: #444;
+    color: #3e414c;
     padding-top: 0rem;
 
     @include media-query('sm') {
       font-size: get-size(600);
       --flow-space: #{get-size(600)};
+      max-width: 36rem;
     }
 
   }
@@ -52,7 +53,7 @@
     }
 
     @include media-query('md') {
-      width: 11rem;
+      width: 10rem;
       display: block;
       margin-right: 3rem;
     }
