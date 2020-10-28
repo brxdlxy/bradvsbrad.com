@@ -112,7 +112,7 @@ a.icon-links {
   margin-left: auto;
   margin-right: auto;
 
-  @include media-query('md') {
+  @include media-query('sm') {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0 0;
     grid-gap: 2rem;
@@ -165,7 +165,7 @@ a.icon-links {
 .post-list__item {
   display: grid;
   grid-template-rows: 1fr minmax(5rem, auto);
-  height: 200px;
+  height: 255px;
   margin-bottom: 2rem;
 
 
@@ -211,7 +211,7 @@ a.icon-links {
   grid-gap: 1rem;
 
   @include media-query('md') {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1.5rem;
   }
 }
@@ -219,8 +219,11 @@ a.icon-links {
 .gallery-list__item {
   display: grid;
   grid-template-rows: 1fr minmax(2rem, auto);
-  height: 245px;
+  height: 200px;
 
+   @include media-query('md') {
+     height: 300px;
+   }
 
   .image {
     grid-row: 1 / 3;

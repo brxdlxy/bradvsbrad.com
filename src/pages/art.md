@@ -1,7 +1,7 @@
 ---
 layout: layouts/galleries.njk
 title: Photos
-permalink: '/photos/index.html'
+permalink: '/art/index.html'
 
 ---
 
