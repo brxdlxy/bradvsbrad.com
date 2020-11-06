@@ -3,7 +3,6 @@ layout: layouts/gallery-waterdrops.njk
 title: Water Drops
 permalink: /waterdrop/index.html
 date: '2020-09-14'
-gallerykey: 0
 socialImage: 'https://res.cloudinary.com/bradvsbrad/image/upload/w_376/posts/20200831-DSC01601-Edit.jpg'
 tags:
   - project
@@ -21,5 +20,4 @@ You also need a system to release the water drops. There are several products av
 Instead, I poked a hole in a ziplock bag full of water and clamped it about 18 inches over the target. When the bag was full, it was dripping at a rate of two to three times per second.  This rate depends on the size of the puncture as well as its remaining volume/water pressure. I am taking a shot about every five seconds and the timing of each is a matter of chance.  The low hit rate means I need to shoot a lot of images, and that's fine with me. For lighting, I used three speedlights (Yongnuo and Godox) and some gels to add color.
 
 The process was slow at first, but I eventually found a groove and a little success.  I am happy with the results so far and look forward to another session.
-
 <a href="javascript:;" data-fancybox-trigger="images" aria-label="Open Water Drop Gallery" data-fancybox-index="1">Open Water Drop Gallery</a>

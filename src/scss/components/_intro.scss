@@ -6,7 +6,7 @@
     padding-left: 0rem;
     padding-right: 0rem;
 
-    @include media-query('sm') {
+    @include media-query('md') {
       padding-left: .6rem;
       margin-bottom: 0rem;
       margin-top: 2rem;
@@ -46,13 +46,13 @@
     margin: 1rem 1rem 1rem 0;
     display: none;
 
-    @include media-query('sm') {
+    @include media-query('md') {
       display: none;
       width: 8rem;
       margin-right: 2rem;
     }
 
-    @include media-query('md') {
+    @include media-query('lg') {
       width: 10rem;
       display: block;
       margin-right: 3rem;

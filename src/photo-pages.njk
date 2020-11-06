@@ -3,12 +3,10 @@ pagination:
     data: bvbphotos.photos
     size: 1
     alias: photo
-permalink: photos/{{ pagination.items[0].smugmug_slug | slug }}/index.html
+permalink: photos/{{ pagination.items[0].slug | slug }}/index.html
 tags:
     - photo
-    - sm
 ---
-{# maybe try the before call back  see https://www.11ty.dev/docs/pagination/#paging-an-object  #}
 {% extends 'layouts/base.njk' %}
 <style>
     .wrapper {
@@ -16,16 +14,6 @@ tags:
     }
 </style>
 {% set pageType = 'photo' %}
-
-{# Intro content #}
-{% set introSummary %}
-<p class="[ intro__meta ] [ text-500 leading-tight ]">
-    {% if date %}
-        <time datetime="{{ date | w3DateFilter }}" class="dt-published">{{ date | dateFilter }}</time>
-    {% endif %}
-
-</p>
-{% endset %}
 
 {% block content %}
     <main id="main-content" tabindex="-1">
@@ -36,23 +24,50 @@ tags:
                 </h1>
                 <img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_1600/{{ photo.public_id }}.jpg" class="hero-photo" alt="{{ photo.title }}"/>
                 <p>{{ photo.caption}}</p>
+                <p>
+                    {{photo.camera_maker}}
+                    {{photo.camera_model}}
+                </p>
 
-                {% if tags %}
-                    <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
-                        <div class="inner-wrapper">
-                            <div class="[ nav ] [ box-flex align-center ]">
-                                <h2 class="font-base text-600 weight-mid">Filed under</h2>
-                                <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
-                                    {% for item in tags %}
-                                        <li class="nav__item">
-                                            <a href="/tags/{{ item }}">{{ item }}</a>
-                                        </li>
-                                    {% endfor %}
-                                </ul>
-                            </div>
+                <nav aria-labelledby="my-pagination" class="pagination pagination-photos">
+                    <ol>
+                        <li>
+                            {% if page.url != pagination.href.first %}
+                                <a href="{{ pagination.href.first }}">First</a>
+                            {% else %}First{% endif %}
+                        </li>
+                        <li>
+                            {% if pagination.href.previous %}
+                                <a href="{{ pagination.href.previous }}">Previous</a>
+                            {% else %}Previous{% endif %}
+                        </li>
+                        <li>
+                            {% if pagination.href.next %}
+                                <a href="{{ pagination.href.next }}">Next</a>
+                            {% else %}Next{% endif %}
+                        </li>
+                        <li>
+                            {% if page.url != pagination.href.last %}
+                                <a href="{{ pagination.href.last }}">Last</a>
+                            {% else %}Last{% endif %}
+                        </li>
+                    </ol>
+                </nav>
+
+                <footer class="[ post__footer ] [ pad-top-500 pad-bottom-500 ]">
+                    <div class="inner-wrapper">
+                        <div class="[ nav ] [ box-flex align-center ]">
+                            <h2 class="font-base text-600 weight-mid">Filed under</h2>
+                            <ul class="[ nav__list ] [ box-flex align-center pad-left-400 ] [ p-category ]">
+                                {% for item in tags %}
+                                    <li class="nav__item">
+                                        <a href="/tags/{{ item }}">{{ item }}</a>
+                                    </li>
+                                {% endfor %}
+                            </ul>
                         </div>
-                    </footer>
-                {% endif %}
+                    </div>
+                </footer>
             </article>
         </main>
     {% endblock %}
