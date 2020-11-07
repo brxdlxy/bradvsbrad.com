@@ -1,5 +1,5 @@
 ---
-layout: layouts/gallery-waterdrops.njk
+layout: layouts/gallery.njk
 title: Water Drops
 permalink: /waterdrop/index.html
 date: '2020-09-14'

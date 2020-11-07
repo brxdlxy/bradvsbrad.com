@@ -29,9 +29,10 @@ function clean() {
 }
 let insertIDArr = [];
 async function insertMedia({public_id, width, height, format}) {
-  let sqlStr = `INSERT INTO photos (public_id, width, height, format, media_type, status, title) VALUES ('${public_id}',${width},${height},'${format}',${getMediaType(
-    public_id
-  )}, 2, '${public_id}');`;
+  var slugAr = public_id.split('/');
+  let sqlStr = `INSERT INTO photos (public_id, slug, width, height, format, media_type, status, title) VALUES ('${public_id}','${
+    slugAr[1]
+  }',${width},${height},'${format}',${getMediaType(slugAr[0])}, 2, '${public_id}');`;
   dbConn.query(sqlStr, {public_id, width, height, format}, (error, results) => {
     if (error) throw error;
     insertIDArr.push(results.insertId);
@@ -46,9 +47,8 @@ async function insertMedia({public_id, width, height, format}) {
 }
 
 // pulls type from public id
-function getMediaType(pubid) {
-  var folder = pubid.split('/');
-  switch (folder[0]) {
+function getMediaType(folder) {
+  switch (folder) {
     case 'photos':
       return 1;
     case 'art':

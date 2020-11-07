@@ -1,47 +1,108 @@
 {
   "pagegallery": {
     "gallery_id": 1,
-    "gallery_description": "I spent a weekend learning about water drop photography.  Here are the results.",
-    "gallery_weight": 10,
     "gallery_name": "Water Drops",
-    "gallery_permalink": "/photos/waterdrop/",
     "gallery_slug": "waterdrop",
-    "gallery_socialImage": "https://res.cloudinary.com/bradvsbrad/image/upload/w_356/posts/20200831-DSC01601-Edit.jpg",
-    "dateadded": "2020-10-04 13:08:32",
-    "lastmod": null,
-    "status": 1,
     "gallery_type": 1,
+    "gallery_weight": 10,
+    "gallery_permalink": "/photos/waterdrop/",
+    "gallery_description": "I spent a weekend learning about water drop photography.  Here are the results.",
+    "gallery_socialImage": "https://res.cloudinary.com/bradvsbrad/image/upload/w_356/posts/20200831-DSC01601-Edit.jpg",
     "gallery_photos": [
       {
-        "gallery_id": 1,
-        "photo_id": 245,
-        "public_id": "posts/20200830-DSC01568",
         "title": "Orange and Pink",
         "caption": "",
+        "photo_id": 245,
+        "public_id": "posts/20200830-DSC01568",
+        "gallery_id": 1,
         "priority_weight": 10
       },
       {
-        "gallery_id": 1,
-        "photo_id": 246,
-        "public_id": "posts/20200830-DSC01577-Edit",
         "title": "Monk on Stripes",
         "caption": "",
+        "photo_id": 246,
+        "public_id": "posts/20200830-DSC01577-Edit",
+        "gallery_id": 1,
         "priority_weight": 10
       },
       {
-        "gallery_id": 1,
-        "photo_id": 247,
-        "public_id": "posts/20200831-DSC01609-Edit",
         "title": "Amber Pawn",
         "caption": "",
+        "photo_id": 247,
+        "public_id": "posts/20200831-DSC01609-Edit",
+        "gallery_id": 1,
         "priority_weight": 10
       },
       {
-        "gallery_id": 1,
-        "photo_id": 248,
-        "public_id": "posts/20200830-DSC01572-Edit",
         "title": "Crown in Stripes",
         "caption": "",
+        "photo_id": 248,
+        "public_id": "posts/20200830-DSC01572-Edit",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Pawn on Party Grid",
+        "caption": "",
+        "photo_id": 249,
+        "public_id": "posts/20200828-DSC01451",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Two on Blue",
+        "caption": "",
+        "photo_id": 250,
+        "public_id": "posts/20200831-DSC01625-Edit",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Crown on Yellow and Pink",
+        "caption": "",
+        "photo_id": 251,
+        "public_id": "posts/20200828-DSC01460",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Pawn on Stripes",
+        "caption": "",
+        "photo_id": 252,
+        "public_id": "posts/20200830-DSC01573-Edit",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Crown in Amber",
+        "caption": "",
+        "photo_id": 253,
+        "public_id": "posts/20200831-DSC01601-Edit",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Dagger on Purple",
+        "caption": "",
+        "photo_id": 254,
+        "public_id": "posts/20200831-DSC01646-Edit-Edit",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Bead Over Stripes",
+        "caption": "",
+        "photo_id": 255,
+        "public_id": "posts/20200830-DSC01571-Edit",
+        "gallery_id": 1,
+        "priority_weight": 10
+      },
+      {
+        "title": "Blue and Green",
+        "caption": "",
+        "photo_id": 256,
+        "public_id": "posts/20200828-DSC01253-Edit",
+        "gallery_id": 1,
         "priority_weight": 10
       }
     ]
