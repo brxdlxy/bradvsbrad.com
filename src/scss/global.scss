@@ -167,6 +167,7 @@ a.icon-links {
   grid-template-rows: 1fr minmax(5rem, auto);
   height: 255px;
   margin-bottom: 2rem;
+  cursor: pointer;
 
 
   .image {
@@ -220,6 +221,7 @@ a.icon-links {
   display: grid;
   grid-template-rows: 1fr minmax(2rem, auto);
   height: 200px;
+  cursor: pointer;
 
    @include media-query('md') {
      height: 300px;

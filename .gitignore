@@ -50,3 +50,5 @@ s3-sync-bvb.sh
 db
 rst.json
 bvb_gallery_admin
+src/_data/bvbphotos-older.json
+.eslintrc.js

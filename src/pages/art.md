@@ -5,5 +5,3 @@ permalink: '/art/index.html'
 
 ---
 
-
-

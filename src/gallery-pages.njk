@@ -5,11 +5,10 @@ pagination:
     alias: galleryitem
 permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
 ---
-{# maybe try the before call back  see https://www.11ty.dev/docs/pagination/#paging-an-object  #}
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'photosetFB' %}
 {{ page | log }}
-{# Intro content #}
+
 {% set introHeading = galleryitem.gallery_name %}
 
 {% block content %}
