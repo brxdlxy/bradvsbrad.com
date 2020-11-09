@@ -23,7 +23,7 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
                 <ul class="photos-list photos-list_{{ pagination.items[0].gallery_slug | slug }}">
                     {% for photo in galleryitem.gallery_photos %}
                         <li class="photos-listitem">
-                            <a href="https://res.cloudinary.com/bradvsbrad/image/upload/w_1600/{{ photo.public_id }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }}" class="fancybox ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_392,c_fill,g_auto,ar_1.667/{{ photo.public_id }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
+                            <a href="https://res.cloudinary.com/bradvsbrad/image/upload/w_1280/{{ photo.public_id }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }}" class="fancybox ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_392,c_fill,g_auto,ar_1.667/{{ photo.public_id }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
                         </li>
                     {% endfor %}
 
