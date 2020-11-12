@@ -1,6 +1,6 @@
 ---
-layout: layouts/galleries.njk
-title: Photos
+layout: layouts/galleries-art.njk
+title: Art
 permalink: '/art/index.html'
 
 ---

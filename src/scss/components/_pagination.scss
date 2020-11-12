@@ -24,3 +24,14 @@
     pointer-events: none;
   }
 }
+
+nav.pagination-photos ol.pagination-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+
+  li.pagination-item {
+    padding: 1rem;
+    margin-top: 0;
+  }
+}

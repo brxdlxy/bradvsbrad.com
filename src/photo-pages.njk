@@ -28,27 +28,26 @@ tags:
                     {{photo.camera_maker}}
                     {{photo.camera_model}}
                 </p>
-
-                <nav aria-labelledby="my-pagination" class="pagination pagination-photos">
-                    <ol>
-                        <li>
+                <nav aria-labelledby="photo-pagination" class="pagination pagination-photos">
+                    <ol class="pagination-list">
+                        <li class="pagination-item">
                             {% if page.url != pagination.href.first %}
-                                <a href="{{ pagination.href.first }}">First</a>
+                                <a href="{{ pagination.href.first }}" class="pagination-link">First</a>
                             {% else %}First{% endif %}
                         </li>
-                        <li>
+                        <li class="pagination-item">
                             {% if pagination.href.previous %}
-                                <a href="{{ pagination.href.previous }}">Previous</a>
+                                <a href="{{ pagination.href.previous }}" class="pagination-link">Previous</a>
                             {% else %}Previous{% endif %}
                         </li>
-                        <li>
+                        <li class="pagination-item">
                             {% if pagination.href.next %}
-                                <a href="{{ pagination.href.next }}">Next</a>
+                                <a href="{{ pagination.href.next }}" class="pagination-link">Next</a>
                             {% else %}Next{% endif %}
                         </li>
-                        <li>
+                        <li class="pagination-item">
                             {% if page.url != pagination.href.last %}
-                                <a href="{{ pagination.href.last }}">Last</a>
+                                <a href="{{ pagination.href.last }}" class="pagination-link">Last</a>
                             {% else %}Last{% endif %}
                         </li>
                     </ol>

@@ -1,0 +1,9 @@
+<div class="gp-side">
+  <ul class="side-gallery-list">
+    {% for gallery in artgalleries %}
+      <li class="side-gallery-list__item">
+        <a href="{{ gallery.gallery_permalink }}" class="side-gallery-list-link  {{ gallery.gallery_permalink | replace("/", "") | replace(".", "") }}" rel="bookmark">{{ gallery.gallery_name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

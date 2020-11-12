@@ -1,0 +1,37 @@
+{% extends 'layouts/base.njk' %}
+{% set pageType = 'gallerylisting' %}
+
+{# Intro content #}
+{% set introHeading = title %}
+{% set introSummary %}{{ content | safe }}{% endset %}
+
+{# Post list content #}
+
+{% block content %}
+  <main id="main-content" tabindex="-1">
+    <div class="[ inner-wrapper ] [ sf-flow ]">
+
+      <h1>{{ introHeading }}</h1>
+      {{ content | safe }}
+      <section class="[ gallery-list ] [ gallery-section ] [ gap-bottom-900 ]">
+
+        {# <h2 class="[ gallery-list__heading ]"></h2> #}
+        <ol class="gallery-list__items" reversed>
+          {% for gallery in galleries %}
+            <li class="gallery-list__item">
+              <div class="image">
+                <img src="{{ gallery.gallery_socialImage }}" alt="{{gallery.gallery_name}}">
+              </div>
+              <div class="caption">
+                <h3 class="font-base leading-tight text-500 weight-mid">
+                  <a href="{{ gallery.gallery_permalink }}" class="gallery-list__link" rel="bookmark">{{ gallery.gallery_name }}</a>
+                </h3>
+              </div>
+            </li>
+          {% endfor %}
+        </ol>
+
+      </section>
+    </div>
+  </main>
+{% endblock %}
