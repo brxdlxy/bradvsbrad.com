@@ -16,6 +16,24 @@
       gtag('js', new Date());
       gtag('config', 'UA-12438455-5', {cookie_flags: 'max-age=7200;samesite=strict'});
     </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer'
+            ? '&l=' + l
+            : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f
+          .parentNode
+          .insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-TWGPHTN');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Accept-CH" content="DPR, Width">
@@ -36,32 +54,15 @@
       {% include "assets/css/global.css" %}
     </style>
     {% block head %}{% endblock %}
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({'gtm.start': new Date().getTime(), event: 'gtm.js'});
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != 'dataLayer'
-            ? '&l=' + l
-            : '';
-        j.async = true;
-        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-        f
-          .parentNode
-          .insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-TWGPHTN');
-    </script>
-    <!-- End Google Tag Manager -->
+
+  </head>
+  <body class="cur-{{ page.url | replace("/", "") | replace(".", "") }}">
     <!-- Google Tag Manager (noscript) -->
     <noscript>
       <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWGPHTN"
 height="0" width="0" style="display:none;visibility:hidden"></iframe>
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
-  </head>
-  <body class="cur-{{ page.url | replace("/", "") | replace(".", "") }}">
     <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
         <symbol id="icon-facebook" viewBox="0 0 24 24">

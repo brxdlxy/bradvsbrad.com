@@ -1,12 +1,12 @@
 {% if bvbphotos.photos.length %}
-
+  {% set randSeqbegin = range(1, 316) | random %}
   <section class="[ ig-thumb-section ] [ gap-bottom-900 ]">
     <div class="[ inner-wrapper ] [ sf-flow ]">
       <h2 class="[ post-list__heading ]">Photos</h2>
       <ul class="photos-list-home">
         {% for photo in bvbphotos
           .photos
-          .slice(130, 137) %}
+          .slice(randSeqbegin, randSeqbegin + 7) %}
           <li class="photos-listitem">
             {% set permalink = ['<br><a href="/photos/', photo.slug, '" class="slideshow-permalink">view permalink</a>'] %}
             <a href="/photos/{{ photo.slug }}" data-src="https://res.cloudinary.com/bradvsbrad/image/upload/w_1280/{{ photo.public_id }}.jpg" data-fancybox="images" data-caption="{{ photo.title }} {{ photo.caption }} {{ permalink | join }}" aria-label="{{ photo.title }} {{ photo.caption }}" class="ig-thumb-link"><img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_376,c_fill,g_auto,ar_1.667/{{ photo.public_id }}.jpg" alt="{{ photo.title }}" class="photos-thumb"></a>
