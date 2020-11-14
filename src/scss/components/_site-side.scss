@@ -9,7 +9,11 @@ a.side-gallery-list-link {
     padding: .05rem .1rem;
 
 }
-
+.cur-arttessellations a.arttessellations,
+.cur-arttopo a.arttopo,
+.cur-artwahsedlayers a.artwahsedlayers,
+.cur-artall a.artall,
+.cur-artlakeissaqueena a.artlakeissaqueena,
 .cur-photoswaterdrop a.photoswaterdrop,
 .cur-photosatlanta a.photosatlanta,
 .cur-photoslandscape a.photoslandscape,
@@ -23,7 +27,7 @@ a.side-gallery-list-link {
     display: block;
 
     @include media-query('sm') {
-        display: none;
+        // display: none;
     }
 
 }
@@ -38,5 +42,10 @@ a.gallery-btn-link {
 h1.gallery {
     text-align: center;
     font-size: get-size(500);
-    margin: 2rem 0 2rem 0;
+    margin: 2rem 0 0 0;
+
+    @include media-query('sm') {
+         margin: 2rem 0 2rem 0;
+        }
+
 }

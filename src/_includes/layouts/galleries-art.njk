@@ -16,11 +16,11 @@
             <section class="[ gallery-list ] [ gallery-section ] [ gap-bottom-900 ]">
 
                 {# <h2 class="[ gallery-list__heading ]"></h2> #}
-                <ol class="gallery-list__items" reversed>
+                <ol class="gallery-list__items artgallery-list" reversed>
                     {% for gallery in artgalleries %}
                         <li class="gallery-list__item">
                             <div class="image">
-                                <img src="{{ gallery.gallery_socialImage }}" alt="{{gallery.gallery_name}}">
+                                <img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_376,h_300,c_fill/{{ gallery.gallery_socialImage }}.jpg" alt="{{gallery.gallery_name}}">
                             </div>
                             <div class="caption">
                                 <h3 class="font-base leading-tight text-500 weight-mid">

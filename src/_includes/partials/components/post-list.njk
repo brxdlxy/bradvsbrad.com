@@ -4,10 +4,7 @@
       <h2 class="[ post-list__heading ]">{{ postListHeading }}</h2>
       <ol class="post-list__items" reversed>
         {% for item in postListItems %}
-          {% if item
-            .date
-            .getTime() <= global
-            .now %}
+          {% if item.date.getTime() <= global.now %}
             <li class="post-list__item">
               <div class="image">
                 <img src="{{ item.data.socialImage }}" alt="{{item.data.title}}">

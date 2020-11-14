@@ -18,7 +18,7 @@ permalink: art/{{ pagination.items[0].gallery_slug | slug }}/index.html
         <h1 class="gallery">{{ introHeading }}</h1>
         {{ content | safe }}
         <div class="gallery-btn-back">
-          <a href="/photos/" class="gallery-btn-link">&lt; Back to Galleries</a>
+          <a href="/art/" class="gallery-btn-link">Back to Galleries</a>
         </div>
         <ul class="photos-list photos-list_{{ pagination.items[0].gallery_slug | slug }}">
           {% for photo in galleryitem.gallery_photos %}
