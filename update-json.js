@@ -110,7 +110,7 @@ dbConn.query(pSqlStr, function (error, results, fields) {
 let photos = {photos: []};
 dbConn.query(pAllSqlStr, function (error, results, fields) {
   if (error) throw error;
-  // console.log(results[0]);
+   console.trace(results[0]);
   results.forEach((item) => {
     photos.photos.push(JSON.parse(item.JSON));
   });

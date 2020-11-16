@@ -24,9 +24,10 @@ tags:
                 </h1>
                 <img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_1280/{{ photo.public_id }}.jpg" class="hero-photo" alt="{{ photo.title }}"/>
                 <p>{{ photo.caption}}</p>
-                <p>
-                    {{photo.camera_maker}}
-                    {{photo.camera_model}}
+                <p>{{photo.camera_maker}}
+                    {{photo.camera_model}}<br>
+                    id:{{photo.photo_id}}<br>
+
                 </p>
                 <nav aria-labelledby="photo-pagination" class="pagination pagination-photos">
                     <ol class="pagination-list">

@@ -217,14 +217,15 @@ a.icon-links {
     grid-gap: 1.5rem;
   }
 }
-// ol.artgallery-list {
 
-//  @include media-query('sm') {
-//    grid-template-columns: 1fr 1fr 1fr;
-//    grid-gap: 2.5rem;
-//  }
+ol.artgallery-list {
+  margin-top: 2rem;
+  //  @include media-query('sm') {
+  //    grid-template-columns: 1fr 1fr 1fr;
+  //    grid-gap: 2.5rem;
+  //  }
 
-// }
+}
 
 .gallery-list__item {
   display: grid;
@@ -232,9 +233,9 @@ a.icon-links {
   height: 200px;
   cursor: pointer;
 
-   @include media-query('sm') {
-     height: 300px;
-   }
+  @include media-query('sm') {
+    height: 300px;
+  }
 
   .image {
     grid-row: 1 / 3;
