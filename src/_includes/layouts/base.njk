@@ -98,9 +98,9 @@
             },
             afterShow: function( instance, current ) {
               dataLayer.push({'event': 'slide_view'});
+              dataLayer.push({'src': current.src})
               console.info( 'Clicked element:' );
               console.info( current.opts.$orig );
-              console.info( instance );
            }
           });
         });
