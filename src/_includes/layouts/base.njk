@@ -90,20 +90,18 @@
       <script src="/js/jquery.fancybox.min.js"></script>
       <script>
         $(function () {
-          $(".post-list__item").on("click", function () {
-            location.href = $(this)
-              .find(".post-list__link")
-              .attr("href");
-          });
-          $(".gallery-list__item").on("click", function () {
-            location.href = $(this)
-              .find(".gallery-list__link")
-              .attr("href");
-          });
+          $(".post-list__item").on("click", function () { location.href = $(this).find(".post-list__link").attr("href"); });
+          $(".gallery-list__item").on("click", function () { location.href = $(this).find(".gallery-list__link").attr("href"); });
           $('[data-fancybox="images"]').fancybox({
             thumbs: {
               autoStart: true
-            }
+            },
+            afterShow: function( instance, current ) {
+              dataLayer.push({'event': 'button1-click'});
+              console.info( 'Clicked element:' );
+              console.info( current.opts.$orig );
+              console.info( instance );
+           }
           });
         });
       </script>
