@@ -102,7 +102,7 @@
               autoStart: true
             },
             afterShow: function( instance, current ) {
-              gtag('event', 'slide_view', { 'event_category' : 'afterShow', 'event_label' : current.src});
+              gtag('event', 'slide_view', { 'event_category' : window.location.pathname, 'event_label' : current.src});
            }
           });
         });
