@@ -1,1 +1,2672 @@
-[{"gallery_id":8,"gallery_name":"All","gallery_slug":"all","gallery_type":2,"gallery_weight":10,"gallery_permalink":"/art/all/","gallery_description":null,"gallery_socialImage":"posts/separated","gallery_photos":[{"slug":"separated","title":"Separated","caption":"Ink and watercolor","photo_id":382,"public_id":"posts/separated","gallery_id":8,"priority_weight":45},{"slug":"separated-watercolor-2","title":"Separated Watercolor No. 2","caption":"Watercolor","photo_id":370,"public_id":"posts/separated-watercolor-2","gallery_id":8,"priority_weight":44},{"slug":"separated-no-3","title":"Separated No. 3","caption":"Watercolor and ink","photo_id":366,"public_id":"posts/separated-no-3","gallery_id":8,"priority_weight":43},{"slug":"separated-no-4","title":"Separated No. 4","caption":"Watercolor","photo_id":372,"public_id":"posts/separated-no-4","gallery_id":8,"priority_weight":42},{"slug":"squaredancing","title":"Square Dancing","caption":"Ink and watercolor","photo_id":387,"public_id":"posts/squaredancing","gallery_id":8,"priority_weight":41},{"slug":"beachandsurf","title":"Beach and Surf","caption":"Watercolor","photo_id":355,"public_id":"posts/beachandsurf","gallery_id":8,"priority_weight":39},{"slug":"crossover","title":"Cross Over","caption":"Marker","photo_id":356,"public_id":"posts/crossover","gallery_id":8,"priority_weight":10},{"slug":"wc_softshell","title":"Softshell","caption":"Watercolor","photo_id":359,"public_id":"posts/wc_softshell","gallery_id":8,"priority_weight":10},{"slug":"prehensile-trail","title":"Prehensile Trail","caption":"Ink and marker","photo_id":361,"public_id":"posts/prehensile-trail","gallery_id":8,"priority_weight":10},{"slug":"muted-mosiac","title":"Muted Mosiac","caption":"Watercolor","photo_id":363,"public_id":"posts/muted-mosiac","gallery_id":8,"priority_weight":10},{"slug":"wc-speakingthrough","title":"Speaking Through","caption":"Watercolor","photo_id":364,"public_id":"posts/wc-speakingthrough","gallery_id":8,"priority_weight":10},{"slug":"unison-four","title":"Unison Four","caption":"Watercolor and ink","photo_id":365,"public_id":"posts/unison-four","gallery_id":8,"priority_weight":10},{"slug":"radial-time","title":"Radial Time","caption":"Ink","photo_id":375,"public_id":"posts/radial-time","gallery_id":8,"priority_weight":10},{"slug":"mandala-black","title":"Mandala Black","caption":"Ink","photo_id":377,"public_id":"posts/mandala-black","gallery_id":8,"priority_weight":10},{"slug":"circle-jam","title":"Circle Jam","caption":"Ink and watercolor","photo_id":380,"public_id":"posts/circle-jam","gallery_id":8,"priority_weight":10},{"slug":"catchthewave","title":"Catch the Wave","caption":"Watercolor","photo_id":381,"public_id":"posts/catchthewave","gallery_id":8,"priority_weight":10},{"slug":"hexagons-burnt-and-blue","title":"Hexagons Burnt and Blue","caption":"Watercolor","photo_id":385,"public_id":"posts/hexagons-burnt-and-blue","gallery_id":8,"priority_weight":10},{"slug":"framed-ink","title":"Framed Ink","caption":"Ink and watercolor","photo_id":388,"public_id":"posts/framed-ink","gallery_id":8,"priority_weight":10},{"slug":"wallofsound-quaranstream","title":"Wall of Sound Quaranstream","caption":"Watercolor","photo_id":389,"public_id":"posts/wallofsound-quaranstream","gallery_id":8,"priority_weight":10},{"slug":"iso-red-to-green","title":"Iso Red to Green","caption":"Watercolor","photo_id":390,"public_id":"posts/iso-red-to-green","gallery_id":8,"priority_weight":10},{"slug":"dottedpractice","title":"Dotted Practice","caption":"","photo_id":394,"public_id":"posts/dottedpractice","gallery_id":8,"priority_weight":10},{"slug":"cellsarestained","title":"Cells Are Stained","caption":"Ink and watercolor","photo_id":395,"public_id":"posts/cellsarestained","gallery_id":8,"priority_weight":10},{"slug":"maybe-magnolias","title":"Maybe Magnolias","caption":"Watercolor","photo_id":396,"public_id":"posts/maybe-magnolias","gallery_id":8,"priority_weight":10},{"slug":"Ch-2368","title":"Ch. 2368","caption":"Ink and watercolor","photo_id":413,"public_id":"art/Ch-2368","gallery_id":8,"priority_weight":9},{"slug":"bio-dome","title":"Bio-dome","caption":"Ink and watercolor","photo_id":414,"public_id":"art/bio-dome","gallery_id":8,"priority_weight":9},{"slug":"blue-contour","title":"Blue Contour","caption":"Watercolor","photo_id":415,"public_id":"art/blue-contour","gallery_id":8,"priority_weight":9},{"slug":"blue-geode","title":"Blue Geode","caption":"Watercolor","photo_id":416,"public_id":"art/blue-geode","gallery_id":8,"priority_weight":9},{"slug":"bubble-dreams","title":"Dreams of Bubbles","caption":"Ink and watercolor","photo_id":417,"public_id":"art/bubble-dreams","gallery_id":8,"priority_weight":9},{"slug":"bubbles-1","title":"Bubbles","caption":"Ink","photo_id":418,"public_id":"art/bubbles-1","gallery_id":8,"priority_weight":9},{"slug":"core","title":"Core","caption":"Watercolor","photo_id":419,"public_id":"art/core","gallery_id":8,"priority_weight":9},{"slug":"corn-flowers","title":"Cornflowers","caption":"Watercolor","photo_id":420,"public_id":"art/corn-flowers","gallery_id":8,"priority_weight":9},{"slug":"dresser","title":"Dresser","caption":"Ink","photo_id":421,"public_id":"art/dresser","gallery_id":8,"priority_weight":9},{"slug":"evil-eye-39","title":"Evil Eye 39","caption":"Watercolor","photo_id":422,"public_id":"art/evil-eye-39","gallery_id":8,"priority_weight":9},{"slug":"frosted-sheath","title":"Frosted Sheath","caption":"Marker and gouache","photo_id":423,"public_id":"art/frosted-sheath","gallery_id":8,"priority_weight":9},{"slug":"hexagon-masks","title":"Hexagon Masks","caption":"Ink, watercolor, and digital","photo_id":424,"public_id":"art/hexagon-masks","gallery_id":8,"priority_weight":9},{"slug":"hexagons-bw-pieces","title":"Hexagon Masks (pieces)","caption":"Ink and digital","photo_id":425,"public_id":"art/hexagons-bw-pieces","gallery_id":8,"priority_weight":9},{"slug":"impact-filter","title":"Impact Filter","caption":"Marker","photo_id":426,"public_id":"art/impact-filter","gallery_id":8,"priority_weight":9},{"slug":"meadow-landscape","title":"Meadow Landscape","caption":"Watercolor","photo_id":427,"public_id":"art/meadow-landscape","gallery_id":8,"priority_weight":9},{"slug":"mirage","title":"Mirage","caption":"Watercolor","photo_id":428,"public_id":"art/mirage","gallery_id":8,"priority_weight":9},{"slug":"ocean-surface","title":"Ocean surface (study)","caption":"Watercolor and gouache","photo_id":429,"public_id":"art/ocean-surface","gallery_id":8,"priority_weight":9},{"slug":"rhombus-apart","title":"Rhombus apart","caption":"Ink and watercolor","photo_id":430,"public_id":"art/rhombus-apart","gallery_id":8,"priority_weight":9},{"slug":"rhombus-tessalation","title":"Rhombus tessalation","caption":"Watercolor","photo_id":431,"public_id":"art/rhombus-tessalation","gallery_id":8,"priority_weight":9},{"slug":"three-trees","title":"Three Trees (study)","caption":"Watercolor","photo_id":432,"public_id":"art/three-trees","gallery_id":8,"priority_weight":9},{"slug":"topo-1","title":"Topo 1","caption":"Ink and watercolor","photo_id":433,"public_id":"art/topo-1","gallery_id":8,"priority_weight":9},{"slug":"topo-2","title":"Topo 2","caption":"Ink and watercolor","photo_id":434,"public_id":"art/topo-2","gallery_id":8,"priority_weight":9},{"slug":"topo-avocado","title":"Topo Avocado","caption":"Watercolor","photo_id":435,"public_id":"art/topo-avocado","gallery_id":8,"priority_weight":9},{"slug":"topo-sinkhole","title":"Topo Hypno","caption":"Ink, watercolor, and digital","photo_id":436,"public_id":"art/topo-sinkhole","gallery_id":8,"priority_weight":9},{"slug":"transformer","title":"Transformer","caption":"Ink, watercolor,  and marker","photo_id":437,"public_id":"art/transformer","gallery_id":8,"priority_weight":9},{"slug":"washed-layers-1","title":"Washed Layers 1","caption":"Watercolor","photo_id":438,"public_id":"art/washed-layers-1","gallery_id":8,"priority_weight":9},{"slug":"washed-layers-2","title":"Washed Layers 2","caption":"Watercolor","photo_id":439,"public_id":"art/washed-layers-2","gallery_id":8,"priority_weight":9},{"slug":"washed-layers-3","title":"Washed Layers 3","caption":"Watercolor","photo_id":440,"public_id":"art/washed-layers-3","gallery_id":8,"priority_weight":9}]},{"gallery_id":12,"gallery_name":"Tessellations","gallery_slug":"tessellations","gallery_type":2,"gallery_weight":10,"gallery_permalink":"/art/tessellations/","gallery_description":"Tessellations, patterns, and backgrounds.","gallery_socialImage":"art/rhombus-tessalation","gallery_photos":[{"slug":"rhombus-tessalation","title":"Rhombus tessalation","caption":"Watercolor","photo_id":431,"public_id":"art/rhombus-tessalation","gallery_id":12,"priority_weight":15},{"slug":"rhombus-apart","title":"Rhombus apart","caption":"Ink and watercolor","photo_id":430,"public_id":"art/rhombus-apart","gallery_id":12,"priority_weight":14},{"slug":"transformer","title":"Transformer","caption":"Ink, watercolor,  and marker","photo_id":437,"public_id":"art/transformer","gallery_id":12,"priority_weight":13},{"slug":"bio-dome","title":"Bio-dome","caption":"Ink and watercolor","photo_id":414,"public_id":"art/bio-dome","gallery_id":12,"priority_weight":10},{"slug":"bubble-dreams","title":"Dreams of Bubbles","caption":"Ink and watercolor","photo_id":417,"public_id":"art/bubble-dreams","gallery_id":12,"priority_weight":10},{"slug":"bubbles-1","title":"Bubbles","caption":"Ink","photo_id":418,"public_id":"art/bubbles-1","gallery_id":12,"priority_weight":10},{"slug":"frosted-sheath","title":"Frosted Sheath","caption":"Marker and gouache","photo_id":423,"public_id":"art/frosted-sheath","gallery_id":12,"priority_weight":10},{"slug":"hexagon-masks","title":"Hexagon Masks","caption":"Ink, watercolor, and digital","photo_id":424,"public_id":"art/hexagon-masks","gallery_id":12,"priority_weight":10},{"slug":"hexagons-bw-pieces","title":"Hexagon Masks (pieces)","caption":"Ink and digital","photo_id":425,"public_id":"art/hexagons-bw-pieces","gallery_id":12,"priority_weight":10},{"slug":"impact-filter","title":"Impact Filter","caption":"Marker","photo_id":426,"public_id":"art/impact-filter","gallery_id":12,"priority_weight":10},{"slug":"Ch-2368","title":"Ch. 2368","caption":"Ink and watercolor","photo_id":413,"public_id":"art/Ch-2368","gallery_id":12,"priority_weight":9},{"slug":"crossover","title":"Cross Over","caption":"Marker","photo_id":356,"public_id":"posts/crossover","gallery_id":12,"priority_weight":8},{"slug":"prehensile-trail","title":"Prehensile Trail","caption":"Ink and marker","photo_id":361,"public_id":"posts/prehensile-trail","gallery_id":12,"priority_weight":8},{"slug":"circle-jam","title":"Circle Jam","caption":"Ink and watercolor","photo_id":380,"public_id":"posts/circle-jam","gallery_id":12,"priority_weight":8},{"slug":"hexagons-burnt-and-blue","title":"Hexagons Burnt and Blue","caption":"Watercolor","photo_id":385,"public_id":"posts/hexagons-burnt-and-blue","gallery_id":12,"priority_weight":8},{"slug":"iso-red-to-green","title":"Iso Red to Green","caption":"Watercolor","photo_id":390,"public_id":"posts/iso-red-to-green","gallery_id":12,"priority_weight":8},{"slug":"cellsarestained","title":"Cells Are Stained","caption":"Ink and watercolor","photo_id":395,"public_id":"posts/cellsarestained","gallery_id":12,"priority_weight":8}]},{"gallery_id":13,"gallery_name":"Washed Layers","gallery_slug":"washedlayers","gallery_type":2,"gallery_weight":10,"gallery_permalink":"/art/washedlayers/","gallery_description":null,"gallery_socialImage":"art/mirage","gallery_photos":[{"slug":"washed-layers-1","title":"Washed Layers 1","caption":"Watercolor","photo_id":438,"public_id":"art/washed-layers-1","gallery_id":13,"priority_weight":10},{"slug":"washed-layers-2","title":"Washed Layers 2","caption":"Watercolor","photo_id":439,"public_id":"art/washed-layers-2","gallery_id":13,"priority_weight":10},{"slug":"washed-layers-3","title":"Washed Layers 3","caption":"Watercolor","photo_id":440,"public_id":"art/washed-layers-3","gallery_id":13,"priority_weight":10},{"slug":"meadow-landscape","title":"Meadow Landscape","caption":"Watercolor","photo_id":427,"public_id":"art/meadow-landscape","gallery_id":13,"priority_weight":9},{"slug":"mirage","title":"Mirage","caption":"Watercolor","photo_id":428,"public_id":"art/mirage","gallery_id":13,"priority_weight":9}]},{"gallery_id":14,"gallery_name":"Topo and Contour ","gallery_slug":"topo","gallery_type":2,"gallery_weight":10,"gallery_permalink":"/art/topo/","gallery_description":null,"gallery_socialImage":"art/topo-sinkhole","gallery_photos":[{"slug":"topo-sinkhole","title":"Topo Hypno","caption":"Ink, watercolor, and digital","photo_id":436,"public_id":"art/topo-sinkhole","gallery_id":14,"priority_weight":20},{"slug":"topo-avocado","title":"Topo Avocado","caption":"Watercolor","photo_id":435,"public_id":"art/topo-avocado","gallery_id":14,"priority_weight":15},{"slug":"blue-contour","title":"Blue Contour","caption":"Watercolor","photo_id":415,"public_id":"art/blue-contour","gallery_id":14,"priority_weight":10},{"slug":"core","title":"Core","caption":"Watercolor","photo_id":419,"public_id":"art/core","gallery_id":14,"priority_weight":10},{"slug":"evil-eye-39","title":"Evil Eye 39","caption":"Watercolor","photo_id":422,"public_id":"art/evil-eye-39","gallery_id":14,"priority_weight":10},{"slug":"topo-1","title":"Topo 1","caption":"Ink and watercolor","photo_id":433,"public_id":"art/topo-1","gallery_id":14,"priority_weight":10},{"slug":"topo-2","title":"Topo 2","caption":"Ink and watercolor","photo_id":434,"public_id":"art/topo-2","gallery_id":14,"priority_weight":10}]}]
+[
+    {
+        "gallery_id": 8,
+        "gallery_name": "All",
+        "gallery_slug": "all",
+        "gallery_type": 2,
+        "gallery_weight": 10,
+        "gallery_permalink": "/art/all/",
+        "gallery_description": null,
+        "gallery_socialImage": "posts/separated",
+        "gallery_photos": [
+            {
+                "slug": "separated",
+                "title": "Separated",
+                "caption": "Ink and watercolor",
+                "photo_id": 382,
+                "public_id": "posts/separated",
+                "gallery_id": 8,
+                "priority_weight": 45
+            },
+            {
+                "slug": "separated-watercolor-2",
+                "title": "Separated Watercolor No. 2",
+                "caption": "Watercolor",
+                "photo_id": 370,
+                "public_id": "posts/separated-watercolor-2",
+                "gallery_id": 8,
+                "priority_weight": 44
+            },
+            {
+                "slug": "separated-no-3",
+                "title": "Separated No. 3",
+                "caption": "Watercolor and ink",
+                "photo_id": 366,
+                "public_id": "posts/separated-no-3",
+                "gallery_id": 8,
+                "priority_weight": 43
+            },
+            {
+                "slug": "separated-no-4",
+                "title": "Separated No. 4",
+                "caption": "Watercolor",
+                "photo_id": 372,
+                "public_id": "posts/separated-no-4",
+                "gallery_id": 8,
+                "priority_weight": 42
+            },
+            {
+                "slug": "squaredancing",
+                "title": "Square Dancing",
+                "caption": "Ink and watercolor",
+                "photo_id": 387,
+                "public_id": "posts/squaredancing",
+                "gallery_id": 8,
+                "priority_weight": 41
+            },
+            {
+                "slug": "beachandsurf",
+                "title": "Beach and Surf",
+                "caption": "Watercolor",
+                "photo_id": 355,
+                "public_id": "posts/beachandsurf",
+                "gallery_id": 8,
+                "priority_weight": 39
+            },
+            {
+                "slug": "crossover",
+                "title": "Cross Over",
+                "caption": "Marker",
+                "photo_id": 356,
+                "public_id": "posts/crossover",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "wc_softshell",
+                "title": "Softshell",
+                "caption": "Watercolor",
+                "photo_id": 359,
+                "public_id": "posts/wc_softshell",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "prehensile-trail",
+                "title": "Prehensile Trail",
+                "caption": "Ink and marker",
+                "photo_id": 361,
+                "public_id": "posts/prehensile-trail",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "muted-mosiac",
+                "title": "Muted Mosiac",
+                "caption": "Watercolor",
+                "photo_id": 363,
+                "public_id": "posts/muted-mosiac",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "wc-speakingthrough",
+                "title": "Speaking Through",
+                "caption": "Watercolor",
+                "photo_id": 364,
+                "public_id": "posts/wc-speakingthrough",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "unison-four",
+                "title": "Unison Four",
+                "caption": "Watercolor and ink",
+                "photo_id": 365,
+                "public_id": "posts/unison-four",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "radial-time",
+                "title": "Radial Time",
+                "caption": "Ink",
+                "photo_id": 375,
+                "public_id": "posts/radial-time",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "mandala-black",
+                "title": "Mandala Black",
+                "caption": "Ink",
+                "photo_id": 377,
+                "public_id": "posts/mandala-black",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "circle-jam",
+                "title": "Circle Jam",
+                "caption": "Ink and watercolor",
+                "photo_id": 380,
+                "public_id": "posts/circle-jam",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "catchthewave",
+                "title": "Catch the Wave",
+                "caption": "Watercolor",
+                "photo_id": 381,
+                "public_id": "posts/catchthewave",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "hexagons-burnt-and-blue",
+                "title": "Hexagons Burnt and Blue",
+                "caption": "Watercolor",
+                "photo_id": 385,
+                "public_id": "posts/hexagons-burnt-and-blue",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "framed-ink",
+                "title": "Framed Ink",
+                "caption": "Ink and watercolor",
+                "photo_id": 388,
+                "public_id": "posts/framed-ink",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "wallofsound-quaranstream",
+                "title": "Wall of Sound Quaranstream",
+                "caption": "Watercolor",
+                "photo_id": 389,
+                "public_id": "posts/wallofsound-quaranstream",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "iso-red-to-green",
+                "title": "Iso Red to Green",
+                "caption": "Watercolor",
+                "photo_id": 390,
+                "public_id": "posts/iso-red-to-green",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "dottedpractice",
+                "title": "Dotted Practice",
+                "caption": "",
+                "photo_id": 394,
+                "public_id": "posts/dottedpractice",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "cellsarestained",
+                "title": "Cells Are Stained",
+                "caption": "Ink and watercolor",
+                "photo_id": 395,
+                "public_id": "posts/cellsarestained",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "maybe-magnolias",
+                "title": "Maybe Magnolias",
+                "caption": "Watercolor",
+                "photo_id": 396,
+                "public_id": "posts/maybe-magnolias",
+                "gallery_id": 8,
+                "priority_weight": 10
+            },
+            {
+                "slug": "Ch-2368",
+                "title": "Ch. 2368",
+                "caption": "Ink and watercolor",
+                "photo_id": 413,
+                "public_id": "art/Ch-2368",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "bio-dome",
+                "title": "Bio-dome",
+                "caption": "Ink and watercolor",
+                "photo_id": 414,
+                "public_id": "art/bio-dome",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "blue-contour",
+                "title": "Blue Contour",
+                "caption": "Watercolor",
+                "photo_id": 415,
+                "public_id": "art/blue-contour",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "blue-geode",
+                "title": "Blue Geode",
+                "caption": "Watercolor",
+                "photo_id": 416,
+                "public_id": "art/blue-geode",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "bubble-dreams",
+                "title": "Dreams of Bubbles",
+                "caption": "Ink and watercolor",
+                "photo_id": 417,
+                "public_id": "art/bubble-dreams",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "bubbles-1",
+                "title": "Bubbles",
+                "caption": "Ink",
+                "photo_id": 418,
+                "public_id": "art/bubbles-1",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "core",
+                "title": "Core",
+                "caption": "Watercolor",
+                "photo_id": 419,
+                "public_id": "art/core",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "corn-flowers",
+                "title": "Cornflowers",
+                "caption": "Watercolor",
+                "photo_id": 420,
+                "public_id": "art/corn-flowers",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "dresser",
+                "title": "Dresser",
+                "caption": "Ink",
+                "photo_id": 421,
+                "public_id": "art/dresser",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "evil-eye-39",
+                "title": "Evil Eye 39",
+                "caption": "Watercolor",
+                "photo_id": 422,
+                "public_id": "art/evil-eye-39",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "frosted-sheath",
+                "title": "Frosted Sheath",
+                "caption": "Marker and gouache",
+                "photo_id": 423,
+                "public_id": "art/frosted-sheath",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "hexagon-masks",
+                "title": "Hexagon Masks",
+                "caption": "Ink, watercolor, and digital",
+                "photo_id": 424,
+                "public_id": "art/hexagon-masks",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "hexagons-bw-pieces",
+                "title": "Hexagon Masks (pieces)",
+                "caption": "Ink and digital",
+                "photo_id": 425,
+                "public_id": "art/hexagons-bw-pieces",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "impact-filter",
+                "title": "Impact Filter",
+                "caption": "Marker",
+                "photo_id": 426,
+                "public_id": "art/impact-filter",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "meadow-landscape",
+                "title": "Meadow Landscape",
+                "caption": "Watercolor",
+                "photo_id": 427,
+                "public_id": "art/meadow-landscape",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "mirage",
+                "title": "Mirage",
+                "caption": "Watercolor",
+                "photo_id": 428,
+                "public_id": "art/mirage",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "ocean-surface",
+                "title": "Ocean surface (study)",
+                "caption": "Watercolor and gouache",
+                "photo_id": 429,
+                "public_id": "art/ocean-surface",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "rhombus-apart",
+                "title": "Rhombus apart",
+                "caption": "Ink and watercolor",
+                "photo_id": 430,
+                "public_id": "art/rhombus-apart",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "rhombus-tessalation",
+                "title": "Rhombus tessalation",
+                "caption": "Watercolor",
+                "photo_id": 431,
+                "public_id": "art/rhombus-tessalation",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "three-trees",
+                "title": "Three Trees (study)",
+                "caption": "Watercolor",
+                "photo_id": 432,
+                "public_id": "art/three-trees",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "topo-1",
+                "title": "Topo 1",
+                "caption": "Ink and watercolor",
+                "photo_id": 433,
+                "public_id": "art/topo-1",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "topo-2",
+                "title": "Topo 2",
+                "caption": "Ink and watercolor",
+                "photo_id": 434,
+                "public_id": "art/topo-2",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "topo-avocado",
+                "title": "Topo Avocado",
+                "caption": "Watercolor",
+                "photo_id": 435,
+                "public_id": "art/topo-avocado",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "topo-sinkhole",
+                "title": "Topo Hypno",
+                "caption": "Ink, watercolor, and digital",
+                "photo_id": 436,
+                "public_id": "art/topo-sinkhole",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "transformer",
+                "title": "Transformer",
+                "caption": "Ink, watercolor,  and marker",
+                "photo_id": 437,
+                "public_id": "art/transformer",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "washed-layers-1",
+                "title": "Washed Layers 1",
+                "caption": "Watercolor",
+                "photo_id": 438,
+                "public_id": "art/washed-layers-1",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "washed-layers-2",
+                "title": "Washed Layers 2",
+                "caption": "Watercolor",
+                "photo_id": 439,
+                "public_id": "art/washed-layers-2",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "washed-layers-3",
+                "title": "Washed Layers 3",
+                "caption": "Watercolor",
+                "photo_id": 440,
+                "public_id": "art/washed-layers-3",
+                "gallery_id": 8,
+                "priority_weight": 9
+            },
+            {
+                "slug": "icad2020_01-a",
+                "title": "Day 01 a",
+                "caption": "Prompt: hopscotch",
+                "photo_id": 441,
+                "public_id": "art/icad2020/icad2020_01-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_02",
+                "title": "Day 02",
+                "caption": "Prompt: marigold",
+                "photo_id": 442,
+                "public_id": "art/icad2020/icad2020_02",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_03-a",
+                "title": "Day 03 a",
+                "caption": "Prompt: album",
+                "photo_id": 443,
+                "public_id": "art/icad2020/icad2020_03-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_03-b",
+                "title": "Day 03 b",
+                "caption": "Prompt: album",
+                "photo_id": 444,
+                "public_id": "art/icad2020/icad2020_03-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_03-c",
+                "title": "Day 03 c",
+                "caption": "Prompt: album",
+                "photo_id": 445,
+                "public_id": "art/icad2020/icad2020_03-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_04-b",
+                "title": "Day 04 b",
+                "caption": "Prompt: sequins",
+                "photo_id": 446,
+                "public_id": "art/icad2020/icad2020_04-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_04-c",
+                "title": "Day 04 c",
+                "caption": "Prompt: sequins",
+                "photo_id": 447,
+                "public_id": "art/icad2020/icad2020_04-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_04",
+                "title": "Day 04",
+                "caption": "Prompt: sequins",
+                "photo_id": 448,
+                "public_id": "art/icad2020/icad2020_04",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_05",
+                "title": "Day 05",
+                "caption": "Prompt: 1980s",
+                "photo_id": 449,
+                "public_id": "art/icad2020/icad2020_05",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_06",
+                "title": "Day 06",
+                "caption": "Prompt: dreamcatcher",
+                "photo_id": 450,
+                "public_id": "art/icad2020/icad2020_06",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_07",
+                "title": "Day 07",
+                "caption": "Prompt: highway",
+                "photo_id": 451,
+                "public_id": "art/icad2020/icad2020_07",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_08",
+                "title": "Day 08",
+                "caption": "Prompt: suzani pattern",
+                "photo_id": 452,
+                "public_id": "art/icad2020/icad2020_08",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_09",
+                "title": "Day 09",
+                "caption": "Prompt: bookshelf",
+                "photo_id": 453,
+                "public_id": "art/icad2020/icad2020_09",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_10-b",
+                "title": "Day 10 b",
+                "caption": "Prompt: David Bowie",
+                "photo_id": 454,
+                "public_id": "art/icad2020/icad2020_10-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_10",
+                "title": "Day 10",
+                "caption": "Prompt: David Bowie",
+                "photo_id": 455,
+                "public_id": "art/icad2020/icad2020_10",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_11",
+                "title": "Day 11",
+                "caption": "Prompt: tiramisu",
+                "photo_id": 456,
+                "public_id": "art/icad2020/icad2020_11",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_12-b",
+                "title": "Day 12 b",
+                "caption": "Prompt: brocade",
+                "photo_id": 457,
+                "public_id": "art/icad2020/icad2020_12-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_13-a",
+                "title": "Day 13 a",
+                "caption": "Prompt: kite or rhombus",
+                "photo_id": 458,
+                "public_id": "art/icad2020/icad2020_13-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_14-a",
+                "title": "Day 14 a",
+                "caption": "Prompt: chamomile",
+                "photo_id": 459,
+                "public_id": "art/icad2020/icad2020_14-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_15-a",
+                "title": "Day 15 a",
+                "caption": "Prompt: dandelion",
+                "photo_id": 460,
+                "public_id": "art/icad2020/icad2020_15-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_15-ab",
+                "title": "Day 15 ab",
+                "caption": "Prompt: dandelion",
+                "photo_id": 461,
+                "public_id": "art/icad2020/icad2020_15-ab",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_16-a",
+                "title": "Day 16 a",
+                "caption": "Prompt: robot",
+                "photo_id": 462,
+                "public_id": "art/icad2020/icad2020_16-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_16-b",
+                "title": "Day 16 b",
+                "caption": "Prompt: robot",
+                "photo_id": 463,
+                "public_id": "art/icad2020/icad2020_16-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_16-c",
+                "title": "Day 16 c",
+                "caption": "Prompt: robot",
+                "photo_id": 464,
+                "public_id": "art/icad2020/icad2020_16-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_17-a",
+                "title": "Day 17 a",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 465,
+                "public_id": "art/icad2020/icad2020_17-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_17-ac",
+                "title": "Day 17 ac",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 466,
+                "public_id": "art/icad2020/icad2020_17-ac",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_17-d",
+                "title": "Day 17 d",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 467,
+                "public_id": "art/icad2020/icad2020_17-d",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_17-f",
+                "title": "Day 17 f",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 468,
+                "public_id": "art/icad2020/icad2020_17-f",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_18-a",
+                "title": "Day 18 a",
+                "caption": "Prompt: six word story",
+                "photo_id": 469,
+                "public_id": "art/icad2020/icad2020_18-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_19",
+                "title": "Day 19",
+                "caption": "Prompt: pause",
+                "photo_id": 470,
+                "public_id": "art/icad2020/icad2020_19",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_20-a",
+                "title": "Day 20 a",
+                "caption": "Prompt: birdhouse",
+                "photo_id": 471,
+                "public_id": "art/icad2020/icad2020_20-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_21-a",
+                "title": "Day 21 a",
+                "caption": "Prompt: geode",
+                "photo_id": 472,
+                "public_id": "art/icad2020/icad2020_21-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_21-b",
+                "title": "Day 21 b",
+                "caption": "Prompt: geode",
+                "photo_id": 473,
+                "public_id": "art/icad2020/icad2020_21-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_21-c",
+                "title": "Day 21 c",
+                "caption": "Prompt: geode",
+                "photo_id": 474,
+                "public_id": "art/icad2020/icad2020_21-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_22-a",
+                "title": "Day 22 a",
+                "caption": "Prompt: anchor",
+                "photo_id": 475,
+                "public_id": "art/icad2020/icad2020_22-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_23-a",
+                "title": "Day 23 a",
+                "caption": "Prompt: terrarium",
+                "photo_id": 476,
+                "public_id": "art/icad2020/icad2020_23-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_23-b",
+                "title": "Day 23 b",
+                "caption": "Prompt: terrarium",
+                "photo_id": 477,
+                "public_id": "art/icad2020/icad2020_23-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_23-c",
+                "title": "Day 23 c",
+                "caption": "Prompt: terrarium",
+                "photo_id": 478,
+                "public_id": "art/icad2020/icad2020_23-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_24",
+                "title": "Day 24",
+                "caption": "Prompt: emerald",
+                "photo_id": 479,
+                "public_id": "art/icad2020/icad2020_24",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_25",
+                "title": "Day 25",
+                "caption": "Prompt: cappuccino",
+                "photo_id": 480,
+                "public_id": "art/icad2020/icad2020_25",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_26",
+                "title": "Day 26",
+                "caption": "Prompt: bougainvillea",
+                "photo_id": 481,
+                "public_id": "art/icad2020/icad2020_26",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_28",
+                "title": "Day 28",
+                "caption": "Prompt: wind chimes",
+                "photo_id": 482,
+                "public_id": "art/icad2020/icad2020_28",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_29-a",
+                "title": "Day 29 a",
+                "caption": "Prompt: citrus",
+                "photo_id": 483,
+                "public_id": "art/icad2020/icad2020_29-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_29-b",
+                "title": "Day 29 b",
+                "caption": "Prompt: citrus",
+                "photo_id": 484,
+                "public_id": "art/icad2020/icad2020_29-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_30-a",
+                "title": "Day 30 a",
+                "caption": "Prompt: arcade",
+                "photo_id": 485,
+                "public_id": "art/icad2020/icad2020_30-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_30-b",
+                "title": "Day 30 b",
+                "caption": "Prompt: arcade",
+                "photo_id": 486,
+                "public_id": "art/icad2020/icad2020_30-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_31",
+                "title": "Day 31",
+                "caption": "Prompt: font",
+                "photo_id": 487,
+                "public_id": "art/icad2020/icad2020_31",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_32-a",
+                "title": "Day 32 a",
+                "caption": "Prompt: earrings",
+                "photo_id": 488,
+                "public_id": "art/icad2020/icad2020_32-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_32-b",
+                "title": "Day 32 b",
+                "caption": "Prompt: earrings",
+                "photo_id": 489,
+                "public_id": "art/icad2020/icad2020_32-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_33-a",
+                "title": "Day 33 a",
+                "caption": "Prompt: periwinkle",
+                "photo_id": 490,
+                "public_id": "art/icad2020/icad2020_33-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_33-b",
+                "title": "Day 33 b",
+                "caption": "Prompt: periwinkle",
+                "photo_id": 491,
+                "public_id": "art/icad2020/icad2020_33-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_34-a",
+                "title": "Day 34 a",
+                "caption": "Prompt: board game",
+                "photo_id": 492,
+                "public_id": "art/icad2020/icad2020_34-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_35",
+                "title": "Day 35",
+                "caption": "Prompt: lantern",
+                "photo_id": 493,
+                "public_id": "art/icad2020/icad2020_35",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_36",
+                "title": "Day 36",
+                "caption": "Prompt: ocean",
+                "photo_id": 494,
+                "public_id": "art/icad2020/icad2020_36",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_37-3",
+                "title": "Day 37 3",
+                "caption": "Prompt: hydrangea",
+                "photo_id": 495,
+                "public_id": "art/icad2020/icad2020_37-3",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_37-a",
+                "title": "Day 37 a",
+                "caption": "Prompt: hydrangea",
+                "photo_id": 496,
+                "public_id": "art/icad2020/icad2020_37-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_37-b",
+                "title": "Day 37 b",
+                "caption": "Prompt: hydrangea",
+                "photo_id": 497,
+                "public_id": "art/icad2020/icad2020_37-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_38-a",
+                "title": "Day 38 a",
+                "caption": "Prompt: rust",
+                "photo_id": 498,
+                "public_id": "art/icad2020/icad2020_38-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_39",
+                "title": "Day 39",
+                "caption": "Prompt: mirage",
+                "photo_id": 499,
+                "public_id": "art/icad2020/icad2020_39",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_40-a",
+                "title": "Day 40 a",
+                "caption": "Prompt: gradient",
+                "photo_id": 500,
+                "public_id": "art/icad2020/icad2020_40-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_40-b",
+                "title": "Day 40 b",
+                "caption": "Prompt: gradient",
+                "photo_id": 501,
+                "public_id": "art/icad2020/icad2020_40-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_40-c",
+                "title": "Day 40 c",
+                "caption": "Prompt: gradient",
+                "photo_id": 502,
+                "public_id": "art/icad2020/icad2020_40-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_41",
+                "title": "Day 41",
+                "caption": "Prompt: cinnamon or spice",
+                "photo_id": 503,
+                "public_id": "art/icad2020/icad2020_41",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_42-a",
+                "title": "Day 42 a",
+                "caption": "Prompt: knot",
+                "photo_id": 504,
+                "public_id": "art/icad2020/icad2020_42-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_42-b",
+                "title": "Day 42 b",
+                "caption": "Prompt: knot",
+                "photo_id": 505,
+                "public_id": "art/icad2020/icad2020_42-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_43-a",
+                "title": "Day 43 a",
+                "caption": "Prompt: bloom",
+                "photo_id": 506,
+                "public_id": "art/icad2020/icad2020_43-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_43-b",
+                "title": "Day 43 b",
+                "caption": "Prompt: bloom",
+                "photo_id": 507,
+                "public_id": "art/icad2020/icad2020_43-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_44-a",
+                "title": "Day 44 a",
+                "caption": "Prompt: unravel",
+                "photo_id": 508,
+                "public_id": "art/icad2020/icad2020_44-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_44-b",
+                "title": "Day 44 b",
+                "caption": "Prompt: unravel",
+                "photo_id": 509,
+                "public_id": "art/icad2020/icad2020_44-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_44-c",
+                "title": "Day 44 c",
+                "caption": "Prompt: unravel",
+                "photo_id": 510,
+                "public_id": "art/icad2020/icad2020_44-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_45-a",
+                "title": "Day 45 a",
+                "caption": "Prompt: simplify",
+                "photo_id": 511,
+                "public_id": "art/icad2020/icad2020_45-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_45-b",
+                "title": "Day 45 b",
+                "caption": "Prompt: simplify",
+                "photo_id": 512,
+                "public_id": "art/icad2020/icad2020_45-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_45-c",
+                "title": "Day 45 c",
+                "caption": "Prompt: simplify",
+                "photo_id": 513,
+                "public_id": "art/icad2020/icad2020_45-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_46-a",
+                "title": "Day 46 a",
+                "caption": "Prompt: diagram",
+                "photo_id": 514,
+                "public_id": "art/icad2020/icad2020_46-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_46-b",
+                "title": "Day 46 b",
+                "caption": "Prompt: diagram",
+                "photo_id": 515,
+                "public_id": "art/icad2020/icad2020_46-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_47-a",
+                "title": "Day 47 a",
+                "caption": "Prompt: pencil",
+                "photo_id": 516,
+                "public_id": "art/icad2020/icad2020_47-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_47-b",
+                "title": "Day 47 b",
+                "caption": "Prompt: pencil",
+                "photo_id": 517,
+                "public_id": "art/icad2020/icad2020_47-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_47-c",
+                "title": "Day 47 c",
+                "caption": "Prompt: pencil",
+                "photo_id": 518,
+                "public_id": "art/icad2020/icad2020_47-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_48",
+                "title": "Day 48",
+                "caption": "Prompt: confetti or glitter",
+                "photo_id": 519,
+                "public_id": "art/icad2020/icad2020_48",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_49",
+                "title": "Day 49",
+                "caption": "Prompt: orchard",
+                "photo_id": 520,
+                "public_id": "art/icad2020/icad2020_49",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_50-inside",
+                "title": "Day 50 inside",
+                "caption": "Prompt: pinwheel",
+                "photo_id": 521,
+                "public_id": "art/icad2020/icad2020_50-inside",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_50-outside",
+                "title": "Day 50 outside",
+                "caption": "Prompt: pinwheel",
+                "photo_id": 522,
+                "public_id": "art/icad2020/icad2020_50-outside",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_51-a",
+                "title": "Day 51 a",
+                "caption": "Prompt: blue or blueberry",
+                "photo_id": 523,
+                "public_id": "art/icad2020/icad2020_51-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_51-b",
+                "title": "Day 51 b",
+                "caption": "Prompt: blue or blueberry",
+                "photo_id": 524,
+                "public_id": "art/icad2020/icad2020_51-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_52",
+                "title": "Day 52",
+                "caption": "Prompt: orbit",
+                "photo_id": 525,
+                "public_id": "art/icad2020/icad2020_52",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_53",
+                "title": "Day 53",
+                "caption": "Prompt: garden gate",
+                "photo_id": 526,
+                "public_id": "art/icad2020/icad2020_53",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_54-a",
+                "title": "Day 54 a",
+                "caption": "Prompt: outline",
+                "photo_id": 527,
+                "public_id": "art/icad2020/icad2020_54-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_54-b",
+                "title": "Day 54 b",
+                "caption": "Prompt: outline",
+                "photo_id": 528,
+                "public_id": "art/icad2020/icad2020_54-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_55",
+                "title": "Day 55",
+                "caption": "Prompt: paisley",
+                "photo_id": 529,
+                "public_id": "art/icad2020/icad2020_55",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_56-a",
+                "title": "Day 56 a",
+                "caption": "Prompt: unfold",
+                "photo_id": 530,
+                "public_id": "art/icad2020/icad2020_56-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_56-b",
+                "title": "Day 56 b",
+                "caption": "Prompt: unfold",
+                "photo_id": 531,
+                "public_id": "art/icad2020/icad2020_56-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_56-c",
+                "title": "Day 56 c",
+                "caption": "Prompt: unfold",
+                "photo_id": 532,
+                "public_id": "art/icad2020/icad2020_56-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_57-a",
+                "title": "Day 57 a",
+                "caption": "Prompt: billiards",
+                "photo_id": 533,
+                "public_id": "art/icad2020/icad2020_57-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_57-b",
+                "title": "Day 57 b",
+                "caption": "Prompt: billiards",
+                "photo_id": 534,
+                "public_id": "art/icad2020/icad2020_57-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_58",
+                "title": "Day 58",
+                "caption": "Prompt: tea set",
+                "photo_id": 535,
+                "public_id": "art/icad2020/icad2020_58",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_59",
+                "title": "Day 59",
+                "caption": "Prompt: arboretum",
+                "photo_id": 536,
+                "public_id": "art/icad2020/icad2020_59",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_60-a",
+                "title": "Day 60 a",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 537,
+                "public_id": "art/icad2020/icad2020_60-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_60-b",
+                "title": "Day 60 b",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 538,
+                "public_id": "art/icad2020/icad2020_60-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_60-c",
+                "title": "Day 60 c",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 539,
+                "public_id": "art/icad2020/icad2020_60-c",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_60-d",
+                "title": "Day 60 d",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 540,
+                "public_id": "art/icad2020/icad2020_60-d",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_60-elevator",
+                "title": "Day 60 elevator",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 541,
+                "public_id": "art/icad2020/icad2020_60-elevator",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_60-samba",
+                "title": "Day 60 samba",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 542,
+                "public_id": "art/icad2020/icad2020_60-samba",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_61",
+                "title": "Day 61",
+                "caption": "Prompt: adventure",
+                "photo_id": 543,
+                "public_id": "art/icad2020/icad2020_61",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_xx-a",
+                "title": "Day xx a",
+                "caption": "",
+                "photo_id": 544,
+                "public_id": "art/icad2020/icad2020_xx-a",
+                "gallery_id": 8,
+                "priority_weight": 6
+            },
+            {
+                "slug": "icad2020_xx-b",
+                "title": "Day xx b",
+                "caption": "",
+                "photo_id": 545,
+                "public_id": "art/icad2020/icad2020_xx-b",
+                "gallery_id": 8,
+                "priority_weight": 6
+            }
+        ]
+    },
+    {
+        "gallery_id": 12,
+        "gallery_name": "Tessellations",
+        "gallery_slug": "tessellations",
+        "gallery_type": 2,
+        "gallery_weight": 10,
+        "gallery_permalink": "/art/tessellations/",
+        "gallery_description": "Tessellations, patterns, and backgrounds.",
+        "gallery_socialImage": "art/rhombus-tessalation",
+        "gallery_photos": [
+            {
+                "slug": "rhombus-tessalation",
+                "title": "Rhombus tessalation",
+                "caption": "Watercolor",
+                "photo_id": 431,
+                "public_id": "art/rhombus-tessalation",
+                "gallery_id": 12,
+                "priority_weight": 15
+            },
+            {
+                "slug": "rhombus-apart",
+                "title": "Rhombus apart",
+                "caption": "Ink and watercolor",
+                "photo_id": 430,
+                "public_id": "art/rhombus-apart",
+                "gallery_id": 12,
+                "priority_weight": 14
+            },
+            {
+                "slug": "transformer",
+                "title": "Transformer",
+                "caption": "Ink, watercolor,  and marker",
+                "photo_id": 437,
+                "public_id": "art/transformer",
+                "gallery_id": 12,
+                "priority_weight": 13
+            },
+            {
+                "slug": "bio-dome",
+                "title": "Bio-dome",
+                "caption": "Ink and watercolor",
+                "photo_id": 414,
+                "public_id": "art/bio-dome",
+                "gallery_id": 12,
+                "priority_weight": 10
+            },
+            {
+                "slug": "bubble-dreams",
+                "title": "Dreams of Bubbles",
+                "caption": "Ink and watercolor",
+                "photo_id": 417,
+                "public_id": "art/bubble-dreams",
+                "gallery_id": 12,
+                "priority_weight": 10
+            },
+            {
+                "slug": "bubbles-1",
+                "title": "Bubbles",
+                "caption": "Ink",
+                "photo_id": 418,
+                "public_id": "art/bubbles-1",
+                "gallery_id": 12,
+                "priority_weight": 10
+            },
+            {
+                "slug": "frosted-sheath",
+                "title": "Frosted Sheath",
+                "caption": "Marker and gouache",
+                "photo_id": 423,
+                "public_id": "art/frosted-sheath",
+                "gallery_id": 12,
+                "priority_weight": 10
+            },
+            {
+                "slug": "hexagon-masks",
+                "title": "Hexagon Masks",
+                "caption": "Ink, watercolor, and digital",
+                "photo_id": 424,
+                "public_id": "art/hexagon-masks",
+                "gallery_id": 12,
+                "priority_weight": 10
+            },
+            {
+                "slug": "hexagons-bw-pieces",
+                "title": "Hexagon Masks (pieces)",
+                "caption": "Ink and digital",
+                "photo_id": 425,
+                "public_id": "art/hexagons-bw-pieces",
+                "gallery_id": 12,
+                "priority_weight": 10
+            },
+            {
+                "slug": "impact-filter",
+                "title": "Impact Filter",
+                "caption": "Marker",
+                "photo_id": 426,
+                "public_id": "art/impact-filter",
+                "gallery_id": 12,
+                "priority_weight": 10
+            },
+            {
+                "slug": "Ch-2368",
+                "title": "Ch. 2368",
+                "caption": "Ink and watercolor",
+                "photo_id": 413,
+                "public_id": "art/Ch-2368",
+                "gallery_id": 12,
+                "priority_weight": 9
+            },
+            {
+                "slug": "crossover",
+                "title": "Cross Over",
+                "caption": "Marker",
+                "photo_id": 356,
+                "public_id": "posts/crossover",
+                "gallery_id": 12,
+                "priority_weight": 8
+            },
+            {
+                "slug": "prehensile-trail",
+                "title": "Prehensile Trail",
+                "caption": "Ink and marker",
+                "photo_id": 361,
+                "public_id": "posts/prehensile-trail",
+                "gallery_id": 12,
+                "priority_weight": 8
+            },
+            {
+                "slug": "circle-jam",
+                "title": "Circle Jam",
+                "caption": "Ink and watercolor",
+                "photo_id": 380,
+                "public_id": "posts/circle-jam",
+                "gallery_id": 12,
+                "priority_weight": 8
+            },
+            {
+                "slug": "hexagons-burnt-and-blue",
+                "title": "Hexagons Burnt and Blue",
+                "caption": "Watercolor",
+                "photo_id": 385,
+                "public_id": "posts/hexagons-burnt-and-blue",
+                "gallery_id": 12,
+                "priority_weight": 8
+            },
+            {
+                "slug": "iso-red-to-green",
+                "title": "Iso Red to Green",
+                "caption": "Watercolor",
+                "photo_id": 390,
+                "public_id": "posts/iso-red-to-green",
+                "gallery_id": 12,
+                "priority_weight": 8
+            },
+            {
+                "slug": "cellsarestained",
+                "title": "Cells Are Stained",
+                "caption": "Ink and watercolor",
+                "photo_id": 395,
+                "public_id": "posts/cellsarestained",
+                "gallery_id": 12,
+                "priority_weight": 8
+            }
+        ]
+    },
+    {
+        "gallery_id": 13,
+        "gallery_name": "Washed Layers",
+        "gallery_slug": "washedlayers",
+        "gallery_type": 2,
+        "gallery_weight": 10,
+        "gallery_permalink": "/art/washedlayers/",
+        "gallery_description": null,
+        "gallery_socialImage": "art/mirage",
+        "gallery_photos": [
+            {
+                "slug": "washed-layers-1",
+                "title": "Washed Layers 1",
+                "caption": "Watercolor",
+                "photo_id": 438,
+                "public_id": "art/washed-layers-1",
+                "gallery_id": 13,
+                "priority_weight": 10
+            },
+            {
+                "slug": "washed-layers-2",
+                "title": "Washed Layers 2",
+                "caption": "Watercolor",
+                "photo_id": 439,
+                "public_id": "art/washed-layers-2",
+                "gallery_id": 13,
+                "priority_weight": 10
+            },
+            {
+                "slug": "washed-layers-3",
+                "title": "Washed Layers 3",
+                "caption": "Watercolor",
+                "photo_id": 440,
+                "public_id": "art/washed-layers-3",
+                "gallery_id": 13,
+                "priority_weight": 10
+            },
+            {
+                "slug": "meadow-landscape",
+                "title": "Meadow Landscape",
+                "caption": "Watercolor",
+                "photo_id": 427,
+                "public_id": "art/meadow-landscape",
+                "gallery_id": 13,
+                "priority_weight": 9
+            },
+            {
+                "slug": "mirage",
+                "title": "Mirage",
+                "caption": "Watercolor",
+                "photo_id": 428,
+                "public_id": "art/mirage",
+                "gallery_id": 13,
+                "priority_weight": 9
+            }
+        ]
+    },
+    {
+        "gallery_id": 14,
+        "gallery_name": "Topo and Contour ",
+        "gallery_slug": "topo",
+        "gallery_type": 2,
+        "gallery_weight": 10,
+        "gallery_permalink": "/art/topo/",
+        "gallery_description": null,
+        "gallery_socialImage": "art/topo-sinkhole",
+        "gallery_photos": [
+            {
+                "slug": "topo-sinkhole",
+                "title": "Topo Hypno",
+                "caption": "Ink, watercolor, and digital",
+                "photo_id": 436,
+                "public_id": "art/topo-sinkhole",
+                "gallery_id": 14,
+                "priority_weight": 20
+            },
+            {
+                "slug": "topo-avocado",
+                "title": "Topo Avocado",
+                "caption": "Watercolor",
+                "photo_id": 435,
+                "public_id": "art/topo-avocado",
+                "gallery_id": 14,
+                "priority_weight": 15
+            },
+            {
+                "slug": "blue-contour",
+                "title": "Blue Contour",
+                "caption": "Watercolor",
+                "photo_id": 415,
+                "public_id": "art/blue-contour",
+                "gallery_id": 14,
+                "priority_weight": 10
+            },
+            {
+                "slug": "core",
+                "title": "Core",
+                "caption": "Watercolor",
+                "photo_id": 419,
+                "public_id": "art/core",
+                "gallery_id": 14,
+                "priority_weight": 10
+            },
+            {
+                "slug": "evil-eye-39",
+                "title": "Evil Eye 39",
+                "caption": "Watercolor",
+                "photo_id": 422,
+                "public_id": "art/evil-eye-39",
+                "gallery_id": 14,
+                "priority_weight": 10
+            },
+            {
+                "slug": "topo-1",
+                "title": "Topo 1",
+                "caption": "Ink and watercolor",
+                "photo_id": 433,
+                "public_id": "art/topo-1",
+                "gallery_id": 14,
+                "priority_weight": 10
+            },
+            {
+                "slug": "topo-2",
+                "title": "Topo 2",
+                "caption": "Ink and watercolor",
+                "photo_id": 434,
+                "public_id": "art/topo-2",
+                "gallery_id": 14,
+                "priority_weight": 10
+            }
+        ]
+    },
+    {
+        "gallery_id": 15,
+        "gallery_name": "ICAD 2020",
+        "gallery_slug": "icad2020",
+        "gallery_type": 2,
+        "gallery_weight": 10,
+        "gallery_permalink": "/art/icad2020/",
+        "gallery_description": "This was my first year participating in the <a href='https://daisyyellowart.com/icad'>Index Card A Day Challenge</a>. These are the index cards I made for the 61 days of the challenge.",
+        "gallery_socialImage": "art/icad2020/icad2020_25",
+        "gallery_photos": [
+            {
+                "slug": "icad2020_01-a",
+                "title": "Day 01 a",
+                "caption": "Prompt: hopscotch",
+                "photo_id": 441,
+                "public_id": "art/icad2020/icad2020_01-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_02",
+                "title": "Day 02",
+                "caption": "Prompt: marigold",
+                "photo_id": 442,
+                "public_id": "art/icad2020/icad2020_02",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_03-a",
+                "title": "Day 03 a",
+                "caption": "Prompt: album",
+                "photo_id": 443,
+                "public_id": "art/icad2020/icad2020_03-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_03-b",
+                "title": "Day 03 b",
+                "caption": "Prompt: album",
+                "photo_id": 444,
+                "public_id": "art/icad2020/icad2020_03-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_03-c",
+                "title": "Day 03 c",
+                "caption": "Prompt: album",
+                "photo_id": 445,
+                "public_id": "art/icad2020/icad2020_03-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_04-b",
+                "title": "Day 04 b",
+                "caption": "Prompt: sequins",
+                "photo_id": 446,
+                "public_id": "art/icad2020/icad2020_04-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_04-c",
+                "title": "Day 04 c",
+                "caption": "Prompt: sequins",
+                "photo_id": 447,
+                "public_id": "art/icad2020/icad2020_04-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_04",
+                "title": "Day 04",
+                "caption": "Prompt: sequins",
+                "photo_id": 448,
+                "public_id": "art/icad2020/icad2020_04",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_05",
+                "title": "Day 05",
+                "caption": "Prompt: 1980s",
+                "photo_id": 449,
+                "public_id": "art/icad2020/icad2020_05",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_06",
+                "title": "Day 06",
+                "caption": "Prompt: dreamcatcher",
+                "photo_id": 450,
+                "public_id": "art/icad2020/icad2020_06",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_07",
+                "title": "Day 07",
+                "caption": "Prompt: highway",
+                "photo_id": 451,
+                "public_id": "art/icad2020/icad2020_07",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_08",
+                "title": "Day 08",
+                "caption": "Prompt: suzani pattern",
+                "photo_id": 452,
+                "public_id": "art/icad2020/icad2020_08",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_09",
+                "title": "Day 09",
+                "caption": "Prompt: bookshelf",
+                "photo_id": 453,
+                "public_id": "art/icad2020/icad2020_09",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_10-b",
+                "title": "Day 10 b",
+                "caption": "Prompt: David Bowie",
+                "photo_id": 454,
+                "public_id": "art/icad2020/icad2020_10-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_10",
+                "title": "Day 10",
+                "caption": "Prompt: David Bowie",
+                "photo_id": 455,
+                "public_id": "art/icad2020/icad2020_10",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_11",
+                "title": "Day 11",
+                "caption": "Prompt: tiramisu",
+                "photo_id": 456,
+                "public_id": "art/icad2020/icad2020_11",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_12-b",
+                "title": "Day 12 b",
+                "caption": "Prompt: brocade",
+                "photo_id": 457,
+                "public_id": "art/icad2020/icad2020_12-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_13-a",
+                "title": "Day 13 a",
+                "caption": "Prompt: kite or rhombus",
+                "photo_id": 458,
+                "public_id": "art/icad2020/icad2020_13-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_14-a",
+                "title": "Day 14 a",
+                "caption": "Prompt: chamomile",
+                "photo_id": 459,
+                "public_id": "art/icad2020/icad2020_14-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_15-a",
+                "title": "Day 15 a",
+                "caption": "Prompt: dandelion",
+                "photo_id": 460,
+                "public_id": "art/icad2020/icad2020_15-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_15-ab",
+                "title": "Day 15 ab",
+                "caption": "Prompt: dandelion",
+                "photo_id": 461,
+                "public_id": "art/icad2020/icad2020_15-ab",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_16-a",
+                "title": "Day 16 a",
+                "caption": "Prompt: robot",
+                "photo_id": 462,
+                "public_id": "art/icad2020/icad2020_16-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_16-b",
+                "title": "Day 16 b",
+                "caption": "Prompt: robot",
+                "photo_id": 463,
+                "public_id": "art/icad2020/icad2020_16-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_16-c",
+                "title": "Day 16 c",
+                "caption": "Prompt: robot",
+                "photo_id": 464,
+                "public_id": "art/icad2020/icad2020_16-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_17-a",
+                "title": "Day 17 a",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 465,
+                "public_id": "art/icad2020/icad2020_17-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_17-ac",
+                "title": "Day 17 ac",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 466,
+                "public_id": "art/icad2020/icad2020_17-ac",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_17-d",
+                "title": "Day 17 d",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 467,
+                "public_id": "art/icad2020/icad2020_17-d",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_17-f",
+                "title": "Day 17 f",
+                "caption": "Prompt: mustard yellow",
+                "photo_id": 468,
+                "public_id": "art/icad2020/icad2020_17-f",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_18-a",
+                "title": "Day 18 a",
+                "caption": "Prompt: six word story",
+                "photo_id": 469,
+                "public_id": "art/icad2020/icad2020_18-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_19",
+                "title": "Day 19",
+                "caption": "Prompt: pause",
+                "photo_id": 470,
+                "public_id": "art/icad2020/icad2020_19",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_20-a",
+                "title": "Day 20 a",
+                "caption": "Prompt: birdhouse",
+                "photo_id": 471,
+                "public_id": "art/icad2020/icad2020_20-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_21-a",
+                "title": "Day 21 a",
+                "caption": "Prompt: geode",
+                "photo_id": 472,
+                "public_id": "art/icad2020/icad2020_21-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_21-b",
+                "title": "Day 21 b",
+                "caption": "Prompt: geode",
+                "photo_id": 473,
+                "public_id": "art/icad2020/icad2020_21-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_21-c",
+                "title": "Day 21 c",
+                "caption": "Prompt: geode",
+                "photo_id": 474,
+                "public_id": "art/icad2020/icad2020_21-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_22-a",
+                "title": "Day 22 a",
+                "caption": "Prompt: anchor",
+                "photo_id": 475,
+                "public_id": "art/icad2020/icad2020_22-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_23-a",
+                "title": "Day 23 a",
+                "caption": "Prompt: terrarium",
+                "photo_id": 476,
+                "public_id": "art/icad2020/icad2020_23-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_23-b",
+                "title": "Day 23 b",
+                "caption": "Prompt: terrarium",
+                "photo_id": 477,
+                "public_id": "art/icad2020/icad2020_23-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_23-c",
+                "title": "Day 23 c",
+                "caption": "Prompt: terrarium",
+                "photo_id": 478,
+                "public_id": "art/icad2020/icad2020_23-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_24",
+                "title": "Day 24",
+                "caption": "Prompt: emerald",
+                "photo_id": 479,
+                "public_id": "art/icad2020/icad2020_24",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_25",
+                "title": "Day 25",
+                "caption": "Prompt: cappuccino",
+                "photo_id": 480,
+                "public_id": "art/icad2020/icad2020_25",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_26",
+                "title": "Day 26",
+                "caption": "Prompt: bougainvillea",
+                "photo_id": 481,
+                "public_id": "art/icad2020/icad2020_26",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_28",
+                "title": "Day 28",
+                "caption": "Prompt: wind chimes",
+                "photo_id": 482,
+                "public_id": "art/icad2020/icad2020_28",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_29-a",
+                "title": "Day 29 a",
+                "caption": "Prompt: citrus",
+                "photo_id": 483,
+                "public_id": "art/icad2020/icad2020_29-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_29-b",
+                "title": "Day 29 b",
+                "caption": "Prompt: citrus",
+                "photo_id": 484,
+                "public_id": "art/icad2020/icad2020_29-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_30-a",
+                "title": "Day 30 a",
+                "caption": "Prompt: arcade",
+                "photo_id": 485,
+                "public_id": "art/icad2020/icad2020_30-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_30-b",
+                "title": "Day 30 b",
+                "caption": "Prompt: arcade",
+                "photo_id": 486,
+                "public_id": "art/icad2020/icad2020_30-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_31",
+                "title": "Day 31",
+                "caption": "Prompt: font",
+                "photo_id": 487,
+                "public_id": "art/icad2020/icad2020_31",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_32-a",
+                "title": "Day 32 a",
+                "caption": "Prompt: earrings",
+                "photo_id": 488,
+                "public_id": "art/icad2020/icad2020_32-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_32-b",
+                "title": "Day 32 b",
+                "caption": "Prompt: earrings",
+                "photo_id": 489,
+                "public_id": "art/icad2020/icad2020_32-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_33-a",
+                "title": "Day 33 a",
+                "caption": "Prompt: periwinkle",
+                "photo_id": 490,
+                "public_id": "art/icad2020/icad2020_33-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_33-b",
+                "title": "Day 33 b",
+                "caption": "Prompt: periwinkle",
+                "photo_id": 491,
+                "public_id": "art/icad2020/icad2020_33-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_34-a",
+                "title": "Day 34 a",
+                "caption": "Prompt: board game",
+                "photo_id": 492,
+                "public_id": "art/icad2020/icad2020_34-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_35",
+                "title": "Day 35",
+                "caption": "Prompt: lantern",
+                "photo_id": 493,
+                "public_id": "art/icad2020/icad2020_35",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_36",
+                "title": "Day 36",
+                "caption": "Prompt: ocean",
+                "photo_id": 494,
+                "public_id": "art/icad2020/icad2020_36",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_37-3",
+                "title": "Day 37 3",
+                "caption": "Prompt: hydrangea",
+                "photo_id": 495,
+                "public_id": "art/icad2020/icad2020_37-3",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_37-a",
+                "title": "Day 37 a",
+                "caption": "Prompt: hydrangea",
+                "photo_id": 496,
+                "public_id": "art/icad2020/icad2020_37-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_37-b",
+                "title": "Day 37 b",
+                "caption": "Prompt: hydrangea",
+                "photo_id": 497,
+                "public_id": "art/icad2020/icad2020_37-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_38-a",
+                "title": "Day 38 a",
+                "caption": "Prompt: rust",
+                "photo_id": 498,
+                "public_id": "art/icad2020/icad2020_38-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_39",
+                "title": "Day 39",
+                "caption": "Prompt: mirage",
+                "photo_id": 499,
+                "public_id": "art/icad2020/icad2020_39",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_40-a",
+                "title": "Day 40 a",
+                "caption": "Prompt: gradient",
+                "photo_id": 500,
+                "public_id": "art/icad2020/icad2020_40-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_40-b",
+                "title": "Day 40 b",
+                "caption": "Prompt: gradient",
+                "photo_id": 501,
+                "public_id": "art/icad2020/icad2020_40-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_40-c",
+                "title": "Day 40 c",
+                "caption": "Prompt: gradient",
+                "photo_id": 502,
+                "public_id": "art/icad2020/icad2020_40-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_41",
+                "title": "Day 41",
+                "caption": "Prompt: cinnamon or spice",
+                "photo_id": 503,
+                "public_id": "art/icad2020/icad2020_41",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_42-a",
+                "title": "Day 42 a",
+                "caption": "Prompt: knot",
+                "photo_id": 504,
+                "public_id": "art/icad2020/icad2020_42-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_42-b",
+                "title": "Day 42 b",
+                "caption": "Prompt: knot",
+                "photo_id": 505,
+                "public_id": "art/icad2020/icad2020_42-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_43-a",
+                "title": "Day 43 a",
+                "caption": "Prompt: bloom",
+                "photo_id": 506,
+                "public_id": "art/icad2020/icad2020_43-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_43-b",
+                "title": "Day 43 b",
+                "caption": "Prompt: bloom",
+                "photo_id": 507,
+                "public_id": "art/icad2020/icad2020_43-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_44-a",
+                "title": "Day 44 a",
+                "caption": "Prompt: unravel",
+                "photo_id": 508,
+                "public_id": "art/icad2020/icad2020_44-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_44-b",
+                "title": "Day 44 b",
+                "caption": "Prompt: unravel",
+                "photo_id": 509,
+                "public_id": "art/icad2020/icad2020_44-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_44-c",
+                "title": "Day 44 c",
+                "caption": "Prompt: unravel",
+                "photo_id": 510,
+                "public_id": "art/icad2020/icad2020_44-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_45-a",
+                "title": "Day 45 a",
+                "caption": "Prompt: simplify",
+                "photo_id": 511,
+                "public_id": "art/icad2020/icad2020_45-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_45-b",
+                "title": "Day 45 b",
+                "caption": "Prompt: simplify",
+                "photo_id": 512,
+                "public_id": "art/icad2020/icad2020_45-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_45-c",
+                "title": "Day 45 c",
+                "caption": "Prompt: simplify",
+                "photo_id": 513,
+                "public_id": "art/icad2020/icad2020_45-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_46-a",
+                "title": "Day 46 a",
+                "caption": "Prompt: diagram",
+                "photo_id": 514,
+                "public_id": "art/icad2020/icad2020_46-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_46-b",
+                "title": "Day 46 b",
+                "caption": "Prompt: diagram",
+                "photo_id": 515,
+                "public_id": "art/icad2020/icad2020_46-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_47-a",
+                "title": "Day 47 a",
+                "caption": "Prompt: pencil",
+                "photo_id": 516,
+                "public_id": "art/icad2020/icad2020_47-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_47-b",
+                "title": "Day 47 b",
+                "caption": "Prompt: pencil",
+                "photo_id": 517,
+                "public_id": "art/icad2020/icad2020_47-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_47-c",
+                "title": "Day 47 c",
+                "caption": "Prompt: pencil",
+                "photo_id": 518,
+                "public_id": "art/icad2020/icad2020_47-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_48",
+                "title": "Day 48",
+                "caption": "Prompt: confetti or glitter",
+                "photo_id": 519,
+                "public_id": "art/icad2020/icad2020_48",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_49",
+                "title": "Day 49",
+                "caption": "Prompt: orchard",
+                "photo_id": 520,
+                "public_id": "art/icad2020/icad2020_49",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_50-inside",
+                "title": "Day 50 inside",
+                "caption": "Prompt: pinwheel",
+                "photo_id": 521,
+                "public_id": "art/icad2020/icad2020_50-inside",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_50-outside",
+                "title": "Day 50 outside",
+                "caption": "Prompt: pinwheel",
+                "photo_id": 522,
+                "public_id": "art/icad2020/icad2020_50-outside",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_51-a",
+                "title": "Day 51 a",
+                "caption": "Prompt: blue or blueberry",
+                "photo_id": 523,
+                "public_id": "art/icad2020/icad2020_51-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_51-b",
+                "title": "Day 51 b",
+                "caption": "Prompt: blue or blueberry",
+                "photo_id": 524,
+                "public_id": "art/icad2020/icad2020_51-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_52",
+                "title": "Day 52",
+                "caption": "Prompt: orbit",
+                "photo_id": 525,
+                "public_id": "art/icad2020/icad2020_52",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_53",
+                "title": "Day 53",
+                "caption": "Prompt: garden gate",
+                "photo_id": 526,
+                "public_id": "art/icad2020/icad2020_53",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_54-a",
+                "title": "Day 54 a",
+                "caption": "Prompt: outline",
+                "photo_id": 527,
+                "public_id": "art/icad2020/icad2020_54-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_54-b",
+                "title": "Day 54 b",
+                "caption": "Prompt: outline",
+                "photo_id": 528,
+                "public_id": "art/icad2020/icad2020_54-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_55",
+                "title": "Day 55",
+                "caption": "Prompt: paisley",
+                "photo_id": 529,
+                "public_id": "art/icad2020/icad2020_55",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_56-a",
+                "title": "Day 56 a",
+                "caption": "Prompt: unfold",
+                "photo_id": 530,
+                "public_id": "art/icad2020/icad2020_56-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_56-b",
+                "title": "Day 56 b",
+                "caption": "Prompt: unfold",
+                "photo_id": 531,
+                "public_id": "art/icad2020/icad2020_56-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_56-c",
+                "title": "Day 56 c",
+                "caption": "Prompt: unfold",
+                "photo_id": 532,
+                "public_id": "art/icad2020/icad2020_56-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_57-a",
+                "title": "Day 57 a",
+                "caption": "Prompt: billiards",
+                "photo_id": 533,
+                "public_id": "art/icad2020/icad2020_57-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_57-b",
+                "title": "Day 57 b",
+                "caption": "Prompt: billiards",
+                "photo_id": 534,
+                "public_id": "art/icad2020/icad2020_57-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_58",
+                "title": "Day 58",
+                "caption": "Prompt: tea set",
+                "photo_id": 535,
+                "public_id": "art/icad2020/icad2020_58",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_59",
+                "title": "Day 59",
+                "caption": "Prompt: arboretum",
+                "photo_id": 536,
+                "public_id": "art/icad2020/icad2020_59",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_60-a",
+                "title": "Day 60 a",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 537,
+                "public_id": "art/icad2020/icad2020_60-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_60-b",
+                "title": "Day 60 b",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 538,
+                "public_id": "art/icad2020/icad2020_60-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_60-c",
+                "title": "Day 60 c",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 539,
+                "public_id": "art/icad2020/icad2020_60-c",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_60-d",
+                "title": "Day 60 d",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 540,
+                "public_id": "art/icad2020/icad2020_60-d",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_60-elevator",
+                "title": "Day 60 elevator",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 541,
+                "public_id": "art/icad2020/icad2020_60-elevator",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_60-samba",
+                "title": "Day 60 samba",
+                "caption": "Prompt: bossa nova",
+                "photo_id": 542,
+                "public_id": "art/icad2020/icad2020_60-samba",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_61",
+                "title": "Day 61",
+                "caption": "Prompt: adventure",
+                "photo_id": 543,
+                "public_id": "art/icad2020/icad2020_61",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_xx-a",
+                "title": "Day xx a",
+                "caption": "",
+                "photo_id": 544,
+                "public_id": "art/icad2020/icad2020_xx-a",
+                "gallery_id": 15,
+                "priority_weight": 10
+            },
+            {
+                "slug": "icad2020_xx-b",
+                "title": "Day xx b",
+                "caption": "",
+                "photo_id": 545,
+                "public_id": "art/icad2020/icad2020_xx-b",
+                "gallery_id": 15,
+                "priority_weight": 10
+            }
+        ]
+    }
+]

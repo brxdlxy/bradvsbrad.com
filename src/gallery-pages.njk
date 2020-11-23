@@ -7,15 +7,20 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
 ---
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'photosetFB' %}
+
 {{ page | log }}
 
 {% set introHeading = galleryitem.gallery_name %}
+{% set galleryDescription = galleryitem.gallery_description %}
 
 {% block content %}
     <main id="main-content" tabindex="-1">
         <article class="[ post ] [ h-entry ]">
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ e-content ]">
                 <h1 class="gallery">{{ introHeading }}</h1>
+                {% if galleryDescription | length %}
+                    <p>{{ gallery_description }}</p>
+                {% endif %}
                 {{ content | safe }}
                 <div class="gallery-btn-back">
                     <a href="/photos/" class="gallery-btn-link"> Back to Galleries</a>
