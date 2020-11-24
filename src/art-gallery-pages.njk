@@ -16,6 +16,7 @@ permalink: art/{{ pagination.items[0].gallery_slug | slug }}/index.html
     <article class="[ post ] [ h-entry ]">
       <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ e-content ]">
         <h1 class="gallery">{{ introHeading }}</h1>
+        <p>{{ galleryitem.gallery_description | safe  }}</p>
         {{ content | safe }}
         <div class="gallery-btn-back">
           <a href="/art/" class="gallery-btn-link">Back to Galleries</a>

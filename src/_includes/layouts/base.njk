@@ -3,7 +3,6 @@
   <head>
     <link rel="preconnect" href="https://stats.g.doubleclick.net">
     <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
-    <link rel="preconnect" href="https://bradvsbrad.goatcounter.com">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script type="text/javascript" refer src="https://www.google-analytics.com/analytics.js"></script>
     <script src="https://www.googletagmanager.com/gtag/js?id=UA-12438455-5"></script>
@@ -26,10 +25,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
     <link rel="manifest" href="/icons/site.webmanifest">
     <script>
-      document
-        .documentElement
-        .classList
-        .remove('no-js');
+      document.documentElement.classList.remove('no-js');
     </script>
     <style>
       {% include "assets/css/global.css" %}
@@ -38,11 +34,6 @@
 
   </head>
   <body class="cur-{{ page.url | replace("/", "") | replace(".", "") }}">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W6BMMJX" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
       <defs>
         <symbol id="icon-facebook" viewBox="0 0 24 24">
@@ -117,6 +108,5 @@
         });
       }
     </script>
-    <!-- <script data-goatcounter="https://bradvsbrad.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script> -->
   </body>
 </html>

@@ -18,9 +18,8 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
         <article class="[ post ] [ h-entry ]">
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose  pad-bottom-900 text-500 ] [ e-content ]">
                 <h1 class="gallery">{{ introHeading }}</h1>
-                {% if galleryDescription | length %}
-                    <p>{{ gallery_description }}</p>
-                {% endif %}
+                <p>{{ galleryitem.gallery_description | safe  }}</p>
+
                 {{ content | safe }}
                 <div class="gallery-btn-back">
                     <a href="/photos/" class="gallery-btn-link"> Back to Galleries</a>
