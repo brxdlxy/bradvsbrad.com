@@ -10,7 +10,9 @@ permalink: photos/{{ pagination.items[0].gallery_slug | slug }}/index.html
 
 {{ page | log }}
 
-{% set introHeading = galleryitem.gallery_name %}
+{% set title = galleryitem.gallery_name %}
+{% set introHeading = title %}
+
 {% set galleryDescription = galleryitem.gallery_description %}
 
 {% block content %}

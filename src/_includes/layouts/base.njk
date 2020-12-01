@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
   <head>
+    {% include "partials/global/meta-info.njk" %}
+    <link rel="preconnect" href="https://bradvsbrad.goatcounter.com">
     <link rel="preconnect" href="https://stats.g.doubleclick.net">
     <link rel="preconnect dns-prefetch" href="https://www.google-analytics.com">
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -97,6 +99,11 @@
             },
             afterShow: function( instance, current ) {
               let eventLabel =  current.src.split('/').splice(-2,2).join('/');
+              window.goatcounter.count({
+                path:  'slide_'+window.location.pathname+'_'+eventLabel,
+                title: eventLabel,
+                event: true,
+            });
               gtag('event', 'slide_view', { 'event_category' : window.location.pathname, 'event_label' : eventLabel});
            }
           });
@@ -110,5 +117,6 @@
         });
       }
     </script>
+    <script data-goatcounter="https://bradvsbrad.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   </body>
 </html>

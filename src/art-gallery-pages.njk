@@ -7,9 +7,10 @@ permalink: art/{{ pagination.items[0].gallery_slug | slug }}/index.html
 ---
 {% extends 'layouts/base.njk' %}
 {% set pageType = 'photosetFB' %}
-{{ page | log }}
+{{ galleryitem | log }}
 
-{% set introHeading = galleryitem.gallery_name %}
+{% set title = galleryitem.gallery_name %}
+{% set introHeading = title %}
 
 {% block content %}
   <main id="main-content" tabindex="-1">

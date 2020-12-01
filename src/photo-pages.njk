@@ -7,6 +7,9 @@ permalink: photos/{{ pagination.items[0].slug | slug }}/index.html
 tags:
     - photo
 ---
+{% set title = photo.title %}
+{% set introHeading = title %}
+
 {% extends 'layouts/base.njk' %}
 <style>
     .wrapper {
@@ -20,7 +23,7 @@ tags:
         <article class="[ photo-details post ] [ h-entry ] nointro">
             <div class="[ post__body ] [ inner-wrapper ] [ leading-loose pad-top-900 {{ 'pad-bottom-900' if not site.enableThirdPartyComments }} text-500 ] [ sf-flow ] [ e-content ]">
                 <h1 class="[ intro__heading ] [ md:text-700 leading-tight ] [ p-name ]">
-                    {{photo.title}}
+                    {{introHeading}}
                 </h1>
                 <img src="https://res.cloudinary.com/bradvsbrad/image/upload/w_1280/{{ photo.public_id }}.jpg" class="hero-photo" alt="{{ photo.title }}"/>
                 <p>{{ photo.caption}}</p>
