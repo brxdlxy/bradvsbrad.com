@@ -22,7 +22,7 @@ A few images are available to license at [Shutterstock](https://www.shutterstock
 
 ## I make art
 
-I think of myself as a creative. I love playing music. I usually play the guitar or drums, but I'll attempt to play along with any instrument available — especially if there's someone else around to play with. I try to make a habit of [drawing every day](/3by5). I've mostly drawn with technical pens, but I recently slipped into the world of brush pens and dip pens, and I'm completely hooked on making new kinds of marks. Also, I have been learning how to paint. I’ve still very new at it, and I’m certainly doing it wrong. But painting, especially with watercolors, has been so much fun that I can't wait to start sharing some of the work here soon!
+I think of myself as a creative. I love playing music. I usually play the guitar or drums, but I'll attempt to play along with any instrument available — especially if there's someone else around to play with. I try to make a habit of [drawing every day](/3by5). I've mostly drawn with technical pens, but I recently slipped into the world of brush pens and dip pens, and I'm completely hooked on making new kinds of marks. Also, I have been [learning how to paint](/art). I've still very new at it, and I'm certainly doing it wrong. But painting, especially with watercolors, has quickly turned into one of my favorite things.
 
 ## Elsewhere on the web
 
